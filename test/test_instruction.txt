@@ -1,0 +1,26 @@
+一.覆盖关键字 
+SELECT	FROM	WHERE	AS	*
+INSERT	INTO	VALUES	VALUE	DEFAULT
+UPDATE	SET
+DELETE
+JOIN	LEFT	RIGHT	ON
+MIN	MAX	AVG	SUM
+UNION	ALL
+GROUP BY	HAVING	DISTINCT	ORDER BY
+TRUE	FALSE	UNKNOWN	IS	NULL
+
+二.覆盖运算符
+=	>	<	>=	<=
+AND	&&	OR	||	XOR	NOT	!
+-
+.
+
+三.覆盖界符
+（	）	，
+
+四.覆盖标识符、整数、浮点数、字符串
+标识符：为字母、数字和下划线（_）组成的不以数字开头的串
+整数： -1 0 1
+浮点数：-1.0，0.0，1.0
+字符串："ab"
+

@@ -1,0 +1,17 @@
+SELECT   <KW,1>
+list  <IDN,list>
+FROM   <KW,2>
+Table_A  <IDN,Table_A>
+A  <IDN,A>
+RIGHT   <KW,16>
+JOIN   <KW,14>
+Table_B  <IDN,Table_B>
+B  <IDN,B>
+ON   <KW,17>
+A  <IDN,A>
+.    <OP,16>
+Key  <IDN,Key>
+=    <OP,1>
+B  <IDN,B>
+.    <OP,16>
+Key  <IDN,Key>

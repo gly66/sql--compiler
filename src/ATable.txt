@@ -1,0 +1,10827 @@
+984
+12
+( 1 0 1
+DELETE 1 0 2
+INSERT 1 0 3
+SELECT 1 0 4
+UPDATE 1 0 5
+deleteStatement 0 1 6
+dmlStatement 0 1 7
+insertKeyword 0 1 8
+insertStatement 0 1 9
+querySpecification 0 1 10
+selectStatement 0 1 11
+updateStatement 0 1 12
+3
+( 1 0 13
+SELECT 1 0 14
+querySpecification 0 1 15
+1
+FROM 1 0 16
+3
+IDN 1 1 116
+INTO 1 0 17
+into 0 1 18
+9
+* 1 1 13
+ALL 1 0 19
+AVG 1 1 13
+DISTINCT 1 0 20
+IDN 1 1 13
+MAX 1 1 13
+MIN 1 1 13
+SUM 1 1 13
+unionType 0 1 21
+3
+IDN 1 0 22
+tableName 0 1 23
+uid 0 1 24
+1
+# 1 1 4
+1
+# 0 0 0
+3
+IDN 1 0 25
+tableName 0 1 26
+uid 0 1 27
+1
+# 1 1 2
+5
+# 1 1 7
+UNION 1 0 28
+unionStatement 0 1 29
+unionStatementKey 0 1 30
+unionStatements 0 1 31
+1
+# 1 1 1
+1
+# 1 1 3
+3
+( 1 0 13
+SELECT 1 0 14
+querySpecification 0 1 32
+9
+* 1 1 13
+ALL 1 0 19
+AVG 1 1 13
+DISTINCT 1 0 20
+IDN 1 1 13
+MAX 1 1 13
+MIN 1 1 13
+SUM 1 1 13
+unionType 0 1 33
+1
+) 1 0 34
+3
+IDN 1 0 35
+tableName 0 1 36
+uid 0 1 37
+1
+IDN 1 1 115
+1
+IDN 1 1 114
+6
+* 1 1 11
+AVG 1 1 11
+IDN 1 1 11
+MAX 1 1 11
+MIN 1 1 11
+SUM 1 1 11
+6
+* 1 1 12
+AVG 1 1 12
+IDN 1 1 12
+MAX 1 1 12
+MIN 1 1 12
+SUM 1 1 12
+14
+* 1 0 38
+AVG 1 0 39
+IDN 1 0 40
+MAX 1 0 41
+MIN 1 0 42
+SUM 1 0 43
+aggregateWindowedFunction 0 1 44
+fullColumnName 0 1 45
+function 0 1 46
+functionCall 0 1 47
+selectElement 0 1 48
+selectElementHead 0 1 49
+selectElements 0 1 50
+uid 0 1 51
+3
+AS 1 1 47
+IDN 1 1 47
+SET 1 1 47
+5
+AS 1 0 52
+IDN 1 0 53
+SET 1 1 34
+elementNameAlias 0 1 54
+uid 0 1 55
+3
+AS 1 1 43
+IDN 1 1 43
+SET 1 1 43
+3
+( 1 1 47
+VALUE 1 1 47
+VALUES 1 1 47
+6
+( 1 0 56
+VALUE 1 0 57
+VALUES 1 0 58
+insertFormat 0 1 59
+insertStatementRight 0 1 60
+insertStatementValue 0 1 61
+3
+( 1 1 43
+VALUE 1 1 43
+VALUES 1 1 43
+5
+( 1 1 13
+ALL 1 0 62
+DISTINCT 1 0 63
+SELECT 1 1 13
+unionType 0 1 64
+5
+# 1 1 7
+UNION 1 0 28
+unionStatement 0 1 29
+unionStatementKey 0 1 30
+unionStatements 0 1 65
+4
+( 1 0 1
+SELECT 1 0 4
+querySpecification 0 1 66
+unionStatementQuery 0 1 67
+1
+# 1 1 5
+1
+) 1 0 68
+14
+* 1 0 69
+AVG 1 0 39
+IDN 1 0 70
+MAX 1 0 41
+MIN 1 0 42
+SUM 1 0 43
+aggregateWindowedFunction 0 1 71
+fullColumnName 0 1 72
+function 0 1 73
+functionCall 0 1 74
+selectElement 0 1 75
+selectElementHead 0 1 76
+selectElements 0 1 77
+uid 0 1 78
+2
+# 1 1 15
+UNION 1 1 15
+3
+# 1 1 47
+( 1 1 47
+WHERE 1 1 47
+5
+# 1 1 132
+( 1 0 79
+WHERE 1 0 80
+deleteStatementRight 0 1 81
+whereExpression 0 1 82
+3
+# 1 1 43
+( 1 1 43
+WHERE 1 1 43
+7
+# 1 1 26
+, 1 1 26
+FROM 1 1 26
+GROUP BY 1 1 26
+HAVING 1 1 26
+ORDER BY 1 1 26
+UNION 1 1 26
+1
+( 1 1 101
+10
+# 1 1 47
+, 1 1 47
+. 1 1 47
+AS 1 1 47
+FROM 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IDN 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+1
+( 1 1 102
+1
+( 1 1 103
+1
+( 1 1 104
+9
+# 1 1 99
+, 1 1 99
+AS 1 1 99
+FROM 1 1 99
+GROUP BY 1 1 99
+HAVING 1 1 99
+IDN 1 1 99
+ORDER BY 1 1 99
+UNION 1 1 99
+11
+# 1 1 34
+, 1 1 34
+AS 1 0 83
+FROM 1 1 34
+GROUP BY 1 1 34
+HAVING 1 1 34
+IDN 1 0 84
+ORDER BY 1 1 34
+UNION 1 1 34
+elementNameAlias 0 1 85
+uid 0 1 86
+1
+( 1 0 87
+11
+# 1 1 34
+, 1 1 34
+AS 1 0 83
+FROM 1 1 34
+GROUP BY 1 1 34
+HAVING 1 1 34
+IDN 1 0 84
+ORDER BY 1 1 34
+UNION 1 1 34
+elementNameAlias 0 1 88
+uid 0 1 86
+7
+# 1 1 27
+, 1 1 27
+FROM 1 1 27
+GROUP BY 1 1 27
+HAVING 1 1 27
+ORDER BY 1 1 27
+UNION 1 1 27
+8
+# 1 1 29
+, 1 0 89
+FROM 1 1 29
+GROUP BY 1 1 29
+HAVING 1 1 29
+ORDER BY 1 1 29
+UNION 1 1 29
+selectElementListRec 0 1 90
+8
+# 1 1 18
+FROM 1 0 91
+GROUP BY 1 1 18
+HAVING 1 1 18
+ORDER BY 1 1 18
+UNION 1 1 18
+fromClause 0 1 92
+selectClause 0 1 93
+11
+# 1 1 50
+, 1 1 50
+. 1 0 94
+AS 1 1 50
+FROM 1 1 50
+GROUP BY 1 1 50
+HAVING 1 1 50
+IDN 1 1 50
+ORDER BY 1 1 50
+UNION 1 1 50
+dottedId 0 1 95
+2
+IDN 1 0 53
+uid 0 1 96
+1
+SET 1 1 47
+1
+SET 1 0 97
+1
+SET 1 1 32
+3
+IDN 1 0 98
+uid 0 1 99
+uidList 0 1 100
+1
+( 1 1 119
+1
+( 1 1 118
+1
+( 1 0 101
+1
+# 1 1 111
+1
+# 1 1 112
+2
+( 1 1 11
+SELECT 1 1 11
+2
+( 1 1 12
+SELECT 1 1 12
+2
+( 1 1 9
+SELECT 1 1 9
+1
+# 1 1 6
+2
+# 1 1 10
+UNION 1 1 10
+2
+# 1 1 8
+UNION 1 1 8
+1
+) 1 1 15
+6
+) 1 1 26
+, 1 1 26
+FROM 1 1 26
+GROUP BY 1 1 26
+HAVING 1 1 26
+ORDER BY 1 1 26
+9
+) 1 1 47
+, 1 1 47
+. 1 1 47
+AS 1 1 47
+FROM 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IDN 1 1 47
+ORDER BY 1 1 47
+8
+) 1 1 99
+, 1 1 99
+AS 1 1 99
+FROM 1 1 99
+GROUP BY 1 1 99
+HAVING 1 1 99
+IDN 1 1 99
+ORDER BY 1 1 99
+10
+) 1 1 34
+, 1 1 34
+AS 1 0 102
+FROM 1 1 34
+GROUP BY 1 1 34
+HAVING 1 1 34
+IDN 1 0 103
+ORDER BY 1 1 34
+elementNameAlias 0 1 104
+uid 0 1 105
+1
+( 1 0 106
+10
+) 1 1 34
+, 1 1 34
+AS 1 0 102
+FROM 1 1 34
+GROUP BY 1 1 34
+HAVING 1 1 34
+IDN 1 0 103
+ORDER BY 1 1 34
+elementNameAlias 0 1 107
+uid 0 1 105
+6
+) 1 1 27
+, 1 1 27
+FROM 1 1 27
+GROUP BY 1 1 27
+HAVING 1 1 27
+ORDER BY 1 1 27
+7
+) 1 1 29
+, 1 0 108
+FROM 1 1 29
+GROUP BY 1 1 29
+HAVING 1 1 29
+ORDER BY 1 1 29
+selectElementListRec 0 1 109
+7
+) 1 1 18
+FROM 1 0 110
+GROUP BY 1 1 18
+HAVING 1 1 18
+ORDER BY 1 1 18
+fromClause 0 1 111
+selectClause 0 1 112
+10
+) 1 1 50
+, 1 1 50
+. 1 0 113
+AS 1 1 50
+FROM 1 1 50
+GROUP BY 1 1 50
+HAVING 1 1 50
+IDN 1 1 50
+ORDER BY 1 1 50
+dottedId 0 1 114
+3
+IDN 1 0 98
+uid 0 1 99
+uidList 0 1 115
+26
+! 1 0 116
+- 1 0 117
+AVG 1 0 39
+FALSE 1 0 118
+FLOAT 1 0 119
+IDN 1 0 120
+INT 1 0 121
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 123
+SUM 1 0 43
+TRUE 1 0 124
+aggregateWindowedFunction 0 1 125
+booleanLiteral 0 1 126
+constant 0 1 127
+decimalLiteral 0 1 128
+expression 0 1 129
+expressionAtom 0 1 130
+fullColumnName 0 1 131
+function 0 1 132
+functionCall 0 1 133
+opposite 0 1 134
+predicate 0 1 135
+stringLiteral 0 1 136
+uid 0 1 137
+1
+# 1 1 134
+1
+# 1 1 135
+2
+IDN 1 0 84
+uid 0 1 138
+7
+# 1 1 47
+, 1 1 47
+FROM 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+7
+# 1 1 30
+, 1 1 30
+FROM 1 1 30
+GROUP BY 1 1 30
+HAVING 1 1 30
+ORDER BY 1 1 30
+UNION 1 1 30
+7
+# 1 1 32
+, 1 1 32
+FROM 1 1 32
+GROUP BY 1 1 32
+HAVING 1 1 32
+ORDER BY 1 1 32
+UNION 1 1 32
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 141
+7
+# 1 1 31
+, 1 1 31
+FROM 1 1 31
+GROUP BY 1 1 31
+HAVING 1 1 31
+ORDER BY 1 1 31
+UNION 1 1 31
+11
+AVG 1 0 39
+IDN 1 0 40
+MAX 1 0 41
+MIN 1 0 42
+SUM 1 0 43
+aggregateWindowedFunction 0 1 44
+fullColumnName 0 1 45
+function 0 1 46
+functionCall 0 1 47
+selectElement 0 1 142
+uid 0 1 51
+6
+# 1 1 25
+FROM 1 1 25
+GROUP BY 1 1 25
+HAVING 1 1 25
+ORDER BY 1 1 25
+UNION 1 1 25
+7
+( 1 0 143
+IDN 1 0 144
+tableName 0 1 145
+tableSource 0 1 146
+tableSourceItem 0 1 147
+tableSources 0 1 148
+uid 0 1 149
+6
+# 1 1 20
+GROUP BY 1 0 150
+HAVING 1 1 20
+ORDER BY 1 1 20
+UNION 1 1 20
+groupByClause 0 1 151
+2
+# 1 1 14
+UNION 1 1 14
+4
+* 1 0 152
+IDN 1 0 153
+dottedIdOrStar 0 1 154
+uid 0 1 155
+9
+# 1 1 48
+, 1 1 48
+AS 1 1 48
+FROM 1 1 48
+GROUP BY 1 1 48
+HAVING 1 1 48
+IDN 1 1 48
+ORDER BY 1 1 48
+UNION 1 1 48
+1
+SET 1 1 33
+4
+IDN 1 0 156
+fullColumnName 0 1 157
+uid 0 1 158
+updatedElement 0 1 159
+2
+) 1 1 47
+, 1 1 47
+3
+) 1 1 46
+, 1 0 160
+uidListRec 0 1 161
+1
+) 1 0 162
+30
+! 1 0 116
+) 1 1 123
+- 1 0 163
+AVG 1 0 39
+DEFAULT 1 0 164
+FALSE 1 0 165
+FLOAT 1 0 166
+IDN 1 0 167
+INT 1 0 168
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 169
+SUM 1 0 43
+TRUE 1 0 170
+aggregateWindowedFunction 0 1 171
+booleanLiteral 0 1 172
+constant 0 1 173
+decimalLiteral 0 1 174
+expression 0 1 175
+expressionAtom 0 1 176
+expressionOrDefault 0 1 177
+expressionsWithDefaults 0 1 178
+fullColumnName 0 1 179
+function 0 1 180
+functionCall 0 1 181
+opposite 0 1 182
+predicate 0 1 183
+stringLiteral 0 1 184
+uid 0 1 185
+2
+IDN 1 0 103
+uid 0 1 186
+6
+) 1 1 47
+, 1 1 47
+FROM 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+ORDER BY 1 1 47
+6
+) 1 1 30
+, 1 1 30
+FROM 1 1 30
+GROUP BY 1 1 30
+HAVING 1 1 30
+ORDER BY 1 1 30
+6
+) 1 1 32
+, 1 1 32
+FROM 1 1 32
+GROUP BY 1 1 32
+HAVING 1 1 32
+ORDER BY 1 1 32
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 187
+6
+) 1 1 31
+, 1 1 31
+FROM 1 1 31
+GROUP BY 1 1 31
+HAVING 1 1 31
+ORDER BY 1 1 31
+11
+AVG 1 0 39
+IDN 1 0 70
+MAX 1 0 41
+MIN 1 0 42
+SUM 1 0 43
+aggregateWindowedFunction 0 1 71
+fullColumnName 0 1 72
+function 0 1 73
+functionCall 0 1 74
+selectElement 0 1 188
+uid 0 1 78
+5
+) 1 1 25
+FROM 1 1 25
+GROUP BY 1 1 25
+HAVING 1 1 25
+ORDER BY 1 1 25
+7
+( 1 0 189
+IDN 1 0 190
+tableName 0 1 191
+tableSource 0 1 192
+tableSourceItem 0 1 193
+tableSources 0 1 194
+uid 0 1 195
+5
+) 1 1 20
+GROUP BY 1 0 196
+HAVING 1 1 20
+ORDER BY 1 1 20
+groupByClause 0 1 197
+1
+) 1 1 14
+4
+* 1 0 198
+IDN 1 0 199
+dottedIdOrStar 0 1 200
+uid 0 1 201
+8
+) 1 1 48
+, 1 1 48
+AS 1 1 48
+FROM 1 1 48
+GROUP BY 1 1 48
+HAVING 1 1 48
+IDN 1 1 48
+ORDER BY 1 1 48
+1
+) 1 0 202
+13
+! 1 1 62
+- 1 1 62
+AVG 1 1 62
+FALSE 1 1 62
+FLOAT 1 1 62
+IDN 1 1 62
+INT 1 1 62
+MAX 1 1 62
+MIN 1 1 62
+NOT 1 1 62
+STRING 1 1 62
+SUM 1 1 62
+TRUE 1 1 62
+3
+FLOAT 1 0 119
+INT 1 0 121
+decimalLiteral 0 1 203
+14
+!= 1 1 98
+# 1 1 98
+&& 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+IS 1 1 98
+OR 1 1 98
+XOR 1 1 98
+|| 1 1 98
+14
+!= 1 1 82
+# 1 1 82
+&& 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+IS 1 1 82
+OR 1 1 82
+XOR 1 1 82
+|| 1 1 82
+15
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+XOR 1 1 47
+|| 1 1 47
+14
+!= 1 1 83
+# 1 1 83
+&& 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+IS 1 1 83
+OR 1 1 83
+XOR 1 1 83
+|| 1 1 83
+13
+! 1 1 61
+- 1 1 61
+AVG 1 1 61
+FALSE 1 1 61
+FLOAT 1 1 61
+IDN 1 1 61
+INT 1 1 61
+MAX 1 1 61
+MIN 1 1 61
+NOT 1 1 61
+STRING 1 1 61
+SUM 1 1 61
+TRUE 1 1 61
+14
+!= 1 1 96
+# 1 1 96
+&& 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+IS 1 1 96
+OR 1 1 96
+XOR 1 1 96
+|| 1 1 96
+14
+!= 1 1 97
+# 1 1 97
+&& 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+IS 1 1 97
+OR 1 1 97
+XOR 1 1 97
+|| 1 1 97
+14
+!= 1 1 99
+# 1 1 99
+&& 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+IS 1 1 99
+OR 1 1 99
+XOR 1 1 99
+|| 1 1 99
+14
+!= 1 1 81
+# 1 1 81
+&& 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+IS 1 1 81
+OR 1 1 81
+XOR 1 1 81
+|| 1 1 81
+14
+!= 1 1 74
+# 1 1 74
+&& 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+IS 1 1 74
+OR 1 1 74
+XOR 1 1 74
+|| 1 1 74
+14
+!= 1 1 79
+# 1 1 79
+&& 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+IS 1 1 79
+OR 1 1 79
+XOR 1 1 79
+|| 1 1 79
+1
+# 1 1 131
+16
+!= 1 0 204
+# 1 1 73
+&& 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+IS 1 1 73
+OR 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 211
+predicateRight 0 1 212
+|| 1 1 73
+14
+!= 1 1 75
+# 1 1 75
+&& 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+IS 1 1 75
+OR 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 213
+14
+!= 1 1 76
+# 1 1 76
+&& 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+IS 1 1 76
+OR 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 117
+AVG 1 0 39
+FALSE 1 0 118
+FLOAT 1 0 119
+IDN 1 0 120
+INT 1 0 121
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 123
+SUM 1 0 43
+TRUE 1 0 124
+aggregateWindowedFunction 0 1 125
+booleanLiteral 0 1 126
+constant 0 1 127
+decimalLiteral 0 1 128
+expression 0 1 214
+expressionAtom 0 1 130
+fullColumnName 0 1 131
+function 0 1 132
+functionCall 0 1 133
+opposite 0 1 134
+predicate 0 1 135
+stringLiteral 0 1 136
+uid 0 1 137
+9
+# 1 1 60
+&& 1 0 215
+AND 1 0 216
+IS 1 0 217
+OR 1 0 218
+XOR 1 0 219
+expressionRight 0 1 220
+logicalOperator 0 1 221
+|| 1 0 222
+14
+!= 1 1 78
+# 1 1 78
+&& 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+IS 1 1 78
+OR 1 1 78
+XOR 1 1 78
+|| 1 1 78
+16
+!= 1 1 50
+# 1 1 50
+&& 1 1 50
+. 1 0 223
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+IS 1 1 50
+OR 1 1 50
+XOR 1 1 50
+dottedId 0 1 224
+|| 1 1 50
+7
+# 1 1 33
+, 1 1 33
+FROM 1 1 33
+GROUP BY 1 1 33
+HAVING 1 1 33
+ORDER BY 1 1 33
+UNION 1 1 33
+1
+IDN 1 1 11
+1
+IDN 1 1 12
+3
+IDN 1 0 225
+fullColumnName 0 1 226
+uid 0 1 227
+8
+# 1 1 29
+, 1 0 89
+FROM 1 1 29
+GROUP BY 1 1 29
+HAVING 1 1 29
+ORDER BY 1 1 29
+UNION 1 1 29
+selectElementListRec 0 1 228
+7
+( 1 0 229
+IDN 1 0 230
+tableName 0 1 231
+tableSource 0 1 232
+tableSourceItem 0 1 233
+tableSources 0 1 234
+uid 0 1 235
+12
+# 1 1 47
+, 1 1 47
+AS 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IDN 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+UNION 1 1 47
+WHERE 1 1 47
+14
+# 1 1 34
+, 1 1 34
+AS 1 0 236
+GROUP BY 1 1 34
+HAVING 1 1 34
+IDN 1 0 237
+JOIN 1 1 34
+LEFT 1 1 34
+ORDER BY 1 1 34
+RIGHT 1 1 34
+UNION 1 1 34
+WHERE 1 1 34
+elementNameAlias 0 1 238
+uid 0 1 239
+8
+# 1 1 37
+, 1 0 240
+GROUP BY 1 1 37
+HAVING 1 1 37
+ORDER BY 1 1 37
+UNION 1 1 37
+WHERE 1 1 37
+tableSourceListRec 0 1 241
+13
+# 1 1 40
+, 1 1 40
+GROUP BY 1 1 40
+HAVING 1 1 40
+JOIN 1 0 242
+LEFT 1 0 243
+ORDER BY 1 1 40
+RIGHT 1 0 244
+UNION 1 1 40
+WHERE 1 1 40
+joinDirection 0 1 245
+joinPart 0 1 246
+joinParts 0 1 247
+7
+# 1 1 132
+GROUP BY 1 1 132
+HAVING 1 1 132
+ORDER BY 1 1 132
+UNION 1 1 132
+WHERE 1 0 248
+whereExpression 0 1 249
+12
+# 1 1 43
+, 1 1 43
+AS 1 1 43
+GROUP BY 1 1 43
+HAVING 1 1 43
+IDN 1 1 43
+JOIN 1 1 43
+LEFT 1 1 43
+ORDER BY 1 1 43
+RIGHT 1 1 43
+UNION 1 1 43
+WHERE 1 1 43
+27
+! 1 0 116
+- 1 0 250
+AVG 1 0 39
+FALSE 1 0 251
+FLOAT 1 0 252
+IDN 1 0 253
+INT 1 0 254
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 255
+SUM 1 0 43
+TRUE 1 0 256
+aggregateWindowedFunction 0 1 257
+booleanLiteral 0 1 258
+constant 0 1 259
+decimalLiteral 0 1 260
+expression 0 1 261
+expressionAtom 0 1 262
+expressions 0 1 263
+fullColumnName 0 1 264
+function 0 1 265
+functionCall 0 1 266
+opposite 0 1 267
+predicate 0 1 268
+stringLiteral 0 1 269
+uid 0 1 270
+5
+# 1 1 22
+HAVING 1 0 271
+ORDER BY 1 1 22
+UNION 1 1 22
+havingClause 0 1 272
+9
+# 1 1 52
+, 1 1 52
+AS 1 1 52
+FROM 1 1 52
+GROUP BY 1 1 52
+HAVING 1 1 52
+IDN 1 1 52
+ORDER BY 1 1 52
+UNION 1 1 52
+9
+# 1 1 47
+, 1 1 47
+AS 1 1 47
+FROM 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IDN 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+9
+# 1 1 49
+, 1 1 49
+AS 1 1 49
+FROM 1 1 49
+GROUP BY 1 1 49
+HAVING 1 1 49
+IDN 1 1 49
+ORDER BY 1 1 49
+UNION 1 1 49
+9
+# 1 1 51
+, 1 1 51
+AS 1 1 51
+FROM 1 1 51
+GROUP BY 1 1 51
+HAVING 1 1 51
+IDN 1 1 51
+ORDER BY 1 1 51
+UNION 1 1 51
+2
+. 1 1 47
+= 1 1 47
+1
+= 1 0 273
+3
+. 1 0 274
+= 1 1 50
+dottedId 0 1 275
+4
+# 1 1 130
+, 1 0 276
+WHERE 1 1 130
+updatedElementListRec 0 1 277
+2
+IDN 1 0 98
+uid 0 1 278
+1
+) 1 1 44
+4
+VALUE 1 0 57
+VALUES 1 0 58
+insertFormat 0 1 59
+insertStatementValue 0 1 279
+3
+FLOAT 1 0 166
+INT 1 0 168
+decimalLiteral 0 1 280
+2
+) 1 1 127
+, 1 1 127
+15
+!= 1 1 98
+&& 1 1 98
+) 1 1 98
+, 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+IS 1 1 98
+OR 1 1 98
+XOR 1 1 98
+|| 1 1 98
+15
+!= 1 1 82
+&& 1 1 82
+) 1 1 82
+, 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+IS 1 1 82
+OR 1 1 82
+XOR 1 1 82
+|| 1 1 82
+16
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+, 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+XOR 1 1 47
+|| 1 1 47
+15
+!= 1 1 83
+&& 1 1 83
+) 1 1 83
+, 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+IS 1 1 83
+OR 1 1 83
+XOR 1 1 83
+|| 1 1 83
+15
+!= 1 1 96
+&& 1 1 96
+) 1 1 96
+, 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+IS 1 1 96
+OR 1 1 96
+XOR 1 1 96
+|| 1 1 96
+15
+!= 1 1 97
+&& 1 1 97
+) 1 1 97
+, 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+IS 1 1 97
+OR 1 1 97
+XOR 1 1 97
+|| 1 1 97
+15
+!= 1 1 99
+&& 1 1 99
+) 1 1 99
+, 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+IS 1 1 99
+OR 1 1 99
+XOR 1 1 99
+|| 1 1 99
+15
+!= 1 1 81
+&& 1 1 81
+) 1 1 81
+, 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+IS 1 1 81
+OR 1 1 81
+XOR 1 1 81
+|| 1 1 81
+15
+!= 1 1 74
+&& 1 1 74
+) 1 1 74
+, 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+IS 1 1 74
+OR 1 1 74
+XOR 1 1 74
+|| 1 1 74
+15
+!= 1 1 79
+&& 1 1 79
+) 1 1 79
+, 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+IS 1 1 79
+OR 1 1 79
+XOR 1 1 79
+|| 1 1 79
+2
+) 1 1 126
+, 1 1 126
+17
+!= 1 0 204
+&& 1 1 73
+) 1 1 73
+, 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+IS 1 1 73
+OR 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 281
+predicateRight 0 1 282
+|| 1 1 73
+3
+) 1 1 125
+, 1 0 283
+expressionOrDefaultListRec 0 1 284
+1
+) 1 0 285
+15
+!= 1 1 75
+&& 1 1 75
+) 1 1 75
+, 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+IS 1 1 75
+OR 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 286
+15
+!= 1 1 76
+&& 1 1 76
+) 1 1 76
+, 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+IS 1 1 76
+OR 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 163
+AVG 1 0 39
+FALSE 1 0 165
+FLOAT 1 0 166
+IDN 1 0 167
+INT 1 0 168
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 169
+SUM 1 0 43
+TRUE 1 0 170
+aggregateWindowedFunction 0 1 171
+booleanLiteral 0 1 172
+constant 0 1 173
+decimalLiteral 0 1 174
+expression 0 1 287
+expressionAtom 0 1 176
+fullColumnName 0 1 179
+function 0 1 180
+functionCall 0 1 181
+opposite 0 1 182
+predicate 0 1 183
+stringLiteral 0 1 184
+uid 0 1 185
+10
+&& 1 0 215
+) 1 1 60
+, 1 1 60
+AND 1 0 216
+IS 1 0 288
+OR 1 0 218
+XOR 1 0 219
+expressionRight 0 1 289
+logicalOperator 0 1 290
+|| 1 0 222
+15
+!= 1 1 78
+&& 1 1 78
+) 1 1 78
+, 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+IS 1 1 78
+OR 1 1 78
+XOR 1 1 78
+|| 1 1 78
+17
+!= 1 1 50
+&& 1 1 50
+) 1 1 50
+, 1 1 50
+. 1 0 291
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+IS 1 1 50
+OR 1 1 50
+XOR 1 1 50
+dottedId 0 1 292
+|| 1 1 50
+6
+) 1 1 33
+, 1 1 33
+FROM 1 1 33
+GROUP BY 1 1 33
+HAVING 1 1 33
+ORDER BY 1 1 33
+3
+IDN 1 0 225
+fullColumnName 0 1 293
+uid 0 1 227
+7
+) 1 1 29
+, 1 0 108
+FROM 1 1 29
+GROUP BY 1 1 29
+HAVING 1 1 29
+ORDER BY 1 1 29
+selectElementListRec 0 1 294
+7
+( 1 0 229
+IDN 1 0 230
+tableName 0 1 231
+tableSource 0 1 232
+tableSourceItem 0 1 233
+tableSources 0 1 295
+uid 0 1 235
+11
+) 1 1 47
+, 1 1 47
+AS 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IDN 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+WHERE 1 1 47
+13
+) 1 1 34
+, 1 1 34
+AS 1 0 296
+GROUP BY 1 1 34
+HAVING 1 1 34
+IDN 1 0 297
+JOIN 1 1 34
+LEFT 1 1 34
+ORDER BY 1 1 34
+RIGHT 1 1 34
+WHERE 1 1 34
+elementNameAlias 0 1 298
+uid 0 1 299
+7
+) 1 1 37
+, 1 0 300
+GROUP BY 1 1 37
+HAVING 1 1 37
+ORDER BY 1 1 37
+WHERE 1 1 37
+tableSourceListRec 0 1 301
+12
+) 1 1 40
+, 1 1 40
+GROUP BY 1 1 40
+HAVING 1 1 40
+JOIN 1 0 302
+LEFT 1 0 243
+ORDER BY 1 1 40
+RIGHT 1 0 244
+WHERE 1 1 40
+joinDirection 0 1 303
+joinPart 0 1 304
+joinParts 0 1 305
+6
+) 1 1 132
+GROUP BY 1 1 132
+HAVING 1 1 132
+ORDER BY 1 1 132
+WHERE 1 0 306
+whereExpression 0 1 307
+11
+) 1 1 43
+, 1 1 43
+AS 1 1 43
+GROUP BY 1 1 43
+HAVING 1 1 43
+IDN 1 1 43
+JOIN 1 1 43
+LEFT 1 1 43
+ORDER BY 1 1 43
+RIGHT 1 1 43
+WHERE 1 1 43
+27
+! 1 0 116
+- 1 0 308
+AVG 1 0 39
+FALSE 1 0 309
+FLOAT 1 0 310
+IDN 1 0 311
+INT 1 0 312
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 313
+SUM 1 0 43
+TRUE 1 0 314
+aggregateWindowedFunction 0 1 315
+booleanLiteral 0 1 316
+constant 0 1 317
+decimalLiteral 0 1 318
+expression 0 1 319
+expressionAtom 0 1 320
+expressions 0 1 321
+fullColumnName 0 1 322
+function 0 1 323
+functionCall 0 1 324
+opposite 0 1 325
+predicate 0 1 326
+stringLiteral 0 1 327
+uid 0 1 328
+4
+) 1 1 22
+HAVING 1 0 329
+ORDER BY 1 1 22
+havingClause 0 1 330
+8
+) 1 1 52
+, 1 1 52
+AS 1 1 52
+FROM 1 1 52
+GROUP BY 1 1 52
+HAVING 1 1 52
+IDN 1 1 52
+ORDER BY 1 1 52
+8
+) 1 1 47
+, 1 1 47
+AS 1 1 47
+FROM 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IDN 1 1 47
+ORDER BY 1 1 47
+8
+) 1 1 49
+, 1 1 49
+AS 1 1 49
+FROM 1 1 49
+GROUP BY 1 1 49
+HAVING 1 1 49
+IDN 1 1 49
+ORDER BY 1 1 49
+8
+) 1 1 51
+, 1 1 51
+AS 1 1 51
+FROM 1 1 51
+GROUP BY 1 1 51
+HAVING 1 1 51
+IDN 1 1 51
+ORDER BY 1 1 51
+3
+# 1 1 132
+WHERE 1 0 80
+whereExpression 0 1 331
+14
+!= 1 1 80
+# 1 1 80
+&& 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+IS 1 1 80
+OR 1 1 80
+XOR 1 1 80
+|| 1 1 80
+11
+- 1 1 89
+AVG 1 1 89
+FALSE 1 1 89
+FLOAT 1 1 89
+IDN 1 1 89
+INT 1 1 89
+MAX 1 1 89
+MIN 1 1 89
+STRING 1 1 89
+SUM 1 1 89
+TRUE 1 1 89
+11
+- 1 1 86
+AVG 1 1 86
+FALSE 1 1 86
+FLOAT 1 1 86
+IDN 1 1 86
+INT 1 1 86
+MAX 1 1 86
+MIN 1 1 86
+STRING 1 1 86
+SUM 1 1 86
+TRUE 1 1 86
+11
+- 1 1 87
+AVG 1 1 87
+FALSE 1 1 87
+FLOAT 1 1 87
+IDN 1 1 87
+INT 1 1 87
+MAX 1 1 87
+MIN 1 1 87
+STRING 1 1 87
+SUM 1 1 87
+TRUE 1 1 87
+11
+- 1 1 90
+AVG 1 1 90
+FALSE 1 1 90
+FLOAT 1 1 90
+IDN 1 1 90
+INT 1 1 90
+MAX 1 1 90
+MIN 1 1 90
+STRING 1 1 90
+SUM 1 1 90
+TRUE 1 1 90
+11
+- 1 1 84
+AVG 1 1 84
+FALSE 1 1 84
+FLOAT 1 1 84
+IDN 1 1 84
+INT 1 1 84
+MAX 1 1 84
+MIN 1 1 84
+STRING 1 1 84
+SUM 1 1 84
+TRUE 1 1 84
+11
+- 1 1 85
+AVG 1 1 85
+FALSE 1 1 85
+FLOAT 1 1 85
+IDN 1 1 85
+INT 1 1 85
+MAX 1 1 85
+MIN 1 1 85
+STRING 1 1 85
+SUM 1 1 85
+TRUE 1 1 85
+11
+- 1 1 88
+AVG 1 1 88
+FALSE 1 1 88
+FLOAT 1 1 88
+IDN 1 1 88
+INT 1 1 88
+MAX 1 1 88
+MIN 1 1 88
+STRING 1 1 88
+SUM 1 1 88
+TRUE 1 1 88
+22
+- 1 0 117
+AVG 1 0 39
+FALSE 1 0 118
+FLOAT 1 0 119
+IDN 1 0 120
+INT 1 0 121
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 123
+SUM 1 0 43
+TRUE 1 0 124
+aggregateWindowedFunction 0 1 125
+booleanLiteral 0 1 126
+constant 0 1 127
+decimalLiteral 0 1 128
+expressionAtom 0 1 130
+fullColumnName 0 1 131
+function 0 1 132
+functionCall 0 1 133
+predicate 0 1 332
+stringLiteral 0 1 136
+uid 0 1 137
+7
+# 1 1 71
+&& 1 1 71
+AND 1 1 71
+IS 1 1 71
+OR 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 333
+1
+# 1 1 56
+13
+! 1 1 92
+- 1 1 92
+AVG 1 1 92
+FALSE 1 1 92
+FLOAT 1 1 92
+IDN 1 1 92
+INT 1 1 92
+MAX 1 1 92
+MIN 1 1 92
+NOT 1 1 92
+STRING 1 1 92
+SUM 1 1 92
+TRUE 1 1 92
+13
+! 1 1 91
+- 1 1 91
+AVG 1 1 91
+FALSE 1 1 91
+FLOAT 1 1 91
+IDN 1 1 91
+INT 1 1 91
+MAX 1 1 91
+MIN 1 1 91
+NOT 1 1 91
+STRING 1 1 91
+SUM 1 1 91
+TRUE 1 1 91
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 335
+13
+! 1 1 94
+- 1 1 94
+AVG 1 1 94
+FALSE 1 1 94
+FLOAT 1 1 94
+IDN 1 1 94
+INT 1 1 94
+MAX 1 1 94
+MIN 1 1 94
+NOT 1 1 94
+STRING 1 1 94
+SUM 1 1 94
+TRUE 1 1 94
+13
+! 1 1 93
+- 1 1 93
+AVG 1 1 93
+FALSE 1 1 93
+FLOAT 1 1 93
+IDN 1 1 93
+INT 1 1 93
+MAX 1 1 93
+MIN 1 1 93
+NOT 1 1 93
+STRING 1 1 93
+SUM 1 1 93
+TRUE 1 1 93
+1
+# 1 1 57
+26
+! 1 0 116
+- 1 0 117
+AVG 1 0 39
+FALSE 1 0 118
+FLOAT 1 0 119
+IDN 1 0 120
+INT 1 0 121
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 123
+SUM 1 0 43
+TRUE 1 0 124
+aggregateWindowedFunction 0 1 125
+booleanLiteral 0 1 126
+constant 0 1 127
+decimalLiteral 0 1 128
+expression 0 1 336
+expressionAtom 0 1 130
+fullColumnName 0 1 131
+function 0 1 132
+functionCall 0 1 133
+opposite 0 1 134
+predicate 0 1 135
+stringLiteral 0 1 136
+uid 0 1 137
+13
+! 1 1 95
+- 1 1 95
+AVG 1 1 95
+FALSE 1 1 95
+FLOAT 1 1 95
+IDN 1 1 95
+INT 1 1 95
+MAX 1 1 95
+MIN 1 1 95
+NOT 1 1 95
+STRING 1 1 95
+SUM 1 1 95
+TRUE 1 1 95
+4
+* 1 0 337
+IDN 1 0 338
+dottedIdOrStar 0 1 339
+uid 0 1 340
+14
+!= 1 1 48
+# 1 1 48
+&& 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+IS 1 1 48
+OR 1 1 48
+XOR 1 1 48
+|| 1 1 48
+2
+) 1 1 47
+. 1 1 47
+1
+) 1 0 341
+3
+) 1 1 50
+. 1 0 342
+dottedId 0 1 343
+6
+# 1 1 28
+FROM 1 1 28
+GROUP BY 1 1 28
+HAVING 1 1 28
+ORDER BY 1 1 28
+UNION 1 1 28
+7
+( 1 0 229
+IDN 1 0 230
+tableName 0 1 231
+tableSource 0 1 232
+tableSourceItem 0 1 233
+tableSources 0 1 344
+uid 0 1 235
+7
+) 1 1 47
+, 1 1 47
+AS 1 1 47
+IDN 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+RIGHT 1 1 47
+9
+) 1 1 34
+, 1 1 34
+AS 1 0 345
+IDN 1 0 346
+JOIN 1 1 34
+LEFT 1 1 34
+RIGHT 1 1 34
+elementNameAlias 0 1 347
+uid 0 1 348
+3
+) 1 1 37
+, 1 0 349
+tableSourceListRec 0 1 350
+8
+) 1 1 40
+, 1 1 40
+JOIN 1 0 351
+LEFT 1 0 243
+RIGHT 1 0 244
+joinDirection 0 1 352
+joinPart 0 1 353
+joinParts 0 1 354
+1
+) 1 0 355
+7
+) 1 1 43
+, 1 1 43
+AS 1 1 43
+IDN 1 1 43
+JOIN 1 1 43
+LEFT 1 1 43
+RIGHT 1 1 43
+2
+IDN 1 0 237
+uid 0 1 356
+10
+# 1 1 47
+, 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+UNION 1 1 47
+WHERE 1 1 47
+10
+# 1 1 41
+, 1 1 41
+GROUP BY 1 1 41
+HAVING 1 1 41
+JOIN 1 1 41
+LEFT 1 1 41
+ORDER BY 1 1 41
+RIGHT 1 1 41
+UNION 1 1 41
+WHERE 1 1 41
+10
+# 1 1 32
+, 1 1 32
+GROUP BY 1 1 32
+HAVING 1 1 32
+JOIN 1 1 32
+LEFT 1 1 32
+ORDER BY 1 1 32
+RIGHT 1 1 32
+UNION 1 1 32
+WHERE 1 1 32
+6
+( 1 0 143
+IDN 1 0 144
+tableName 0 1 145
+tableSource 0 1 357
+tableSourceItem 0 1 147
+uid 0 1 149
+6
+# 1 1 35
+GROUP BY 1 1 35
+HAVING 1 1 35
+ORDER BY 1 1 35
+UNION 1 1 35
+WHERE 1 1 35
+5
+( 1 0 358
+IDN 1 0 359
+tableName 0 1 360
+tableSourceItem 0 1 361
+uid 0 1 362
+1
+JOIN 1 1 109
+1
+JOIN 1 1 110
+1
+JOIN 1 0 363
+13
+# 1 1 40
+, 1 1 40
+GROUP BY 1 1 40
+HAVING 1 1 40
+JOIN 1 0 242
+LEFT 1 0 243
+ORDER BY 1 1 40
+RIGHT 1 0 244
+UNION 1 1 40
+WHERE 1 1 40
+joinDirection 0 1 245
+joinPart 0 1 246
+joinParts 0 1 364
+7
+# 1 1 38
+, 1 1 38
+GROUP BY 1 1 38
+HAVING 1 1 38
+ORDER BY 1 1 38
+UNION 1 1 38
+WHERE 1 1 38
+26
+! 1 0 116
+- 1 0 365
+AVG 1 0 39
+FALSE 1 0 366
+FLOAT 1 0 367
+IDN 1 0 368
+INT 1 0 369
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 370
+SUM 1 0 43
+TRUE 1 0 371
+aggregateWindowedFunction 0 1 372
+booleanLiteral 0 1 373
+constant 0 1 374
+decimalLiteral 0 1 375
+expression 0 1 376
+expressionAtom 0 1 377
+fullColumnName 0 1 378
+function 0 1 379
+functionCall 0 1 380
+opposite 0 1 381
+predicate 0 1 382
+stringLiteral 0 1 383
+uid 0 1 384
+5
+# 1 1 17
+GROUP BY 1 1 17
+HAVING 1 1 17
+ORDER BY 1 1 17
+UNION 1 1 17
+3
+FLOAT 1 0 252
+INT 1 0 254
+decimalLiteral 0 1 385
+18
+!= 1 1 98
+# 1 1 98
+&& 1 1 98
+, 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+HAVING 1 1 98
+IS 1 1 98
+OR 1 1 98
+ORDER BY 1 1 98
+UNION 1 1 98
+XOR 1 1 98
+|| 1 1 98
+18
+!= 1 1 82
+# 1 1 82
+&& 1 1 82
+, 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+HAVING 1 1 82
+IS 1 1 82
+OR 1 1 82
+ORDER BY 1 1 82
+UNION 1 1 82
+XOR 1 1 82
+|| 1 1 82
+19
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+, 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+XOR 1 1 47
+|| 1 1 47
+18
+!= 1 1 83
+# 1 1 83
+&& 1 1 83
+, 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+HAVING 1 1 83
+IS 1 1 83
+OR 1 1 83
+ORDER BY 1 1 83
+UNION 1 1 83
+XOR 1 1 83
+|| 1 1 83
+18
+!= 1 1 96
+# 1 1 96
+&& 1 1 96
+, 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+HAVING 1 1 96
+IS 1 1 96
+OR 1 1 96
+ORDER BY 1 1 96
+UNION 1 1 96
+XOR 1 1 96
+|| 1 1 96
+18
+!= 1 1 97
+# 1 1 97
+&& 1 1 97
+, 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+HAVING 1 1 97
+IS 1 1 97
+OR 1 1 97
+ORDER BY 1 1 97
+UNION 1 1 97
+XOR 1 1 97
+|| 1 1 97
+18
+!= 1 1 99
+# 1 1 99
+&& 1 1 99
+, 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+HAVING 1 1 99
+IS 1 1 99
+OR 1 1 99
+ORDER BY 1 1 99
+UNION 1 1 99
+XOR 1 1 99
+|| 1 1 99
+18
+!= 1 1 81
+# 1 1 81
+&& 1 1 81
+, 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+HAVING 1 1 81
+IS 1 1 81
+OR 1 1 81
+ORDER BY 1 1 81
+UNION 1 1 81
+XOR 1 1 81
+|| 1 1 81
+18
+!= 1 1 74
+# 1 1 74
+&& 1 1 74
+, 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+HAVING 1 1 74
+IS 1 1 74
+OR 1 1 74
+ORDER BY 1 1 74
+UNION 1 1 74
+XOR 1 1 74
+|| 1 1 74
+18
+!= 1 1 79
+# 1 1 79
+&& 1 1 79
+, 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+HAVING 1 1 79
+IS 1 1 79
+OR 1 1 79
+ORDER BY 1 1 79
+UNION 1 1 79
+XOR 1 1 79
+|| 1 1 79
+6
+# 1 1 55
+, 1 0 386
+HAVING 1 1 55
+ORDER BY 1 1 55
+UNION 1 1 55
+expressionRec 0 1 387
+20
+!= 1 0 204
+# 1 1 73
+&& 1 1 73
+, 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+HAVING 1 1 73
+IS 1 1 73
+OR 1 1 73
+ORDER BY 1 1 73
+UNION 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 388
+predicateRight 0 1 389
+|| 1 1 73
+4
+# 1 1 19
+HAVING 1 1 19
+ORDER BY 1 1 19
+UNION 1 1 19
+18
+!= 1 1 75
+# 1 1 75
+&& 1 1 75
+, 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+HAVING 1 1 75
+IS 1 1 75
+OR 1 1 75
+ORDER BY 1 1 75
+UNION 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 390
+18
+!= 1 1 76
+# 1 1 76
+&& 1 1 76
+, 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+HAVING 1 1 76
+IS 1 1 76
+OR 1 1 76
+ORDER BY 1 1 76
+UNION 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 250
+AVG 1 0 39
+FALSE 1 0 251
+FLOAT 1 0 252
+IDN 1 0 253
+INT 1 0 254
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 255
+SUM 1 0 43
+TRUE 1 0 256
+aggregateWindowedFunction 0 1 257
+booleanLiteral 0 1 258
+constant 0 1 259
+decimalLiteral 0 1 260
+expression 0 1 391
+expressionAtom 0 1 262
+fullColumnName 0 1 264
+function 0 1 265
+functionCall 0 1 266
+opposite 0 1 267
+predicate 0 1 268
+stringLiteral 0 1 269
+uid 0 1 270
+13
+# 1 1 60
+&& 1 0 215
+, 1 1 60
+AND 1 0 216
+HAVING 1 1 60
+IS 1 0 392
+OR 1 0 218
+ORDER BY 1 1 60
+UNION 1 1 60
+XOR 1 0 219
+expressionRight 0 1 393
+logicalOperator 0 1 394
+|| 1 0 222
+18
+!= 1 1 78
+# 1 1 78
+&& 1 1 78
+, 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+HAVING 1 1 78
+IS 1 1 78
+OR 1 1 78
+ORDER BY 1 1 78
+UNION 1 1 78
+XOR 1 1 78
+|| 1 1 78
+20
+!= 1 1 50
+# 1 1 50
+&& 1 1 50
+, 1 1 50
+. 1 0 395
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+HAVING 1 1 50
+IS 1 1 50
+OR 1 1 50
+ORDER BY 1 1 50
+UNION 1 1 50
+XOR 1 1 50
+dottedId 0 1 396
+|| 1 1 50
+26
+! 1 0 116
+- 1 0 397
+AVG 1 0 39
+FALSE 1 0 398
+FLOAT 1 0 399
+IDN 1 0 400
+INT 1 0 401
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 402
+SUM 1 0 43
+TRUE 1 0 403
+aggregateWindowedFunction 0 1 404
+booleanLiteral 0 1 405
+constant 0 1 406
+decimalLiteral 0 1 407
+expression 0 1 408
+expressionAtom 0 1 409
+fullColumnName 0 1 410
+function 0 1 411
+functionCall 0 1 412
+opposite 0 1 413
+predicate 0 1 414
+stringLiteral 0 1 415
+uid 0 1 416
+4
+# 1 1 24
+ORDER BY 1 0 417
+UNION 1 1 24
+orderByClause 0 1 418
+28
+! 1 0 116
+- 1 0 419
+AVG 1 0 39
+DEFAULT 1 0 420
+FALSE 1 0 421
+FLOAT 1 0 422
+IDN 1 0 423
+INT 1 0 424
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 425
+SUM 1 0 43
+TRUE 1 0 426
+aggregateWindowedFunction 0 1 427
+booleanLiteral 0 1 428
+constant 0 1 429
+decimalLiteral 0 1 430
+expression 0 1 431
+expressionAtom 0 1 432
+expressionOrDefault 0 1 433
+fullColumnName 0 1 434
+function 0 1 435
+functionCall 0 1 436
+opposite 0 1 437
+predicate 0 1 438
+stringLiteral 0 1 439
+uid 0 1 440
+4
+* 1 0 441
+IDN 1 0 442
+dottedIdOrStar 0 1 443
+uid 0 1 444
+1
+= 1 1 48
+4
+IDN 1 0 156
+fullColumnName 0 1 157
+uid 0 1 158
+updatedElement 0 1 445
+3
+# 1 1 132
+WHERE 1 0 80
+whereExpression 0 1 446
+3
+) 1 1 46
+, 1 0 160
+uidListRec 0 1 447
+1
+# 1 1 113
+15
+!= 1 1 80
+&& 1 1 80
+) 1 1 80
+, 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+IS 1 1 80
+OR 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 163
+AVG 1 0 39
+FALSE 1 0 165
+FLOAT 1 0 166
+IDN 1 0 167
+INT 1 0 168
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 169
+SUM 1 0 43
+TRUE 1 0 170
+aggregateWindowedFunction 0 1 171
+booleanLiteral 0 1 172
+constant 0 1 173
+decimalLiteral 0 1 174
+expressionAtom 0 1 176
+fullColumnName 0 1 179
+function 0 1 180
+functionCall 0 1 181
+predicate 0 1 448
+stringLiteral 0 1 184
+uid 0 1 185
+8
+&& 1 1 71
+) 1 1 71
+, 1 1 71
+AND 1 1 71
+IS 1 1 71
+OR 1 1 71
+XOR 1 1 71
+|| 1 1 71
+28
+! 1 0 116
+- 1 0 163
+AVG 1 0 39
+DEFAULT 1 0 164
+FALSE 1 0 165
+FLOAT 1 0 166
+IDN 1 0 167
+INT 1 0 168
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 169
+SUM 1 0 43
+TRUE 1 0 170
+aggregateWindowedFunction 0 1 171
+booleanLiteral 0 1 172
+constant 0 1 173
+decimalLiteral 0 1 174
+expression 0 1 175
+expressionAtom 0 1 176
+expressionOrDefault 0 1 449
+fullColumnName 0 1 179
+function 0 1 180
+functionCall 0 1 181
+opposite 0 1 182
+predicate 0 1 183
+stringLiteral 0 1 184
+uid 0 1 185
+1
+) 1 1 122
+3
+# 1 1 121
+, 1 0 450
+expressionsWithDefaultsListRec 0 1 451
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 452
+2
+) 1 1 56
+, 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 453
+2
+) 1 1 57
+, 1 1 57
+26
+! 1 0 116
+- 1 0 163
+AVG 1 0 39
+FALSE 1 0 165
+FLOAT 1 0 166
+IDN 1 0 167
+INT 1 0 168
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 169
+SUM 1 0 43
+TRUE 1 0 170
+aggregateWindowedFunction 0 1 171
+booleanLiteral 0 1 172
+constant 0 1 173
+decimalLiteral 0 1 174
+expression 0 1 454
+expressionAtom 0 1 176
+fullColumnName 0 1 179
+function 0 1 180
+functionCall 0 1 181
+opposite 0 1 182
+predicate 0 1 183
+stringLiteral 0 1 184
+uid 0 1 185
+4
+* 1 0 455
+IDN 1 0 456
+dottedIdOrStar 0 1 457
+uid 0 1 458
+15
+!= 1 1 48
+&& 1 1 48
+) 1 1 48
+, 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+IS 1 1 48
+OR 1 1 48
+XOR 1 1 48
+|| 1 1 48
+1
+) 1 0 459
+5
+) 1 1 28
+FROM 1 1 28
+GROUP BY 1 1 28
+HAVING 1 1 28
+ORDER BY 1 1 28
+1
+) 1 0 460
+2
+IDN 1 0 297
+uid 0 1 461
+9
+) 1 1 47
+, 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+WHERE 1 1 47
+9
+) 1 1 41
+, 1 1 41
+GROUP BY 1 1 41
+HAVING 1 1 41
+JOIN 1 1 41
+LEFT 1 1 41
+ORDER BY 1 1 41
+RIGHT 1 1 41
+WHERE 1 1 41
+9
+) 1 1 32
+, 1 1 32
+GROUP BY 1 1 32
+HAVING 1 1 32
+JOIN 1 1 32
+LEFT 1 1 32
+ORDER BY 1 1 32
+RIGHT 1 1 32
+WHERE 1 1 32
+6
+( 1 0 189
+IDN 1 0 190
+tableName 0 1 191
+tableSource 0 1 462
+tableSourceItem 0 1 193
+uid 0 1 195
+5
+) 1 1 35
+GROUP BY 1 1 35
+HAVING 1 1 35
+ORDER BY 1 1 35
+WHERE 1 1 35
+5
+( 1 0 463
+IDN 1 0 464
+tableName 0 1 465
+tableSourceItem 0 1 466
+uid 0 1 467
+1
+JOIN 1 0 468
+12
+) 1 1 40
+, 1 1 40
+GROUP BY 1 1 40
+HAVING 1 1 40
+JOIN 1 0 302
+LEFT 1 0 243
+ORDER BY 1 1 40
+RIGHT 1 0 244
+WHERE 1 1 40
+joinDirection 0 1 303
+joinPart 0 1 304
+joinParts 0 1 469
+6
+) 1 1 38
+, 1 1 38
+GROUP BY 1 1 38
+HAVING 1 1 38
+ORDER BY 1 1 38
+WHERE 1 1 38
+26
+! 1 0 116
+- 1 0 470
+AVG 1 0 39
+FALSE 1 0 471
+FLOAT 1 0 472
+IDN 1 0 473
+INT 1 0 474
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 475
+SUM 1 0 43
+TRUE 1 0 476
+aggregateWindowedFunction 0 1 477
+booleanLiteral 0 1 478
+constant 0 1 479
+decimalLiteral 0 1 480
+expression 0 1 481
+expressionAtom 0 1 482
+fullColumnName 0 1 483
+function 0 1 484
+functionCall 0 1 485
+opposite 0 1 486
+predicate 0 1 487
+stringLiteral 0 1 488
+uid 0 1 489
+4
+) 1 1 17
+GROUP BY 1 1 17
+HAVING 1 1 17
+ORDER BY 1 1 17
+3
+FLOAT 1 0 310
+INT 1 0 312
+decimalLiteral 0 1 490
+17
+!= 1 1 98
+&& 1 1 98
+) 1 1 98
+, 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+HAVING 1 1 98
+IS 1 1 98
+OR 1 1 98
+ORDER BY 1 1 98
+XOR 1 1 98
+|| 1 1 98
+17
+!= 1 1 82
+&& 1 1 82
+) 1 1 82
+, 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+HAVING 1 1 82
+IS 1 1 82
+OR 1 1 82
+ORDER BY 1 1 82
+XOR 1 1 82
+|| 1 1 82
+18
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+, 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+XOR 1 1 47
+|| 1 1 47
+17
+!= 1 1 83
+&& 1 1 83
+) 1 1 83
+, 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+HAVING 1 1 83
+IS 1 1 83
+OR 1 1 83
+ORDER BY 1 1 83
+XOR 1 1 83
+|| 1 1 83
+17
+!= 1 1 96
+&& 1 1 96
+) 1 1 96
+, 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+HAVING 1 1 96
+IS 1 1 96
+OR 1 1 96
+ORDER BY 1 1 96
+XOR 1 1 96
+|| 1 1 96
+17
+!= 1 1 97
+&& 1 1 97
+) 1 1 97
+, 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+HAVING 1 1 97
+IS 1 1 97
+OR 1 1 97
+ORDER BY 1 1 97
+XOR 1 1 97
+|| 1 1 97
+17
+!= 1 1 99
+&& 1 1 99
+) 1 1 99
+, 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+HAVING 1 1 99
+IS 1 1 99
+OR 1 1 99
+ORDER BY 1 1 99
+XOR 1 1 99
+|| 1 1 99
+17
+!= 1 1 81
+&& 1 1 81
+) 1 1 81
+, 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+HAVING 1 1 81
+IS 1 1 81
+OR 1 1 81
+ORDER BY 1 1 81
+XOR 1 1 81
+|| 1 1 81
+17
+!= 1 1 74
+&& 1 1 74
+) 1 1 74
+, 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+HAVING 1 1 74
+IS 1 1 74
+OR 1 1 74
+ORDER BY 1 1 74
+XOR 1 1 74
+|| 1 1 74
+17
+!= 1 1 79
+&& 1 1 79
+) 1 1 79
+, 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+HAVING 1 1 79
+IS 1 1 79
+OR 1 1 79
+ORDER BY 1 1 79
+XOR 1 1 79
+|| 1 1 79
+5
+) 1 1 55
+, 1 0 491
+HAVING 1 1 55
+ORDER BY 1 1 55
+expressionRec 0 1 492
+19
+!= 1 0 204
+&& 1 1 73
+) 1 1 73
+, 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+HAVING 1 1 73
+IS 1 1 73
+OR 1 1 73
+ORDER BY 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 493
+predicateRight 0 1 494
+|| 1 1 73
+3
+) 1 1 19
+HAVING 1 1 19
+ORDER BY 1 1 19
+17
+!= 1 1 75
+&& 1 1 75
+) 1 1 75
+, 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+HAVING 1 1 75
+IS 1 1 75
+OR 1 1 75
+ORDER BY 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 495
+17
+!= 1 1 76
+&& 1 1 76
+) 1 1 76
+, 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+HAVING 1 1 76
+IS 1 1 76
+OR 1 1 76
+ORDER BY 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 308
+AVG 1 0 39
+FALSE 1 0 309
+FLOAT 1 0 310
+IDN 1 0 311
+INT 1 0 312
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 313
+SUM 1 0 43
+TRUE 1 0 314
+aggregateWindowedFunction 0 1 315
+booleanLiteral 0 1 316
+constant 0 1 317
+decimalLiteral 0 1 318
+expression 0 1 496
+expressionAtom 0 1 320
+fullColumnName 0 1 322
+function 0 1 323
+functionCall 0 1 324
+opposite 0 1 325
+predicate 0 1 326
+stringLiteral 0 1 327
+uid 0 1 328
+12
+&& 1 0 215
+) 1 1 60
+, 1 1 60
+AND 1 0 216
+HAVING 1 1 60
+IS 1 0 497
+OR 1 0 218
+ORDER BY 1 1 60
+XOR 1 0 219
+expressionRight 0 1 498
+logicalOperator 0 1 499
+|| 1 0 222
+17
+!= 1 1 78
+&& 1 1 78
+) 1 1 78
+, 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+HAVING 1 1 78
+IS 1 1 78
+OR 1 1 78
+ORDER BY 1 1 78
+XOR 1 1 78
+|| 1 1 78
+19
+!= 1 1 50
+&& 1 1 50
+) 1 1 50
+, 1 1 50
+. 1 0 500
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+HAVING 1 1 50
+IS 1 1 50
+OR 1 1 50
+ORDER BY 1 1 50
+XOR 1 1 50
+dottedId 0 1 501
+|| 1 1 50
+26
+! 1 0 116
+- 1 0 502
+AVG 1 0 39
+FALSE 1 0 503
+FLOAT 1 0 504
+IDN 1 0 505
+INT 1 0 506
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 507
+SUM 1 0 43
+TRUE 1 0 508
+aggregateWindowedFunction 0 1 509
+booleanLiteral 0 1 510
+constant 0 1 511
+decimalLiteral 0 1 512
+expression 0 1 513
+expressionAtom 0 1 514
+fullColumnName 0 1 515
+function 0 1 516
+functionCall 0 1 517
+opposite 0 1 518
+predicate 0 1 519
+stringLiteral 0 1 520
+uid 0 1 521
+3
+) 1 1 24
+ORDER BY 1 0 522
+orderByClause 0 1 523
+1
+# 1 1 136
+7
+# 1 1 72
+&& 1 1 72
+AND 1 1 72
+IS 1 1 72
+OR 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 524
+uid 0 1 227
+4
+FALSE 1 1 63
+NULL 1 1 63
+TRUE 1 1 63
+UNKNOWN 1 1 63
+7
+FALSE 1 0 525
+NULL 1 0 526
+TRUE 1 0 527
+UNKNOWN 1 0 528
+nullOrTrueValue 0 1 529
+nullValue 0 1 530
+trueValue 0 1 531
+1
+# 1 1 58
+14
+!= 1 1 52
+# 1 1 52
+&& 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+IS 1 1 52
+OR 1 1 52
+XOR 1 1 52
+|| 1 1 52
+14
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+XOR 1 1 47
+|| 1 1 47
+14
+!= 1 1 49
+# 1 1 49
+&& 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+IS 1 1 49
+OR 1 1 49
+XOR 1 1 49
+|| 1 1 49
+14
+!= 1 1 51
+# 1 1 51
+&& 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+IS 1 1 51
+OR 1 1 51
+XOR 1 1 51
+|| 1 1 51
+9
+# 1 1 100
+, 1 1 100
+AS 1 1 100
+FROM 1 1 100
+GROUP BY 1 1 100
+HAVING 1 1 100
+IDN 1 1 100
+ORDER BY 1 1 100
+UNION 1 1 100
+4
+* 1 0 532
+IDN 1 0 533
+dottedIdOrStar 0 1 534
+uid 0 1 535
+1
+) 1 1 48
+1
+) 1 0 536
+2
+IDN 1 0 346
+uid 0 1 537
+5
+) 1 1 47
+, 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+RIGHT 1 1 47
+5
+) 1 1 41
+, 1 1 41
+JOIN 1 1 41
+LEFT 1 1 41
+RIGHT 1 1 41
+5
+) 1 1 32
+, 1 1 32
+JOIN 1 1 32
+LEFT 1 1 32
+RIGHT 1 1 32
+6
+( 1 0 229
+IDN 1 0 230
+tableName 0 1 231
+tableSource 0 1 538
+tableSourceItem 0 1 233
+uid 0 1 235
+1
+) 1 1 35
+5
+( 1 0 539
+IDN 1 0 540
+tableName 0 1 541
+tableSourceItem 0 1 542
+uid 0 1 543
+1
+JOIN 1 0 544
+8
+) 1 1 40
+, 1 1 40
+JOIN 1 0 351
+LEFT 1 0 243
+RIGHT 1 0 244
+joinDirection 0 1 352
+joinPart 0 1 353
+joinParts 0 1 545
+2
+) 1 1 38
+, 1 1 38
+10
+# 1 1 42
+, 1 1 42
+GROUP BY 1 1 42
+HAVING 1 1 42
+JOIN 1 1 42
+LEFT 1 1 42
+ORDER BY 1 1 42
+RIGHT 1 1 42
+UNION 1 1 42
+WHERE 1 1 42
+10
+# 1 1 33
+, 1 1 33
+GROUP BY 1 1 33
+HAVING 1 1 33
+JOIN 1 1 33
+LEFT 1 1 33
+ORDER BY 1 1 33
+RIGHT 1 1 33
+UNION 1 1 33
+WHERE 1 1 33
+8
+# 1 1 37
+, 1 0 240
+GROUP BY 1 1 37
+HAVING 1 1 37
+ORDER BY 1 1 37
+UNION 1 1 37
+WHERE 1 1 37
+tableSourceListRec 0 1 546
+7
+( 1 0 229
+IDN 1 0 230
+tableName 0 1 231
+tableSource 0 1 232
+tableSourceItem 0 1 233
+tableSources 0 1 547
+uid 0 1 235
+13
+# 1 1 47
+, 1 1 47
+AS 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IDN 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ON 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+UNION 1 1 47
+WHERE 1 1 47
+15
+# 1 1 34
+, 1 1 34
+AS 1 0 548
+GROUP BY 1 1 34
+HAVING 1 1 34
+IDN 1 0 549
+JOIN 1 1 34
+LEFT 1 1 34
+ON 1 1 34
+ORDER BY 1 1 34
+RIGHT 1 1 34
+UNION 1 1 34
+WHERE 1 1 34
+elementNameAlias 0 1 550
+uid 0 1 551
+12
+# 1 1 108
+, 1 1 108
+GROUP BY 1 1 108
+HAVING 1 1 108
+JOIN 1 1 108
+LEFT 1 1 108
+ON 1 0 552
+ORDER BY 1 1 108
+RIGHT 1 1 108
+UNION 1 1 108
+WHERE 1 1 108
+joinRightPart 0 1 553
+13
+# 1 1 43
+, 1 1 43
+AS 1 1 43
+GROUP BY 1 1 43
+HAVING 1 1 43
+IDN 1 1 43
+JOIN 1 1 43
+LEFT 1 1 43
+ON 1 1 43
+ORDER BY 1 1 43
+RIGHT 1 1 43
+UNION 1 1 43
+WHERE 1 1 43
+5
+( 1 0 554
+IDN 1 0 555
+tableName 0 1 556
+tableSourceItem 0 1 557
+uid 0 1 558
+7
+# 1 1 39
+, 1 1 39
+GROUP BY 1 1 39
+HAVING 1 1 39
+ORDER BY 1 1 39
+UNION 1 1 39
+WHERE 1 1 39
+3
+FLOAT 1 0 367
+INT 1 0 369
+decimalLiteral 0 1 559
+18
+!= 1 1 98
+# 1 1 98
+&& 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+GROUP BY 1 1 98
+HAVING 1 1 98
+IS 1 1 98
+OR 1 1 98
+ORDER BY 1 1 98
+UNION 1 1 98
+XOR 1 1 98
+|| 1 1 98
+18
+!= 1 1 82
+# 1 1 82
+&& 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+GROUP BY 1 1 82
+HAVING 1 1 82
+IS 1 1 82
+OR 1 1 82
+ORDER BY 1 1 82
+UNION 1 1 82
+XOR 1 1 82
+|| 1 1 82
+19
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+XOR 1 1 47
+|| 1 1 47
+18
+!= 1 1 83
+# 1 1 83
+&& 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+GROUP BY 1 1 83
+HAVING 1 1 83
+IS 1 1 83
+OR 1 1 83
+ORDER BY 1 1 83
+UNION 1 1 83
+XOR 1 1 83
+|| 1 1 83
+18
+!= 1 1 96
+# 1 1 96
+&& 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+GROUP BY 1 1 96
+HAVING 1 1 96
+IS 1 1 96
+OR 1 1 96
+ORDER BY 1 1 96
+UNION 1 1 96
+XOR 1 1 96
+|| 1 1 96
+18
+!= 1 1 97
+# 1 1 97
+&& 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+GROUP BY 1 1 97
+HAVING 1 1 97
+IS 1 1 97
+OR 1 1 97
+ORDER BY 1 1 97
+UNION 1 1 97
+XOR 1 1 97
+|| 1 1 97
+18
+!= 1 1 99
+# 1 1 99
+&& 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+GROUP BY 1 1 99
+HAVING 1 1 99
+IS 1 1 99
+OR 1 1 99
+ORDER BY 1 1 99
+UNION 1 1 99
+XOR 1 1 99
+|| 1 1 99
+18
+!= 1 1 81
+# 1 1 81
+&& 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+GROUP BY 1 1 81
+HAVING 1 1 81
+IS 1 1 81
+OR 1 1 81
+ORDER BY 1 1 81
+UNION 1 1 81
+XOR 1 1 81
+|| 1 1 81
+18
+!= 1 1 74
+# 1 1 74
+&& 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+GROUP BY 1 1 74
+HAVING 1 1 74
+IS 1 1 74
+OR 1 1 74
+ORDER BY 1 1 74
+UNION 1 1 74
+XOR 1 1 74
+|| 1 1 74
+18
+!= 1 1 79
+# 1 1 79
+&& 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+GROUP BY 1 1 79
+HAVING 1 1 79
+IS 1 1 79
+OR 1 1 79
+ORDER BY 1 1 79
+UNION 1 1 79
+XOR 1 1 79
+|| 1 1 79
+5
+# 1 1 131
+GROUP BY 1 1 131
+HAVING 1 1 131
+ORDER BY 1 1 131
+UNION 1 1 131
+20
+!= 1 0 204
+# 1 1 73
+&& 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+GROUP BY 1 1 73
+HAVING 1 1 73
+IS 1 1 73
+OR 1 1 73
+ORDER BY 1 1 73
+UNION 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 560
+predicateRight 0 1 561
+|| 1 1 73
+18
+!= 1 1 75
+# 1 1 75
+&& 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+GROUP BY 1 1 75
+HAVING 1 1 75
+IS 1 1 75
+OR 1 1 75
+ORDER BY 1 1 75
+UNION 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 562
+18
+!= 1 1 76
+# 1 1 76
+&& 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+GROUP BY 1 1 76
+HAVING 1 1 76
+IS 1 1 76
+OR 1 1 76
+ORDER BY 1 1 76
+UNION 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 365
+AVG 1 0 39
+FALSE 1 0 366
+FLOAT 1 0 367
+IDN 1 0 368
+INT 1 0 369
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 370
+SUM 1 0 43
+TRUE 1 0 371
+aggregateWindowedFunction 0 1 372
+booleanLiteral 0 1 373
+constant 0 1 374
+decimalLiteral 0 1 375
+expression 0 1 563
+expressionAtom 0 1 377
+fullColumnName 0 1 378
+function 0 1 379
+functionCall 0 1 380
+opposite 0 1 381
+predicate 0 1 382
+stringLiteral 0 1 383
+uid 0 1 384
+13
+# 1 1 60
+&& 1 0 215
+AND 1 0 216
+GROUP BY 1 1 60
+HAVING 1 1 60
+IS 1 0 564
+OR 1 0 218
+ORDER BY 1 1 60
+UNION 1 1 60
+XOR 1 0 219
+expressionRight 0 1 565
+logicalOperator 0 1 566
+|| 1 0 222
+18
+!= 1 1 78
+# 1 1 78
+&& 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+GROUP BY 1 1 78
+HAVING 1 1 78
+IS 1 1 78
+OR 1 1 78
+ORDER BY 1 1 78
+UNION 1 1 78
+XOR 1 1 78
+|| 1 1 78
+20
+!= 1 1 50
+# 1 1 50
+&& 1 1 50
+. 1 0 567
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+GROUP BY 1 1 50
+HAVING 1 1 50
+IS 1 1 50
+OR 1 1 50
+ORDER BY 1 1 50
+UNION 1 1 50
+XOR 1 1 50
+dottedId 0 1 568
+|| 1 1 50
+18
+!= 1 1 80
+# 1 1 80
+&& 1 1 80
+, 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+HAVING 1 1 80
+IS 1 1 80
+OR 1 1 80
+ORDER BY 1 1 80
+UNION 1 1 80
+XOR 1 1 80
+|| 1 1 80
+26
+! 1 0 116
+- 1 0 250
+AVG 1 0 39
+FALSE 1 0 251
+FLOAT 1 0 252
+IDN 1 0 253
+INT 1 0 254
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 255
+SUM 1 0 43
+TRUE 1 0 256
+aggregateWindowedFunction 0 1 257
+booleanLiteral 0 1 258
+constant 0 1 259
+decimalLiteral 0 1 260
+expression 0 1 569
+expressionAtom 0 1 262
+fullColumnName 0 1 264
+function 0 1 265
+functionCall 0 1 266
+opposite 0 1 267
+predicate 0 1 268
+stringLiteral 0 1 269
+uid 0 1 270
+4
+# 1 1 53
+HAVING 1 1 53
+ORDER BY 1 1 53
+UNION 1 1 53
+22
+- 1 0 250
+AVG 1 0 39
+FALSE 1 0 251
+FLOAT 1 0 252
+IDN 1 0 253
+INT 1 0 254
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 255
+SUM 1 0 43
+TRUE 1 0 256
+aggregateWindowedFunction 0 1 257
+booleanLiteral 0 1 258
+constant 0 1 259
+decimalLiteral 0 1 260
+expressionAtom 0 1 262
+fullColumnName 0 1 264
+function 0 1 265
+functionCall 0 1 266
+predicate 0 1 570
+stringLiteral 0 1 269
+uid 0 1 270
+11
+# 1 1 71
+&& 1 1 71
+, 1 1 71
+AND 1 1 71
+HAVING 1 1 71
+IS 1 1 71
+OR 1 1 71
+ORDER BY 1 1 71
+UNION 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 571
+5
+# 1 1 56
+, 1 1 56
+HAVING 1 1 56
+ORDER BY 1 1 56
+UNION 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 572
+5
+# 1 1 57
+, 1 1 57
+HAVING 1 1 57
+ORDER BY 1 1 57
+UNION 1 1 57
+26
+! 1 0 116
+- 1 0 250
+AVG 1 0 39
+FALSE 1 0 251
+FLOAT 1 0 252
+IDN 1 0 253
+INT 1 0 254
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 255
+SUM 1 0 43
+TRUE 1 0 256
+aggregateWindowedFunction 0 1 257
+booleanLiteral 0 1 258
+constant 0 1 259
+decimalLiteral 0 1 260
+expression 0 1 573
+expressionAtom 0 1 262
+fullColumnName 0 1 264
+function 0 1 265
+functionCall 0 1 266
+opposite 0 1 267
+predicate 0 1 268
+stringLiteral 0 1 269
+uid 0 1 270
+4
+* 1 0 574
+IDN 1 0 575
+dottedIdOrStar 0 1 576
+uid 0 1 577
+18
+!= 1 1 48
+# 1 1 48
+&& 1 1 48
+, 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+HAVING 1 1 48
+IS 1 1 48
+OR 1 1 48
+ORDER BY 1 1 48
+UNION 1 1 48
+XOR 1 1 48
+|| 1 1 48
+3
+FLOAT 1 0 399
+INT 1 0 401
+decimalLiteral 0 1 578
+16
+!= 1 1 98
+# 1 1 98
+&& 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+IS 1 1 98
+OR 1 1 98
+ORDER BY 1 1 98
+UNION 1 1 98
+XOR 1 1 98
+|| 1 1 98
+16
+!= 1 1 82
+# 1 1 82
+&& 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+IS 1 1 82
+OR 1 1 82
+ORDER BY 1 1 82
+UNION 1 1 82
+XOR 1 1 82
+|| 1 1 82
+17
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+XOR 1 1 47
+|| 1 1 47
+16
+!= 1 1 83
+# 1 1 83
+&& 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+IS 1 1 83
+OR 1 1 83
+ORDER BY 1 1 83
+UNION 1 1 83
+XOR 1 1 83
+|| 1 1 83
+16
+!= 1 1 96
+# 1 1 96
+&& 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+IS 1 1 96
+OR 1 1 96
+ORDER BY 1 1 96
+UNION 1 1 96
+XOR 1 1 96
+|| 1 1 96
+16
+!= 1 1 97
+# 1 1 97
+&& 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+IS 1 1 97
+OR 1 1 97
+ORDER BY 1 1 97
+UNION 1 1 97
+XOR 1 1 97
+|| 1 1 97
+16
+!= 1 1 99
+# 1 1 99
+&& 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+IS 1 1 99
+OR 1 1 99
+ORDER BY 1 1 99
+UNION 1 1 99
+XOR 1 1 99
+|| 1 1 99
+16
+!= 1 1 81
+# 1 1 81
+&& 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+IS 1 1 81
+OR 1 1 81
+ORDER BY 1 1 81
+UNION 1 1 81
+XOR 1 1 81
+|| 1 1 81
+16
+!= 1 1 74
+# 1 1 74
+&& 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+IS 1 1 74
+OR 1 1 74
+ORDER BY 1 1 74
+UNION 1 1 74
+XOR 1 1 74
+|| 1 1 74
+16
+!= 1 1 79
+# 1 1 79
+&& 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+IS 1 1 79
+OR 1 1 79
+ORDER BY 1 1 79
+UNION 1 1 79
+XOR 1 1 79
+|| 1 1 79
+3
+# 1 1 21
+ORDER BY 1 1 21
+UNION 1 1 21
+18
+!= 1 0 204
+# 1 1 73
+&& 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+IS 1 1 73
+OR 1 1 73
+ORDER BY 1 1 73
+UNION 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 579
+predicateRight 0 1 580
+|| 1 1 73
+16
+!= 1 1 75
+# 1 1 75
+&& 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+IS 1 1 75
+OR 1 1 75
+ORDER BY 1 1 75
+UNION 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 581
+16
+!= 1 1 76
+# 1 1 76
+&& 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+IS 1 1 76
+OR 1 1 76
+ORDER BY 1 1 76
+UNION 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 397
+AVG 1 0 39
+FALSE 1 0 398
+FLOAT 1 0 399
+IDN 1 0 400
+INT 1 0 401
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 402
+SUM 1 0 43
+TRUE 1 0 403
+aggregateWindowedFunction 0 1 404
+booleanLiteral 0 1 405
+constant 0 1 406
+decimalLiteral 0 1 407
+expression 0 1 582
+expressionAtom 0 1 409
+fullColumnName 0 1 410
+function 0 1 411
+functionCall 0 1 412
+opposite 0 1 413
+predicate 0 1 414
+stringLiteral 0 1 415
+uid 0 1 416
+11
+# 1 1 60
+&& 1 0 215
+AND 1 0 216
+IS 1 0 583
+OR 1 0 218
+ORDER BY 1 1 60
+UNION 1 1 60
+XOR 1 0 219
+expressionRight 0 1 584
+logicalOperator 0 1 585
+|| 1 0 222
+16
+!= 1 1 78
+# 1 1 78
+&& 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+IS 1 1 78
+OR 1 1 78
+ORDER BY 1 1 78
+UNION 1 1 78
+XOR 1 1 78
+|| 1 1 78
+18
+!= 1 1 50
+# 1 1 50
+&& 1 1 50
+. 1 0 586
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+IS 1 1 50
+OR 1 1 50
+ORDER BY 1 1 50
+UNION 1 1 50
+XOR 1 1 50
+dottedId 0 1 587
+|| 1 1 50
+27
+! 1 0 116
+- 1 0 588
+AVG 1 0 39
+FALSE 1 0 589
+FLOAT 1 0 590
+IDN 1 0 591
+INT 1 0 592
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 593
+SUM 1 0 43
+TRUE 1 0 594
+aggregateWindowedFunction 0 1 595
+booleanLiteral 0 1 596
+constant 0 1 597
+decimalLiteral 0 1 598
+expression 0 1 599
+expressionAtom 0 1 600
+expressions 0 1 601
+fullColumnName 0 1 602
+function 0 1 603
+functionCall 0 1 604
+opposite 0 1 605
+predicate 0 1 606
+stringLiteral 0 1 607
+uid 0 1 608
+2
+# 1 1 16
+UNION 1 1 16
+3
+FLOAT 1 0 422
+INT 1 0 424
+decimalLiteral 0 1 609
+3
+# 1 1 127
+, 1 1 127
+WHERE 1 1 127
+16
+!= 1 1 98
+# 1 1 98
+&& 1 1 98
+, 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+IS 1 1 98
+OR 1 1 98
+WHERE 1 1 98
+XOR 1 1 98
+|| 1 1 98
+16
+!= 1 1 82
+# 1 1 82
+&& 1 1 82
+, 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+IS 1 1 82
+OR 1 1 82
+WHERE 1 1 82
+XOR 1 1 82
+|| 1 1 82
+17
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+, 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+WHERE 1 1 47
+XOR 1 1 47
+|| 1 1 47
+16
+!= 1 1 83
+# 1 1 83
+&& 1 1 83
+, 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+IS 1 1 83
+OR 1 1 83
+WHERE 1 1 83
+XOR 1 1 83
+|| 1 1 83
+16
+!= 1 1 96
+# 1 1 96
+&& 1 1 96
+, 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+IS 1 1 96
+OR 1 1 96
+WHERE 1 1 96
+XOR 1 1 96
+|| 1 1 96
+16
+!= 1 1 97
+# 1 1 97
+&& 1 1 97
+, 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+IS 1 1 97
+OR 1 1 97
+WHERE 1 1 97
+XOR 1 1 97
+|| 1 1 97
+16
+!= 1 1 99
+# 1 1 99
+&& 1 1 99
+, 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+IS 1 1 99
+OR 1 1 99
+WHERE 1 1 99
+XOR 1 1 99
+|| 1 1 99
+16
+!= 1 1 81
+# 1 1 81
+&& 1 1 81
+, 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+IS 1 1 81
+OR 1 1 81
+WHERE 1 1 81
+XOR 1 1 81
+|| 1 1 81
+16
+!= 1 1 74
+# 1 1 74
+&& 1 1 74
+, 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+IS 1 1 74
+OR 1 1 74
+WHERE 1 1 74
+XOR 1 1 74
+|| 1 1 74
+16
+!= 1 1 79
+# 1 1 79
+&& 1 1 79
+, 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+IS 1 1 79
+OR 1 1 79
+WHERE 1 1 79
+XOR 1 1 79
+|| 1 1 79
+3
+# 1 1 126
+, 1 1 126
+WHERE 1 1 126
+18
+!= 1 0 204
+# 1 1 73
+&& 1 1 73
+, 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+IS 1 1 73
+OR 1 1 73
+WHERE 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 610
+predicateRight 0 1 611
+|| 1 1 73
+3
+# 1 1 133
+, 1 1 133
+WHERE 1 1 133
+16
+!= 1 1 75
+# 1 1 75
+&& 1 1 75
+, 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+IS 1 1 75
+OR 1 1 75
+WHERE 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 612
+16
+!= 1 1 76
+# 1 1 76
+&& 1 1 76
+, 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+IS 1 1 76
+OR 1 1 76
+WHERE 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 419
+AVG 1 0 39
+FALSE 1 0 421
+FLOAT 1 0 422
+IDN 1 0 423
+INT 1 0 424
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 425
+SUM 1 0 43
+TRUE 1 0 426
+aggregateWindowedFunction 0 1 427
+booleanLiteral 0 1 428
+constant 0 1 429
+decimalLiteral 0 1 430
+expression 0 1 613
+expressionAtom 0 1 432
+fullColumnName 0 1 434
+function 0 1 435
+functionCall 0 1 436
+opposite 0 1 437
+predicate 0 1 438
+stringLiteral 0 1 439
+uid 0 1 440
+11
+# 1 1 60
+&& 1 0 215
+, 1 1 60
+AND 1 0 216
+IS 1 0 614
+OR 1 0 218
+WHERE 1 1 60
+XOR 1 0 219
+expressionRight 0 1 615
+logicalOperator 0 1 616
+|| 1 0 222
+16
+!= 1 1 78
+# 1 1 78
+&& 1 1 78
+, 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+IS 1 1 78
+OR 1 1 78
+WHERE 1 1 78
+XOR 1 1 78
+|| 1 1 78
+18
+!= 1 1 50
+# 1 1 50
+&& 1 1 50
+, 1 1 50
+. 1 0 617
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+IS 1 1 50
+OR 1 1 50
+WHERE 1 1 50
+XOR 1 1 50
+dottedId 0 1 618
+|| 1 1 50
+1
+= 1 1 52
+1
+= 1 1 47
+1
+= 1 1 49
+1
+= 1 1 51
+4
+# 1 1 130
+, 1 0 276
+WHERE 1 1 130
+updatedElementListRec 0 1 619
+1
+# 1 1 128
+1
+) 1 1 45
+8
+&& 1 1 72
+) 1 1 72
+, 1 1 72
+AND 1 1 72
+IS 1 1 72
+OR 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+) 1 1 125
+, 1 0 283
+expressionOrDefaultListRec 0 1 620
+1
+( 1 0 621
+1
+# 1 1 117
+3
+IDN 1 0 225
+fullColumnName 0 1 622
+uid 0 1 227
+7
+FALSE 1 0 623
+NULL 1 0 624
+TRUE 1 0 625
+UNKNOWN 1 0 626
+nullOrTrueValue 0 1 627
+nullValue 0 1 628
+trueValue 0 1 629
+2
+) 1 1 58
+, 1 1 58
+15
+!= 1 1 52
+&& 1 1 52
+) 1 1 52
+, 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+IS 1 1 52
+OR 1 1 52
+XOR 1 1 52
+|| 1 1 52
+15
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+, 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+XOR 1 1 47
+|| 1 1 47
+15
+!= 1 1 49
+&& 1 1 49
+) 1 1 49
+, 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+IS 1 1 49
+OR 1 1 49
+XOR 1 1 49
+|| 1 1 49
+15
+!= 1 1 51
+&& 1 1 51
+) 1 1 51
+, 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+IS 1 1 51
+OR 1 1 51
+XOR 1 1 51
+|| 1 1 51
+8
+) 1 1 100
+, 1 1 100
+AS 1 1 100
+FROM 1 1 100
+GROUP BY 1 1 100
+HAVING 1 1 100
+IDN 1 1 100
+ORDER BY 1 1 100
+9
+) 1 1 42
+, 1 1 42
+GROUP BY 1 1 42
+HAVING 1 1 42
+JOIN 1 1 42
+LEFT 1 1 42
+ORDER BY 1 1 42
+RIGHT 1 1 42
+WHERE 1 1 42
+9
+) 1 1 33
+, 1 1 33
+GROUP BY 1 1 33
+HAVING 1 1 33
+JOIN 1 1 33
+LEFT 1 1 33
+ORDER BY 1 1 33
+RIGHT 1 1 33
+WHERE 1 1 33
+7
+) 1 1 37
+, 1 0 300
+GROUP BY 1 1 37
+HAVING 1 1 37
+ORDER BY 1 1 37
+WHERE 1 1 37
+tableSourceListRec 0 1 630
+7
+( 1 0 229
+IDN 1 0 230
+tableName 0 1 231
+tableSource 0 1 232
+tableSourceItem 0 1 233
+tableSources 0 1 631
+uid 0 1 235
+12
+) 1 1 47
+, 1 1 47
+AS 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IDN 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ON 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+WHERE 1 1 47
+14
+) 1 1 34
+, 1 1 34
+AS 1 0 632
+GROUP BY 1 1 34
+HAVING 1 1 34
+IDN 1 0 633
+JOIN 1 1 34
+LEFT 1 1 34
+ON 1 1 34
+ORDER BY 1 1 34
+RIGHT 1 1 34
+WHERE 1 1 34
+elementNameAlias 0 1 634
+uid 0 1 635
+11
+) 1 1 108
+, 1 1 108
+GROUP BY 1 1 108
+HAVING 1 1 108
+JOIN 1 1 108
+LEFT 1 1 108
+ON 1 0 636
+ORDER BY 1 1 108
+RIGHT 1 1 108
+WHERE 1 1 108
+joinRightPart 0 1 637
+12
+) 1 1 43
+, 1 1 43
+AS 1 1 43
+GROUP BY 1 1 43
+HAVING 1 1 43
+IDN 1 1 43
+JOIN 1 1 43
+LEFT 1 1 43
+ON 1 1 43
+ORDER BY 1 1 43
+RIGHT 1 1 43
+WHERE 1 1 43
+5
+( 1 0 554
+IDN 1 0 555
+tableName 0 1 556
+tableSourceItem 0 1 638
+uid 0 1 558
+6
+) 1 1 39
+, 1 1 39
+GROUP BY 1 1 39
+HAVING 1 1 39
+ORDER BY 1 1 39
+WHERE 1 1 39
+3
+FLOAT 1 0 472
+INT 1 0 474
+decimalLiteral 0 1 639
+17
+!= 1 1 98
+&& 1 1 98
+) 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+GROUP BY 1 1 98
+HAVING 1 1 98
+IS 1 1 98
+OR 1 1 98
+ORDER BY 1 1 98
+XOR 1 1 98
+|| 1 1 98
+17
+!= 1 1 82
+&& 1 1 82
+) 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+GROUP BY 1 1 82
+HAVING 1 1 82
+IS 1 1 82
+OR 1 1 82
+ORDER BY 1 1 82
+XOR 1 1 82
+|| 1 1 82
+18
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+XOR 1 1 47
+|| 1 1 47
+17
+!= 1 1 83
+&& 1 1 83
+) 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+GROUP BY 1 1 83
+HAVING 1 1 83
+IS 1 1 83
+OR 1 1 83
+ORDER BY 1 1 83
+XOR 1 1 83
+|| 1 1 83
+17
+!= 1 1 96
+&& 1 1 96
+) 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+GROUP BY 1 1 96
+HAVING 1 1 96
+IS 1 1 96
+OR 1 1 96
+ORDER BY 1 1 96
+XOR 1 1 96
+|| 1 1 96
+17
+!= 1 1 97
+&& 1 1 97
+) 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+GROUP BY 1 1 97
+HAVING 1 1 97
+IS 1 1 97
+OR 1 1 97
+ORDER BY 1 1 97
+XOR 1 1 97
+|| 1 1 97
+17
+!= 1 1 99
+&& 1 1 99
+) 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+GROUP BY 1 1 99
+HAVING 1 1 99
+IS 1 1 99
+OR 1 1 99
+ORDER BY 1 1 99
+XOR 1 1 99
+|| 1 1 99
+17
+!= 1 1 81
+&& 1 1 81
+) 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+GROUP BY 1 1 81
+HAVING 1 1 81
+IS 1 1 81
+OR 1 1 81
+ORDER BY 1 1 81
+XOR 1 1 81
+|| 1 1 81
+17
+!= 1 1 74
+&& 1 1 74
+) 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+GROUP BY 1 1 74
+HAVING 1 1 74
+IS 1 1 74
+OR 1 1 74
+ORDER BY 1 1 74
+XOR 1 1 74
+|| 1 1 74
+17
+!= 1 1 79
+&& 1 1 79
+) 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+GROUP BY 1 1 79
+HAVING 1 1 79
+IS 1 1 79
+OR 1 1 79
+ORDER BY 1 1 79
+XOR 1 1 79
+|| 1 1 79
+4
+) 1 1 131
+GROUP BY 1 1 131
+HAVING 1 1 131
+ORDER BY 1 1 131
+19
+!= 1 0 204
+&& 1 1 73
+) 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+GROUP BY 1 1 73
+HAVING 1 1 73
+IS 1 1 73
+OR 1 1 73
+ORDER BY 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 640
+predicateRight 0 1 641
+|| 1 1 73
+17
+!= 1 1 75
+&& 1 1 75
+) 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+GROUP BY 1 1 75
+HAVING 1 1 75
+IS 1 1 75
+OR 1 1 75
+ORDER BY 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 642
+17
+!= 1 1 76
+&& 1 1 76
+) 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+GROUP BY 1 1 76
+HAVING 1 1 76
+IS 1 1 76
+OR 1 1 76
+ORDER BY 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 470
+AVG 1 0 39
+FALSE 1 0 471
+FLOAT 1 0 472
+IDN 1 0 473
+INT 1 0 474
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 475
+SUM 1 0 43
+TRUE 1 0 476
+aggregateWindowedFunction 0 1 477
+booleanLiteral 0 1 478
+constant 0 1 479
+decimalLiteral 0 1 480
+expression 0 1 643
+expressionAtom 0 1 482
+fullColumnName 0 1 483
+function 0 1 484
+functionCall 0 1 485
+opposite 0 1 486
+predicate 0 1 487
+stringLiteral 0 1 488
+uid 0 1 489
+12
+&& 1 0 215
+) 1 1 60
+AND 1 0 216
+GROUP BY 1 1 60
+HAVING 1 1 60
+IS 1 0 644
+OR 1 0 218
+ORDER BY 1 1 60
+XOR 1 0 219
+expressionRight 0 1 645
+logicalOperator 0 1 646
+|| 1 0 222
+17
+!= 1 1 78
+&& 1 1 78
+) 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+GROUP BY 1 1 78
+HAVING 1 1 78
+IS 1 1 78
+OR 1 1 78
+ORDER BY 1 1 78
+XOR 1 1 78
+|| 1 1 78
+19
+!= 1 1 50
+&& 1 1 50
+) 1 1 50
+. 1 0 647
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+GROUP BY 1 1 50
+HAVING 1 1 50
+IS 1 1 50
+OR 1 1 50
+ORDER BY 1 1 50
+XOR 1 1 50
+dottedId 0 1 648
+|| 1 1 50
+17
+!= 1 1 80
+&& 1 1 80
+) 1 1 80
+, 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+HAVING 1 1 80
+IS 1 1 80
+OR 1 1 80
+ORDER BY 1 1 80
+XOR 1 1 80
+|| 1 1 80
+26
+! 1 0 116
+- 1 0 308
+AVG 1 0 39
+FALSE 1 0 309
+FLOAT 1 0 310
+IDN 1 0 311
+INT 1 0 312
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 313
+SUM 1 0 43
+TRUE 1 0 314
+aggregateWindowedFunction 0 1 315
+booleanLiteral 0 1 316
+constant 0 1 317
+decimalLiteral 0 1 318
+expression 0 1 649
+expressionAtom 0 1 320
+fullColumnName 0 1 322
+function 0 1 323
+functionCall 0 1 324
+opposite 0 1 325
+predicate 0 1 326
+stringLiteral 0 1 327
+uid 0 1 328
+3
+) 1 1 53
+HAVING 1 1 53
+ORDER BY 1 1 53
+22
+- 1 0 308
+AVG 1 0 39
+FALSE 1 0 309
+FLOAT 1 0 310
+IDN 1 0 311
+INT 1 0 312
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 313
+SUM 1 0 43
+TRUE 1 0 314
+aggregateWindowedFunction 0 1 315
+booleanLiteral 0 1 316
+constant 0 1 317
+decimalLiteral 0 1 318
+expressionAtom 0 1 320
+fullColumnName 0 1 322
+function 0 1 323
+functionCall 0 1 324
+predicate 0 1 650
+stringLiteral 0 1 327
+uid 0 1 328
+10
+&& 1 1 71
+) 1 1 71
+, 1 1 71
+AND 1 1 71
+HAVING 1 1 71
+IS 1 1 71
+OR 1 1 71
+ORDER BY 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 651
+4
+) 1 1 56
+, 1 1 56
+HAVING 1 1 56
+ORDER BY 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 652
+4
+) 1 1 57
+, 1 1 57
+HAVING 1 1 57
+ORDER BY 1 1 57
+26
+! 1 0 116
+- 1 0 308
+AVG 1 0 39
+FALSE 1 0 309
+FLOAT 1 0 310
+IDN 1 0 311
+INT 1 0 312
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 313
+SUM 1 0 43
+TRUE 1 0 314
+aggregateWindowedFunction 0 1 315
+booleanLiteral 0 1 316
+constant 0 1 317
+decimalLiteral 0 1 318
+expression 0 1 653
+expressionAtom 0 1 320
+fullColumnName 0 1 322
+function 0 1 323
+functionCall 0 1 324
+opposite 0 1 325
+predicate 0 1 326
+stringLiteral 0 1 327
+uid 0 1 328
+4
+* 1 0 654
+IDN 1 0 655
+dottedIdOrStar 0 1 656
+uid 0 1 657
+17
+!= 1 1 48
+&& 1 1 48
+) 1 1 48
+, 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+HAVING 1 1 48
+IS 1 1 48
+OR 1 1 48
+ORDER BY 1 1 48
+XOR 1 1 48
+|| 1 1 48
+3
+FLOAT 1 0 504
+INT 1 0 506
+decimalLiteral 0 1 658
+15
+!= 1 1 98
+&& 1 1 98
+) 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+IS 1 1 98
+OR 1 1 98
+ORDER BY 1 1 98
+XOR 1 1 98
+|| 1 1 98
+15
+!= 1 1 82
+&& 1 1 82
+) 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+IS 1 1 82
+OR 1 1 82
+ORDER BY 1 1 82
+XOR 1 1 82
+|| 1 1 82
+16
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+XOR 1 1 47
+|| 1 1 47
+15
+!= 1 1 83
+&& 1 1 83
+) 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+IS 1 1 83
+OR 1 1 83
+ORDER BY 1 1 83
+XOR 1 1 83
+|| 1 1 83
+15
+!= 1 1 96
+&& 1 1 96
+) 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+IS 1 1 96
+OR 1 1 96
+ORDER BY 1 1 96
+XOR 1 1 96
+|| 1 1 96
+15
+!= 1 1 97
+&& 1 1 97
+) 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+IS 1 1 97
+OR 1 1 97
+ORDER BY 1 1 97
+XOR 1 1 97
+|| 1 1 97
+15
+!= 1 1 99
+&& 1 1 99
+) 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+IS 1 1 99
+OR 1 1 99
+ORDER BY 1 1 99
+XOR 1 1 99
+|| 1 1 99
+15
+!= 1 1 81
+&& 1 1 81
+) 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+IS 1 1 81
+OR 1 1 81
+ORDER BY 1 1 81
+XOR 1 1 81
+|| 1 1 81
+15
+!= 1 1 74
+&& 1 1 74
+) 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+IS 1 1 74
+OR 1 1 74
+ORDER BY 1 1 74
+XOR 1 1 74
+|| 1 1 74
+15
+!= 1 1 79
+&& 1 1 79
+) 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+IS 1 1 79
+OR 1 1 79
+ORDER BY 1 1 79
+XOR 1 1 79
+|| 1 1 79
+2
+) 1 1 21
+ORDER BY 1 1 21
+17
+!= 1 0 204
+&& 1 1 73
+) 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+IS 1 1 73
+OR 1 1 73
+ORDER BY 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 659
+predicateRight 0 1 660
+|| 1 1 73
+15
+!= 1 1 75
+&& 1 1 75
+) 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+IS 1 1 75
+OR 1 1 75
+ORDER BY 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 661
+15
+!= 1 1 76
+&& 1 1 76
+) 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+IS 1 1 76
+OR 1 1 76
+ORDER BY 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 502
+AVG 1 0 39
+FALSE 1 0 503
+FLOAT 1 0 504
+IDN 1 0 505
+INT 1 0 506
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 507
+SUM 1 0 43
+TRUE 1 0 508
+aggregateWindowedFunction 0 1 509
+booleanLiteral 0 1 510
+constant 0 1 511
+decimalLiteral 0 1 512
+expression 0 1 662
+expressionAtom 0 1 514
+fullColumnName 0 1 515
+function 0 1 516
+functionCall 0 1 517
+opposite 0 1 518
+predicate 0 1 519
+stringLiteral 0 1 520
+uid 0 1 521
+10
+&& 1 0 215
+) 1 1 60
+AND 1 0 216
+IS 1 0 663
+OR 1 0 218
+ORDER BY 1 1 60
+XOR 1 0 219
+expressionRight 0 1 664
+logicalOperator 0 1 665
+|| 1 0 222
+15
+!= 1 1 78
+&& 1 1 78
+) 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+IS 1 1 78
+OR 1 1 78
+ORDER BY 1 1 78
+XOR 1 1 78
+|| 1 1 78
+17
+!= 1 1 50
+&& 1 1 50
+) 1 1 50
+. 1 0 666
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+IS 1 1 50
+OR 1 1 50
+ORDER BY 1 1 50
+XOR 1 1 50
+dottedId 0 1 667
+|| 1 1 50
+27
+! 1 0 116
+- 1 0 163
+AVG 1 0 39
+FALSE 1 0 165
+FLOAT 1 0 166
+IDN 1 0 167
+INT 1 0 168
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 169
+SUM 1 0 43
+TRUE 1 0 170
+aggregateWindowedFunction 0 1 171
+booleanLiteral 0 1 172
+constant 0 1 173
+decimalLiteral 0 1 174
+expression 0 1 668
+expressionAtom 0 1 176
+expressions 0 1 669
+fullColumnName 0 1 179
+function 0 1 180
+functionCall 0 1 181
+opposite 0 1 182
+predicate 0 1 183
+stringLiteral 0 1 184
+uid 0 1 185
+1
+) 1 1 16
+1
+) 1 0 670
+1
+# 1 1 69
+1
+# 1 1 67
+1
+# 1 1 68
+1
+# 1 1 70
+1
+# 1 1 59
+1
+# 1 1 65
+1
+# 1 1 66
+1
+) 1 1 52
+1
+) 1 1 47
+1
+) 1 1 49
+1
+) 1 1 51
+5
+) 1 1 42
+, 1 1 42
+JOIN 1 1 42
+LEFT 1 1 42
+RIGHT 1 1 42
+5
+) 1 1 33
+, 1 1 33
+JOIN 1 1 33
+LEFT 1 1 33
+RIGHT 1 1 33
+3
+) 1 1 37
+, 1 0 349
+tableSourceListRec 0 1 671
+7
+( 1 0 229
+IDN 1 0 230
+tableName 0 1 231
+tableSource 0 1 232
+tableSourceItem 0 1 233
+tableSources 0 1 672
+uid 0 1 235
+8
+) 1 1 47
+, 1 1 47
+AS 1 1 47
+IDN 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ON 1 1 47
+RIGHT 1 1 47
+10
+) 1 1 34
+, 1 1 34
+AS 1 0 673
+IDN 1 0 674
+JOIN 1 1 34
+LEFT 1 1 34
+ON 1 1 34
+RIGHT 1 1 34
+elementNameAlias 0 1 675
+uid 0 1 676
+7
+) 1 1 108
+, 1 1 108
+JOIN 1 1 108
+LEFT 1 1 108
+ON 1 0 677
+RIGHT 1 1 108
+joinRightPart 0 1 678
+8
+) 1 1 43
+, 1 1 43
+AS 1 1 43
+IDN 1 1 43
+JOIN 1 1 43
+LEFT 1 1 43
+ON 1 1 43
+RIGHT 1 1 43
+5
+( 1 0 554
+IDN 1 0 555
+tableName 0 1 556
+tableSourceItem 0 1 679
+uid 0 1 558
+2
+) 1 1 39
+, 1 1 39
+6
+# 1 1 36
+GROUP BY 1 1 36
+HAVING 1 1 36
+ORDER BY 1 1 36
+UNION 1 1 36
+WHERE 1 1 36
+1
+) 1 0 680
+2
+IDN 1 0 549
+uid 0 1 681
+11
+# 1 1 47
+, 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ON 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+UNION 1 1 47
+WHERE 1 1 47
+11
+# 1 1 41
+, 1 1 41
+GROUP BY 1 1 41
+HAVING 1 1 41
+JOIN 1 1 41
+LEFT 1 1 41
+ON 1 1 41
+ORDER BY 1 1 41
+RIGHT 1 1 41
+UNION 1 1 41
+WHERE 1 1 41
+11
+# 1 1 32
+, 1 1 32
+GROUP BY 1 1 32
+HAVING 1 1 32
+JOIN 1 1 32
+LEFT 1 1 32
+ON 1 1 32
+ORDER BY 1 1 32
+RIGHT 1 1 32
+UNION 1 1 32
+WHERE 1 1 32
+26
+! 1 0 116
+- 1 0 682
+AVG 1 0 39
+FALSE 1 0 683
+FLOAT 1 0 684
+IDN 1 0 685
+INT 1 0 686
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 687
+SUM 1 0 43
+TRUE 1 0 688
+aggregateWindowedFunction 0 1 689
+booleanLiteral 0 1 690
+constant 0 1 691
+decimalLiteral 0 1 692
+expression 0 1 693
+expressionAtom 0 1 694
+fullColumnName 0 1 695
+function 0 1 696
+functionCall 0 1 697
+opposite 0 1 698
+predicate 0 1 699
+stringLiteral 0 1 700
+uid 0 1 701
+10
+# 1 1 105
+, 1 1 105
+GROUP BY 1 1 105
+HAVING 1 1 105
+JOIN 1 1 105
+LEFT 1 1 105
+ORDER BY 1 1 105
+RIGHT 1 1 105
+UNION 1 1 105
+WHERE 1 1 105
+7
+( 1 0 229
+IDN 1 0 230
+tableName 0 1 231
+tableSource 0 1 232
+tableSourceItem 0 1 233
+tableSources 0 1 702
+uid 0 1 235
+3
+AS 1 1 47
+IDN 1 1 47
+ON 1 1 47
+5
+AS 1 0 703
+IDN 1 0 704
+ON 1 1 34
+elementNameAlias 0 1 705
+uid 0 1 706
+1
+ON 1 0 707
+3
+AS 1 1 43
+IDN 1 1 43
+ON 1 1 43
+18
+!= 1 1 80
+# 1 1 80
+&& 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+GROUP BY 1 1 80
+HAVING 1 1 80
+IS 1 1 80
+OR 1 1 80
+ORDER BY 1 1 80
+UNION 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 365
+AVG 1 0 39
+FALSE 1 0 366
+FLOAT 1 0 367
+IDN 1 0 368
+INT 1 0 369
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 370
+SUM 1 0 43
+TRUE 1 0 371
+aggregateWindowedFunction 0 1 372
+booleanLiteral 0 1 373
+constant 0 1 374
+decimalLiteral 0 1 375
+expressionAtom 0 1 377
+fullColumnName 0 1 378
+function 0 1 379
+functionCall 0 1 380
+predicate 0 1 708
+stringLiteral 0 1 383
+uid 0 1 384
+11
+# 1 1 71
+&& 1 1 71
+AND 1 1 71
+GROUP BY 1 1 71
+HAVING 1 1 71
+IS 1 1 71
+OR 1 1 71
+ORDER BY 1 1 71
+UNION 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 709
+5
+# 1 1 56
+GROUP BY 1 1 56
+HAVING 1 1 56
+ORDER BY 1 1 56
+UNION 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 710
+5
+# 1 1 57
+GROUP BY 1 1 57
+HAVING 1 1 57
+ORDER BY 1 1 57
+UNION 1 1 57
+26
+! 1 0 116
+- 1 0 365
+AVG 1 0 39
+FALSE 1 0 366
+FLOAT 1 0 367
+IDN 1 0 368
+INT 1 0 369
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 370
+SUM 1 0 43
+TRUE 1 0 371
+aggregateWindowedFunction 0 1 372
+booleanLiteral 0 1 373
+constant 0 1 374
+decimalLiteral 0 1 375
+expression 0 1 711
+expressionAtom 0 1 377
+fullColumnName 0 1 378
+function 0 1 379
+functionCall 0 1 380
+opposite 0 1 381
+predicate 0 1 382
+stringLiteral 0 1 383
+uid 0 1 384
+4
+* 1 0 712
+IDN 1 0 713
+dottedIdOrStar 0 1 714
+uid 0 1 715
+18
+!= 1 1 48
+# 1 1 48
+&& 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+GROUP BY 1 1 48
+HAVING 1 1 48
+IS 1 1 48
+OR 1 1 48
+ORDER BY 1 1 48
+UNION 1 1 48
+XOR 1 1 48
+|| 1 1 48
+6
+# 1 1 55
+, 1 0 386
+HAVING 1 1 55
+ORDER BY 1 1 55
+UNION 1 1 55
+expressionRec 0 1 716
+11
+# 1 1 72
+&& 1 1 72
+, 1 1 72
+AND 1 1 72
+HAVING 1 1 72
+IS 1 1 72
+OR 1 1 72
+ORDER BY 1 1 72
+UNION 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 717
+uid 0 1 227
+7
+FALSE 1 0 718
+NULL 1 0 719
+TRUE 1 0 720
+UNKNOWN 1 0 721
+nullOrTrueValue 0 1 722
+nullValue 0 1 723
+trueValue 0 1 724
+5
+# 1 1 58
+, 1 1 58
+HAVING 1 1 58
+ORDER BY 1 1 58
+UNION 1 1 58
+18
+!= 1 1 52
+# 1 1 52
+&& 1 1 52
+, 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+HAVING 1 1 52
+IS 1 1 52
+OR 1 1 52
+ORDER BY 1 1 52
+UNION 1 1 52
+XOR 1 1 52
+|| 1 1 52
+18
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+, 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+XOR 1 1 47
+|| 1 1 47
+18
+!= 1 1 49
+# 1 1 49
+&& 1 1 49
+, 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+HAVING 1 1 49
+IS 1 1 49
+OR 1 1 49
+ORDER BY 1 1 49
+UNION 1 1 49
+XOR 1 1 49
+|| 1 1 49
+18
+!= 1 1 51
+# 1 1 51
+&& 1 1 51
+, 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+HAVING 1 1 51
+IS 1 1 51
+OR 1 1 51
+ORDER BY 1 1 51
+UNION 1 1 51
+XOR 1 1 51
+|| 1 1 51
+16
+!= 1 1 80
+# 1 1 80
+&& 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+IS 1 1 80
+OR 1 1 80
+ORDER BY 1 1 80
+UNION 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 397
+AVG 1 0 39
+FALSE 1 0 398
+FLOAT 1 0 399
+IDN 1 0 400
+INT 1 0 401
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 402
+SUM 1 0 43
+TRUE 1 0 403
+aggregateWindowedFunction 0 1 404
+booleanLiteral 0 1 405
+constant 0 1 406
+decimalLiteral 0 1 407
+expressionAtom 0 1 409
+fullColumnName 0 1 410
+function 0 1 411
+functionCall 0 1 412
+predicate 0 1 725
+stringLiteral 0 1 415
+uid 0 1 416
+9
+# 1 1 71
+&& 1 1 71
+AND 1 1 71
+IS 1 1 71
+OR 1 1 71
+ORDER BY 1 1 71
+UNION 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 726
+3
+# 1 1 56
+ORDER BY 1 1 56
+UNION 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 727
+3
+# 1 1 57
+ORDER BY 1 1 57
+UNION 1 1 57
+26
+! 1 0 116
+- 1 0 397
+AVG 1 0 39
+FALSE 1 0 398
+FLOAT 1 0 399
+IDN 1 0 400
+INT 1 0 401
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 402
+SUM 1 0 43
+TRUE 1 0 403
+aggregateWindowedFunction 0 1 404
+booleanLiteral 0 1 405
+constant 0 1 406
+decimalLiteral 0 1 407
+expression 0 1 728
+expressionAtom 0 1 409
+fullColumnName 0 1 410
+function 0 1 411
+functionCall 0 1 412
+opposite 0 1 413
+predicate 0 1 414
+stringLiteral 0 1 415
+uid 0 1 416
+4
+* 1 0 729
+IDN 1 0 730
+dottedIdOrStar 0 1 731
+uid 0 1 732
+16
+!= 1 1 48
+# 1 1 48
+&& 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+IS 1 1 48
+OR 1 1 48
+ORDER BY 1 1 48
+UNION 1 1 48
+XOR 1 1 48
+|| 1 1 48
+3
+FLOAT 1 0 590
+INT 1 0 592
+decimalLiteral 0 1 733
+16
+!= 1 1 98
+# 1 1 98
+&& 1 1 98
+, 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+IS 1 1 98
+OR 1 1 98
+UNION 1 1 98
+XOR 1 1 98
+|| 1 1 98
+16
+!= 1 1 82
+# 1 1 82
+&& 1 1 82
+, 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+IS 1 1 82
+OR 1 1 82
+UNION 1 1 82
+XOR 1 1 82
+|| 1 1 82
+17
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+, 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+UNION 1 1 47
+XOR 1 1 47
+|| 1 1 47
+16
+!= 1 1 83
+# 1 1 83
+&& 1 1 83
+, 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+IS 1 1 83
+OR 1 1 83
+UNION 1 1 83
+XOR 1 1 83
+|| 1 1 83
+16
+!= 1 1 96
+# 1 1 96
+&& 1 1 96
+, 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+IS 1 1 96
+OR 1 1 96
+UNION 1 1 96
+XOR 1 1 96
+|| 1 1 96
+16
+!= 1 1 97
+# 1 1 97
+&& 1 1 97
+, 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+IS 1 1 97
+OR 1 1 97
+UNION 1 1 97
+XOR 1 1 97
+|| 1 1 97
+16
+!= 1 1 99
+# 1 1 99
+&& 1 1 99
+, 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+IS 1 1 99
+OR 1 1 99
+UNION 1 1 99
+XOR 1 1 99
+|| 1 1 99
+16
+!= 1 1 81
+# 1 1 81
+&& 1 1 81
+, 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+IS 1 1 81
+OR 1 1 81
+UNION 1 1 81
+XOR 1 1 81
+|| 1 1 81
+16
+!= 1 1 74
+# 1 1 74
+&& 1 1 74
+, 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+IS 1 1 74
+OR 1 1 74
+UNION 1 1 74
+XOR 1 1 74
+|| 1 1 74
+16
+!= 1 1 79
+# 1 1 79
+&& 1 1 79
+, 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+IS 1 1 79
+OR 1 1 79
+UNION 1 1 79
+XOR 1 1 79
+|| 1 1 79
+4
+# 1 1 55
+, 1 0 734
+UNION 1 1 55
+expressionRec 0 1 735
+18
+!= 1 0 204
+# 1 1 73
+&& 1 1 73
+, 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+IS 1 1 73
+OR 1 1 73
+UNION 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 736
+predicateRight 0 1 737
+|| 1 1 73
+2
+# 1 1 23
+UNION 1 1 23
+16
+!= 1 1 75
+# 1 1 75
+&& 1 1 75
+, 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+IS 1 1 75
+OR 1 1 75
+UNION 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 738
+16
+!= 1 1 76
+# 1 1 76
+&& 1 1 76
+, 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+IS 1 1 76
+OR 1 1 76
+UNION 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 588
+AVG 1 0 39
+FALSE 1 0 589
+FLOAT 1 0 590
+IDN 1 0 591
+INT 1 0 592
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 593
+SUM 1 0 43
+TRUE 1 0 594
+aggregateWindowedFunction 0 1 595
+booleanLiteral 0 1 596
+constant 0 1 597
+decimalLiteral 0 1 598
+expression 0 1 739
+expressionAtom 0 1 600
+fullColumnName 0 1 602
+function 0 1 603
+functionCall 0 1 604
+opposite 0 1 605
+predicate 0 1 606
+stringLiteral 0 1 607
+uid 0 1 608
+11
+# 1 1 60
+&& 1 0 215
+, 1 1 60
+AND 1 0 216
+IS 1 0 740
+OR 1 0 218
+UNION 1 1 60
+XOR 1 0 219
+expressionRight 0 1 741
+logicalOperator 0 1 742
+|| 1 0 222
+16
+!= 1 1 78
+# 1 1 78
+&& 1 1 78
+, 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+IS 1 1 78
+OR 1 1 78
+UNION 1 1 78
+XOR 1 1 78
+|| 1 1 78
+18
+!= 1 1 50
+# 1 1 50
+&& 1 1 50
+, 1 1 50
+. 1 0 743
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+IS 1 1 50
+OR 1 1 50
+UNION 1 1 50
+XOR 1 1 50
+dottedId 0 1 744
+|| 1 1 50
+16
+!= 1 1 80
+# 1 1 80
+&& 1 1 80
+, 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+IS 1 1 80
+OR 1 1 80
+WHERE 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 419
+AVG 1 0 39
+FALSE 1 0 421
+FLOAT 1 0 422
+IDN 1 0 423
+INT 1 0 424
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 425
+SUM 1 0 43
+TRUE 1 0 426
+aggregateWindowedFunction 0 1 427
+booleanLiteral 0 1 428
+constant 0 1 429
+decimalLiteral 0 1 430
+expressionAtom 0 1 432
+fullColumnName 0 1 434
+function 0 1 435
+functionCall 0 1 436
+predicate 0 1 745
+stringLiteral 0 1 439
+uid 0 1 440
+9
+# 1 1 71
+&& 1 1 71
+, 1 1 71
+AND 1 1 71
+IS 1 1 71
+OR 1 1 71
+WHERE 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 746
+3
+# 1 1 56
+, 1 1 56
+WHERE 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 747
+3
+# 1 1 57
+, 1 1 57
+WHERE 1 1 57
+26
+! 1 0 116
+- 1 0 419
+AVG 1 0 39
+FALSE 1 0 421
+FLOAT 1 0 422
+IDN 1 0 423
+INT 1 0 424
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 425
+SUM 1 0 43
+TRUE 1 0 426
+aggregateWindowedFunction 0 1 427
+booleanLiteral 0 1 428
+constant 0 1 429
+decimalLiteral 0 1 430
+expression 0 1 748
+expressionAtom 0 1 432
+fullColumnName 0 1 434
+function 0 1 435
+functionCall 0 1 436
+opposite 0 1 437
+predicate 0 1 438
+stringLiteral 0 1 439
+uid 0 1 440
+4
+* 1 0 749
+IDN 1 0 750
+dottedIdOrStar 0 1 751
+uid 0 1 752
+16
+!= 1 1 48
+# 1 1 48
+&& 1 1 48
+, 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+IS 1 1 48
+OR 1 1 48
+WHERE 1 1 48
+XOR 1 1 48
+|| 1 1 48
+2
+# 1 1 129
+WHERE 1 1 129
+1
+) 1 1 124
+30
+! 1 0 116
+) 1 1 123
+- 1 0 163
+AVG 1 0 39
+DEFAULT 1 0 164
+FALSE 1 0 165
+FLOAT 1 0 166
+IDN 1 0 167
+INT 1 0 168
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 169
+SUM 1 0 43
+TRUE 1 0 170
+aggregateWindowedFunction 0 1 171
+booleanLiteral 0 1 172
+constant 0 1 173
+decimalLiteral 0 1 174
+expression 0 1 175
+expressionAtom 0 1 176
+expressionOrDefault 0 1 177
+expressionsWithDefaults 0 1 753
+fullColumnName 0 1 179
+function 0 1 180
+functionCall 0 1 181
+opposite 0 1 182
+predicate 0 1 183
+stringLiteral 0 1 184
+uid 0 1 185
+1
+) 1 0 754
+2
+) 1 1 69
+, 1 1 69
+2
+) 1 1 67
+, 1 1 67
+2
+) 1 1 68
+, 1 1 68
+2
+) 1 1 70
+, 1 1 70
+2
+) 1 1 59
+, 1 1 59
+2
+) 1 1 65
+, 1 1 65
+2
+) 1 1 66
+, 1 1 66
+5
+) 1 1 36
+GROUP BY 1 1 36
+HAVING 1 1 36
+ORDER BY 1 1 36
+WHERE 1 1 36
+1
+) 1 0 755
+2
+IDN 1 0 633
+uid 0 1 756
+10
+) 1 1 47
+, 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ON 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+WHERE 1 1 47
+10
+) 1 1 41
+, 1 1 41
+GROUP BY 1 1 41
+HAVING 1 1 41
+JOIN 1 1 41
+LEFT 1 1 41
+ON 1 1 41
+ORDER BY 1 1 41
+RIGHT 1 1 41
+WHERE 1 1 41
+10
+) 1 1 32
+, 1 1 32
+GROUP BY 1 1 32
+HAVING 1 1 32
+JOIN 1 1 32
+LEFT 1 1 32
+ON 1 1 32
+ORDER BY 1 1 32
+RIGHT 1 1 32
+WHERE 1 1 32
+26
+! 1 0 116
+- 1 0 757
+AVG 1 0 39
+FALSE 1 0 758
+FLOAT 1 0 759
+IDN 1 0 760
+INT 1 0 761
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 762
+SUM 1 0 43
+TRUE 1 0 763
+aggregateWindowedFunction 0 1 764
+booleanLiteral 0 1 765
+constant 0 1 766
+decimalLiteral 0 1 767
+expression 0 1 768
+expressionAtom 0 1 769
+fullColumnName 0 1 770
+function 0 1 771
+functionCall 0 1 772
+opposite 0 1 773
+predicate 0 1 774
+stringLiteral 0 1 775
+uid 0 1 776
+9
+) 1 1 105
+, 1 1 105
+GROUP BY 1 1 105
+HAVING 1 1 105
+JOIN 1 1 105
+LEFT 1 1 105
+ORDER BY 1 1 105
+RIGHT 1 1 105
+WHERE 1 1 105
+1
+ON 1 0 777
+17
+!= 1 1 80
+&& 1 1 80
+) 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+GROUP BY 1 1 80
+HAVING 1 1 80
+IS 1 1 80
+OR 1 1 80
+ORDER BY 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 470
+AVG 1 0 39
+FALSE 1 0 471
+FLOAT 1 0 472
+IDN 1 0 473
+INT 1 0 474
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 475
+SUM 1 0 43
+TRUE 1 0 476
+aggregateWindowedFunction 0 1 477
+booleanLiteral 0 1 478
+constant 0 1 479
+decimalLiteral 0 1 480
+expressionAtom 0 1 482
+fullColumnName 0 1 483
+function 0 1 484
+functionCall 0 1 485
+predicate 0 1 778
+stringLiteral 0 1 488
+uid 0 1 489
+10
+&& 1 1 71
+) 1 1 71
+AND 1 1 71
+GROUP BY 1 1 71
+HAVING 1 1 71
+IS 1 1 71
+OR 1 1 71
+ORDER BY 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 779
+4
+) 1 1 56
+GROUP BY 1 1 56
+HAVING 1 1 56
+ORDER BY 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 780
+4
+) 1 1 57
+GROUP BY 1 1 57
+HAVING 1 1 57
+ORDER BY 1 1 57
+26
+! 1 0 116
+- 1 0 470
+AVG 1 0 39
+FALSE 1 0 471
+FLOAT 1 0 472
+IDN 1 0 473
+INT 1 0 474
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 475
+SUM 1 0 43
+TRUE 1 0 476
+aggregateWindowedFunction 0 1 477
+booleanLiteral 0 1 478
+constant 0 1 479
+decimalLiteral 0 1 480
+expression 0 1 781
+expressionAtom 0 1 482
+fullColumnName 0 1 483
+function 0 1 484
+functionCall 0 1 485
+opposite 0 1 486
+predicate 0 1 487
+stringLiteral 0 1 488
+uid 0 1 489
+4
+* 1 0 782
+IDN 1 0 783
+dottedIdOrStar 0 1 784
+uid 0 1 785
+17
+!= 1 1 48
+&& 1 1 48
+) 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+GROUP BY 1 1 48
+HAVING 1 1 48
+IS 1 1 48
+OR 1 1 48
+ORDER BY 1 1 48
+XOR 1 1 48
+|| 1 1 48
+5
+) 1 1 55
+, 1 0 491
+HAVING 1 1 55
+ORDER BY 1 1 55
+expressionRec 0 1 786
+10
+&& 1 1 72
+) 1 1 72
+, 1 1 72
+AND 1 1 72
+HAVING 1 1 72
+IS 1 1 72
+OR 1 1 72
+ORDER BY 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 787
+uid 0 1 227
+7
+FALSE 1 0 788
+NULL 1 0 789
+TRUE 1 0 790
+UNKNOWN 1 0 791
+nullOrTrueValue 0 1 792
+nullValue 0 1 793
+trueValue 0 1 794
+4
+) 1 1 58
+, 1 1 58
+HAVING 1 1 58
+ORDER BY 1 1 58
+17
+!= 1 1 52
+&& 1 1 52
+) 1 1 52
+, 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+HAVING 1 1 52
+IS 1 1 52
+OR 1 1 52
+ORDER BY 1 1 52
+XOR 1 1 52
+|| 1 1 52
+17
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+, 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+XOR 1 1 47
+|| 1 1 47
+17
+!= 1 1 49
+&& 1 1 49
+) 1 1 49
+, 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+HAVING 1 1 49
+IS 1 1 49
+OR 1 1 49
+ORDER BY 1 1 49
+XOR 1 1 49
+|| 1 1 49
+17
+!= 1 1 51
+&& 1 1 51
+) 1 1 51
+, 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+HAVING 1 1 51
+IS 1 1 51
+OR 1 1 51
+ORDER BY 1 1 51
+XOR 1 1 51
+|| 1 1 51
+15
+!= 1 1 80
+&& 1 1 80
+) 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+IS 1 1 80
+OR 1 1 80
+ORDER BY 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 502
+AVG 1 0 39
+FALSE 1 0 503
+FLOAT 1 0 504
+IDN 1 0 505
+INT 1 0 506
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 507
+SUM 1 0 43
+TRUE 1 0 508
+aggregateWindowedFunction 0 1 509
+booleanLiteral 0 1 510
+constant 0 1 511
+decimalLiteral 0 1 512
+expressionAtom 0 1 514
+fullColumnName 0 1 515
+function 0 1 516
+functionCall 0 1 517
+predicate 0 1 795
+stringLiteral 0 1 520
+uid 0 1 521
+8
+&& 1 1 71
+) 1 1 71
+AND 1 1 71
+IS 1 1 71
+OR 1 1 71
+ORDER BY 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 796
+2
+) 1 1 56
+ORDER BY 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 797
+2
+) 1 1 57
+ORDER BY 1 1 57
+26
+! 1 0 116
+- 1 0 502
+AVG 1 0 39
+FALSE 1 0 503
+FLOAT 1 0 504
+IDN 1 0 505
+INT 1 0 506
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 507
+SUM 1 0 43
+TRUE 1 0 508
+aggregateWindowedFunction 0 1 509
+booleanLiteral 0 1 510
+constant 0 1 511
+decimalLiteral 0 1 512
+expression 0 1 798
+expressionAtom 0 1 514
+fullColumnName 0 1 515
+function 0 1 516
+functionCall 0 1 517
+opposite 0 1 518
+predicate 0 1 519
+stringLiteral 0 1 520
+uid 0 1 521
+4
+* 1 0 799
+IDN 1 0 800
+dottedIdOrStar 0 1 801
+uid 0 1 802
+15
+!= 1 1 48
+&& 1 1 48
+) 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+IS 1 1 48
+OR 1 1 48
+ORDER BY 1 1 48
+XOR 1 1 48
+|| 1 1 48
+3
+) 1 1 55
+, 1 0 803
+expressionRec 0 1 804
+1
+) 1 1 23
+14
+!= 1 1 100
+# 1 1 100
+&& 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+IS 1 1 100
+OR 1 1 100
+XOR 1 1 100
+|| 1 1 100
+1
+) 1 1 36
+1
+) 1 0 805
+2
+IDN 1 0 674
+uid 0 1 806
+6
+) 1 1 47
+, 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+ON 1 1 47
+RIGHT 1 1 47
+6
+) 1 1 41
+, 1 1 41
+JOIN 1 1 41
+LEFT 1 1 41
+ON 1 1 41
+RIGHT 1 1 41
+6
+) 1 1 32
+, 1 1 32
+JOIN 1 1 32
+LEFT 1 1 32
+ON 1 1 32
+RIGHT 1 1 32
+26
+! 1 0 116
+- 1 0 807
+AVG 1 0 39
+FALSE 1 0 808
+FLOAT 1 0 809
+IDN 1 0 810
+INT 1 0 811
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 812
+SUM 1 0 43
+TRUE 1 0 813
+aggregateWindowedFunction 0 1 814
+booleanLiteral 0 1 815
+constant 0 1 816
+decimalLiteral 0 1 817
+expression 0 1 818
+expressionAtom 0 1 819
+fullColumnName 0 1 820
+function 0 1 821
+functionCall 0 1 822
+opposite 0 1 823
+predicate 0 1 824
+stringLiteral 0 1 825
+uid 0 1 826
+5
+) 1 1 105
+, 1 1 105
+JOIN 1 1 105
+LEFT 1 1 105
+RIGHT 1 1 105
+1
+ON 1 0 827
+11
+# 1 1 42
+, 1 1 42
+GROUP BY 1 1 42
+HAVING 1 1 42
+JOIN 1 1 42
+LEFT 1 1 42
+ON 1 1 42
+ORDER BY 1 1 42
+RIGHT 1 1 42
+UNION 1 1 42
+WHERE 1 1 42
+11
+# 1 1 33
+, 1 1 33
+GROUP BY 1 1 33
+HAVING 1 1 33
+JOIN 1 1 33
+LEFT 1 1 33
+ON 1 1 33
+ORDER BY 1 1 33
+RIGHT 1 1 33
+UNION 1 1 33
+WHERE 1 1 33
+3
+FLOAT 1 0 684
+INT 1 0 686
+decimalLiteral 0 1 828
+23
+!= 1 1 98
+# 1 1 98
+&& 1 1 98
+, 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+GROUP BY 1 1 98
+HAVING 1 1 98
+IS 1 1 98
+JOIN 1 1 98
+LEFT 1 1 98
+OR 1 1 98
+ORDER BY 1 1 98
+RIGHT 1 1 98
+UNION 1 1 98
+WHERE 1 1 98
+XOR 1 1 98
+|| 1 1 98
+23
+!= 1 1 82
+# 1 1 82
+&& 1 1 82
+, 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+GROUP BY 1 1 82
+HAVING 1 1 82
+IS 1 1 82
+JOIN 1 1 82
+LEFT 1 1 82
+OR 1 1 82
+ORDER BY 1 1 82
+RIGHT 1 1 82
+UNION 1 1 82
+WHERE 1 1 82
+XOR 1 1 82
+|| 1 1 82
+24
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+, 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+UNION 1 1 47
+WHERE 1 1 47
+XOR 1 1 47
+|| 1 1 47
+23
+!= 1 1 83
+# 1 1 83
+&& 1 1 83
+, 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+GROUP BY 1 1 83
+HAVING 1 1 83
+IS 1 1 83
+JOIN 1 1 83
+LEFT 1 1 83
+OR 1 1 83
+ORDER BY 1 1 83
+RIGHT 1 1 83
+UNION 1 1 83
+WHERE 1 1 83
+XOR 1 1 83
+|| 1 1 83
+23
+!= 1 1 96
+# 1 1 96
+&& 1 1 96
+, 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+GROUP BY 1 1 96
+HAVING 1 1 96
+IS 1 1 96
+JOIN 1 1 96
+LEFT 1 1 96
+OR 1 1 96
+ORDER BY 1 1 96
+RIGHT 1 1 96
+UNION 1 1 96
+WHERE 1 1 96
+XOR 1 1 96
+|| 1 1 96
+23
+!= 1 1 97
+# 1 1 97
+&& 1 1 97
+, 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+GROUP BY 1 1 97
+HAVING 1 1 97
+IS 1 1 97
+JOIN 1 1 97
+LEFT 1 1 97
+OR 1 1 97
+ORDER BY 1 1 97
+RIGHT 1 1 97
+UNION 1 1 97
+WHERE 1 1 97
+XOR 1 1 97
+|| 1 1 97
+23
+!= 1 1 99
+# 1 1 99
+&& 1 1 99
+, 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+GROUP BY 1 1 99
+HAVING 1 1 99
+IS 1 1 99
+JOIN 1 1 99
+LEFT 1 1 99
+OR 1 1 99
+ORDER BY 1 1 99
+RIGHT 1 1 99
+UNION 1 1 99
+WHERE 1 1 99
+XOR 1 1 99
+|| 1 1 99
+23
+!= 1 1 81
+# 1 1 81
+&& 1 1 81
+, 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+GROUP BY 1 1 81
+HAVING 1 1 81
+IS 1 1 81
+JOIN 1 1 81
+LEFT 1 1 81
+OR 1 1 81
+ORDER BY 1 1 81
+RIGHT 1 1 81
+UNION 1 1 81
+WHERE 1 1 81
+XOR 1 1 81
+|| 1 1 81
+23
+!= 1 1 74
+# 1 1 74
+&& 1 1 74
+, 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+GROUP BY 1 1 74
+HAVING 1 1 74
+IS 1 1 74
+JOIN 1 1 74
+LEFT 1 1 74
+OR 1 1 74
+ORDER BY 1 1 74
+RIGHT 1 1 74
+UNION 1 1 74
+WHERE 1 1 74
+XOR 1 1 74
+|| 1 1 74
+23
+!= 1 1 79
+# 1 1 79
+&& 1 1 79
+, 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+GROUP BY 1 1 79
+HAVING 1 1 79
+IS 1 1 79
+JOIN 1 1 79
+LEFT 1 1 79
+OR 1 1 79
+ORDER BY 1 1 79
+RIGHT 1 1 79
+UNION 1 1 79
+WHERE 1 1 79
+XOR 1 1 79
+|| 1 1 79
+10
+# 1 1 107
+, 1 1 107
+GROUP BY 1 1 107
+HAVING 1 1 107
+JOIN 1 1 107
+LEFT 1 1 107
+ORDER BY 1 1 107
+RIGHT 1 1 107
+UNION 1 1 107
+WHERE 1 1 107
+25
+!= 1 0 204
+# 1 1 73
+&& 1 1 73
+, 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+GROUP BY 1 1 73
+HAVING 1 1 73
+IS 1 1 73
+JOIN 1 1 73
+LEFT 1 1 73
+OR 1 1 73
+ORDER BY 1 1 73
+RIGHT 1 1 73
+UNION 1 1 73
+WHERE 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 829
+predicateRight 0 1 830
+|| 1 1 73
+23
+!= 1 1 75
+# 1 1 75
+&& 1 1 75
+, 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+GROUP BY 1 1 75
+HAVING 1 1 75
+IS 1 1 75
+JOIN 1 1 75
+LEFT 1 1 75
+OR 1 1 75
+ORDER BY 1 1 75
+RIGHT 1 1 75
+UNION 1 1 75
+WHERE 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 831
+23
+!= 1 1 76
+# 1 1 76
+&& 1 1 76
+, 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+GROUP BY 1 1 76
+HAVING 1 1 76
+IS 1 1 76
+JOIN 1 1 76
+LEFT 1 1 76
+OR 1 1 76
+ORDER BY 1 1 76
+RIGHT 1 1 76
+UNION 1 1 76
+WHERE 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 682
+AVG 1 0 39
+FALSE 1 0 683
+FLOAT 1 0 684
+IDN 1 0 685
+INT 1 0 686
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 687
+SUM 1 0 43
+TRUE 1 0 688
+aggregateWindowedFunction 0 1 689
+booleanLiteral 0 1 690
+constant 0 1 691
+decimalLiteral 0 1 692
+expression 0 1 832
+expressionAtom 0 1 694
+fullColumnName 0 1 695
+function 0 1 696
+functionCall 0 1 697
+opposite 0 1 698
+predicate 0 1 699
+stringLiteral 0 1 700
+uid 0 1 701
+18
+# 1 1 60
+&& 1 0 215
+, 1 1 60
+AND 1 0 216
+GROUP BY 1 1 60
+HAVING 1 1 60
+IS 1 0 833
+JOIN 1 1 60
+LEFT 1 1 60
+OR 1 0 218
+ORDER BY 1 1 60
+RIGHT 1 1 60
+UNION 1 1 60
+WHERE 1 1 60
+XOR 1 0 219
+expressionRight 0 1 834
+logicalOperator 0 1 835
+|| 1 0 222
+23
+!= 1 1 78
+# 1 1 78
+&& 1 1 78
+, 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+GROUP BY 1 1 78
+HAVING 1 1 78
+IS 1 1 78
+JOIN 1 1 78
+LEFT 1 1 78
+OR 1 1 78
+ORDER BY 1 1 78
+RIGHT 1 1 78
+UNION 1 1 78
+WHERE 1 1 78
+XOR 1 1 78
+|| 1 1 78
+25
+!= 1 1 50
+# 1 1 50
+&& 1 1 50
+, 1 1 50
+. 1 0 836
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+GROUP BY 1 1 50
+HAVING 1 1 50
+IS 1 1 50
+JOIN 1 1 50
+LEFT 1 1 50
+OR 1 1 50
+ORDER BY 1 1 50
+RIGHT 1 1 50
+UNION 1 1 50
+WHERE 1 1 50
+XOR 1 1 50
+dottedId 0 1 837
+|| 1 1 50
+1
+) 1 0 838
+2
+IDN 1 0 704
+uid 0 1 839
+1
+ON 1 1 47
+1
+ON 1 1 41
+1
+ON 1 1 32
+26
+! 1 0 116
+- 1 0 682
+AVG 1 0 39
+FALSE 1 0 683
+FLOAT 1 0 684
+IDN 1 0 685
+INT 1 0 686
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 687
+SUM 1 0 43
+TRUE 1 0 688
+aggregateWindowedFunction 0 1 689
+booleanLiteral 0 1 690
+constant 0 1 691
+decimalLiteral 0 1 692
+expression 0 1 840
+expressionAtom 0 1 694
+fullColumnName 0 1 695
+function 0 1 696
+functionCall 0 1 697
+opposite 0 1 698
+predicate 0 1 699
+stringLiteral 0 1 700
+uid 0 1 701
+11
+# 1 1 72
+&& 1 1 72
+AND 1 1 72
+GROUP BY 1 1 72
+HAVING 1 1 72
+IS 1 1 72
+OR 1 1 72
+ORDER BY 1 1 72
+UNION 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 841
+uid 0 1 227
+7
+FALSE 1 0 842
+NULL 1 0 843
+TRUE 1 0 844
+UNKNOWN 1 0 845
+nullOrTrueValue 0 1 846
+nullValue 0 1 847
+trueValue 0 1 848
+5
+# 1 1 58
+GROUP BY 1 1 58
+HAVING 1 1 58
+ORDER BY 1 1 58
+UNION 1 1 58
+18
+!= 1 1 52
+# 1 1 52
+&& 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+GROUP BY 1 1 52
+HAVING 1 1 52
+IS 1 1 52
+OR 1 1 52
+ORDER BY 1 1 52
+UNION 1 1 52
+XOR 1 1 52
+|| 1 1 52
+18
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+XOR 1 1 47
+|| 1 1 47
+18
+!= 1 1 49
+# 1 1 49
+&& 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+GROUP BY 1 1 49
+HAVING 1 1 49
+IS 1 1 49
+OR 1 1 49
+ORDER BY 1 1 49
+UNION 1 1 49
+XOR 1 1 49
+|| 1 1 49
+18
+!= 1 1 51
+# 1 1 51
+&& 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+GROUP BY 1 1 51
+HAVING 1 1 51
+IS 1 1 51
+OR 1 1 51
+ORDER BY 1 1 51
+UNION 1 1 51
+XOR 1 1 51
+|| 1 1 51
+4
+# 1 1 54
+HAVING 1 1 54
+ORDER BY 1 1 54
+UNION 1 1 54
+1
+) 1 0 849
+5
+# 1 1 69
+, 1 1 69
+HAVING 1 1 69
+ORDER BY 1 1 69
+UNION 1 1 69
+5
+# 1 1 67
+, 1 1 67
+HAVING 1 1 67
+ORDER BY 1 1 67
+UNION 1 1 67
+5
+# 1 1 68
+, 1 1 68
+HAVING 1 1 68
+ORDER BY 1 1 68
+UNION 1 1 68
+5
+# 1 1 70
+, 1 1 70
+HAVING 1 1 70
+ORDER BY 1 1 70
+UNION 1 1 70
+5
+# 1 1 59
+, 1 1 59
+HAVING 1 1 59
+ORDER BY 1 1 59
+UNION 1 1 59
+5
+# 1 1 65
+, 1 1 65
+HAVING 1 1 65
+ORDER BY 1 1 65
+UNION 1 1 65
+5
+# 1 1 66
+, 1 1 66
+HAVING 1 1 66
+ORDER BY 1 1 66
+UNION 1 1 66
+9
+# 1 1 72
+&& 1 1 72
+AND 1 1 72
+IS 1 1 72
+OR 1 1 72
+ORDER BY 1 1 72
+UNION 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 850
+uid 0 1 227
+7
+FALSE 1 0 851
+NULL 1 0 852
+TRUE 1 0 853
+UNKNOWN 1 0 854
+nullOrTrueValue 0 1 855
+nullValue 0 1 856
+trueValue 0 1 857
+3
+# 1 1 58
+ORDER BY 1 1 58
+UNION 1 1 58
+16
+!= 1 1 52
+# 1 1 52
+&& 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+IS 1 1 52
+OR 1 1 52
+ORDER BY 1 1 52
+UNION 1 1 52
+XOR 1 1 52
+|| 1 1 52
+16
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+UNION 1 1 47
+XOR 1 1 47
+|| 1 1 47
+16
+!= 1 1 49
+# 1 1 49
+&& 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+IS 1 1 49
+OR 1 1 49
+ORDER BY 1 1 49
+UNION 1 1 49
+XOR 1 1 49
+|| 1 1 49
+16
+!= 1 1 51
+# 1 1 51
+&& 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+IS 1 1 51
+OR 1 1 51
+ORDER BY 1 1 51
+UNION 1 1 51
+XOR 1 1 51
+|| 1 1 51
+16
+!= 1 1 80
+# 1 1 80
+&& 1 1 80
+, 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+IS 1 1 80
+OR 1 1 80
+UNION 1 1 80
+XOR 1 1 80
+|| 1 1 80
+26
+! 1 0 116
+- 1 0 588
+AVG 1 0 39
+FALSE 1 0 589
+FLOAT 1 0 590
+IDN 1 0 591
+INT 1 0 592
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 593
+SUM 1 0 43
+TRUE 1 0 594
+aggregateWindowedFunction 0 1 595
+booleanLiteral 0 1 596
+constant 0 1 597
+decimalLiteral 0 1 598
+expression 0 1 858
+expressionAtom 0 1 600
+fullColumnName 0 1 602
+function 0 1 603
+functionCall 0 1 604
+opposite 0 1 605
+predicate 0 1 606
+stringLiteral 0 1 607
+uid 0 1 608
+2
+# 1 1 53
+UNION 1 1 53
+22
+- 1 0 588
+AVG 1 0 39
+FALSE 1 0 589
+FLOAT 1 0 590
+IDN 1 0 591
+INT 1 0 592
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 593
+SUM 1 0 43
+TRUE 1 0 594
+aggregateWindowedFunction 0 1 595
+booleanLiteral 0 1 596
+constant 0 1 597
+decimalLiteral 0 1 598
+expressionAtom 0 1 600
+fullColumnName 0 1 602
+function 0 1 603
+functionCall 0 1 604
+predicate 0 1 859
+stringLiteral 0 1 607
+uid 0 1 608
+9
+# 1 1 71
+&& 1 1 71
+, 1 1 71
+AND 1 1 71
+IS 1 1 71
+OR 1 1 71
+UNION 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 860
+3
+# 1 1 56
+, 1 1 56
+UNION 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 861
+3
+# 1 1 57
+, 1 1 57
+UNION 1 1 57
+26
+! 1 0 116
+- 1 0 588
+AVG 1 0 39
+FALSE 1 0 589
+FLOAT 1 0 590
+IDN 1 0 591
+INT 1 0 592
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 593
+SUM 1 0 43
+TRUE 1 0 594
+aggregateWindowedFunction 0 1 595
+booleanLiteral 0 1 596
+constant 0 1 597
+decimalLiteral 0 1 598
+expression 0 1 862
+expressionAtom 0 1 600
+fullColumnName 0 1 602
+function 0 1 603
+functionCall 0 1 604
+opposite 0 1 605
+predicate 0 1 606
+stringLiteral 0 1 607
+uid 0 1 608
+4
+* 1 0 863
+IDN 1 0 864
+dottedIdOrStar 0 1 865
+uid 0 1 866
+16
+!= 1 1 48
+# 1 1 48
+&& 1 1 48
+, 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+IS 1 1 48
+OR 1 1 48
+UNION 1 1 48
+XOR 1 1 48
+|| 1 1 48
+9
+# 1 1 72
+&& 1 1 72
+, 1 1 72
+AND 1 1 72
+IS 1 1 72
+OR 1 1 72
+WHERE 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 867
+uid 0 1 227
+7
+FALSE 1 0 868
+NULL 1 0 869
+TRUE 1 0 870
+UNKNOWN 1 0 871
+nullOrTrueValue 0 1 872
+nullValue 0 1 873
+trueValue 0 1 874
+3
+# 1 1 58
+, 1 1 58
+WHERE 1 1 58
+16
+!= 1 1 52
+# 1 1 52
+&& 1 1 52
+, 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+IS 1 1 52
+OR 1 1 52
+WHERE 1 1 52
+XOR 1 1 52
+|| 1 1 52
+16
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+, 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+WHERE 1 1 47
+XOR 1 1 47
+|| 1 1 47
+16
+!= 1 1 49
+# 1 1 49
+&& 1 1 49
+, 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+IS 1 1 49
+OR 1 1 49
+WHERE 1 1 49
+XOR 1 1 49
+|| 1 1 49
+16
+!= 1 1 51
+# 1 1 51
+&& 1 1 51
+, 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+IS 1 1 51
+OR 1 1 51
+WHERE 1 1 51
+XOR 1 1 51
+|| 1 1 51
+1
+) 1 0 875
+15
+!= 1 1 100
+&& 1 1 100
+) 1 1 100
+, 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+IS 1 1 100
+OR 1 1 100
+XOR 1 1 100
+|| 1 1 100
+10
+) 1 1 42
+, 1 1 42
+GROUP BY 1 1 42
+HAVING 1 1 42
+JOIN 1 1 42
+LEFT 1 1 42
+ON 1 1 42
+ORDER BY 1 1 42
+RIGHT 1 1 42
+WHERE 1 1 42
+10
+) 1 1 33
+, 1 1 33
+GROUP BY 1 1 33
+HAVING 1 1 33
+JOIN 1 1 33
+LEFT 1 1 33
+ON 1 1 33
+ORDER BY 1 1 33
+RIGHT 1 1 33
+WHERE 1 1 33
+3
+FLOAT 1 0 759
+INT 1 0 761
+decimalLiteral 0 1 876
+22
+!= 1 1 98
+&& 1 1 98
+) 1 1 98
+, 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+GROUP BY 1 1 98
+HAVING 1 1 98
+IS 1 1 98
+JOIN 1 1 98
+LEFT 1 1 98
+OR 1 1 98
+ORDER BY 1 1 98
+RIGHT 1 1 98
+WHERE 1 1 98
+XOR 1 1 98
+|| 1 1 98
+22
+!= 1 1 82
+&& 1 1 82
+) 1 1 82
+, 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+GROUP BY 1 1 82
+HAVING 1 1 82
+IS 1 1 82
+JOIN 1 1 82
+LEFT 1 1 82
+OR 1 1 82
+ORDER BY 1 1 82
+RIGHT 1 1 82
+WHERE 1 1 82
+XOR 1 1 82
+|| 1 1 82
+23
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+, 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+WHERE 1 1 47
+XOR 1 1 47
+|| 1 1 47
+22
+!= 1 1 83
+&& 1 1 83
+) 1 1 83
+, 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+GROUP BY 1 1 83
+HAVING 1 1 83
+IS 1 1 83
+JOIN 1 1 83
+LEFT 1 1 83
+OR 1 1 83
+ORDER BY 1 1 83
+RIGHT 1 1 83
+WHERE 1 1 83
+XOR 1 1 83
+|| 1 1 83
+22
+!= 1 1 96
+&& 1 1 96
+) 1 1 96
+, 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+GROUP BY 1 1 96
+HAVING 1 1 96
+IS 1 1 96
+JOIN 1 1 96
+LEFT 1 1 96
+OR 1 1 96
+ORDER BY 1 1 96
+RIGHT 1 1 96
+WHERE 1 1 96
+XOR 1 1 96
+|| 1 1 96
+22
+!= 1 1 97
+&& 1 1 97
+) 1 1 97
+, 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+GROUP BY 1 1 97
+HAVING 1 1 97
+IS 1 1 97
+JOIN 1 1 97
+LEFT 1 1 97
+OR 1 1 97
+ORDER BY 1 1 97
+RIGHT 1 1 97
+WHERE 1 1 97
+XOR 1 1 97
+|| 1 1 97
+22
+!= 1 1 99
+&& 1 1 99
+) 1 1 99
+, 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+GROUP BY 1 1 99
+HAVING 1 1 99
+IS 1 1 99
+JOIN 1 1 99
+LEFT 1 1 99
+OR 1 1 99
+ORDER BY 1 1 99
+RIGHT 1 1 99
+WHERE 1 1 99
+XOR 1 1 99
+|| 1 1 99
+22
+!= 1 1 81
+&& 1 1 81
+) 1 1 81
+, 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+GROUP BY 1 1 81
+HAVING 1 1 81
+IS 1 1 81
+JOIN 1 1 81
+LEFT 1 1 81
+OR 1 1 81
+ORDER BY 1 1 81
+RIGHT 1 1 81
+WHERE 1 1 81
+XOR 1 1 81
+|| 1 1 81
+22
+!= 1 1 74
+&& 1 1 74
+) 1 1 74
+, 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+GROUP BY 1 1 74
+HAVING 1 1 74
+IS 1 1 74
+JOIN 1 1 74
+LEFT 1 1 74
+OR 1 1 74
+ORDER BY 1 1 74
+RIGHT 1 1 74
+WHERE 1 1 74
+XOR 1 1 74
+|| 1 1 74
+22
+!= 1 1 79
+&& 1 1 79
+) 1 1 79
+, 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+GROUP BY 1 1 79
+HAVING 1 1 79
+IS 1 1 79
+JOIN 1 1 79
+LEFT 1 1 79
+OR 1 1 79
+ORDER BY 1 1 79
+RIGHT 1 1 79
+WHERE 1 1 79
+XOR 1 1 79
+|| 1 1 79
+9
+) 1 1 107
+, 1 1 107
+GROUP BY 1 1 107
+HAVING 1 1 107
+JOIN 1 1 107
+LEFT 1 1 107
+ORDER BY 1 1 107
+RIGHT 1 1 107
+WHERE 1 1 107
+24
+!= 1 0 204
+&& 1 1 73
+) 1 1 73
+, 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+GROUP BY 1 1 73
+HAVING 1 1 73
+IS 1 1 73
+JOIN 1 1 73
+LEFT 1 1 73
+OR 1 1 73
+ORDER BY 1 1 73
+RIGHT 1 1 73
+WHERE 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 877
+predicateRight 0 1 878
+|| 1 1 73
+22
+!= 1 1 75
+&& 1 1 75
+) 1 1 75
+, 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+GROUP BY 1 1 75
+HAVING 1 1 75
+IS 1 1 75
+JOIN 1 1 75
+LEFT 1 1 75
+OR 1 1 75
+ORDER BY 1 1 75
+RIGHT 1 1 75
+WHERE 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 879
+22
+!= 1 1 76
+&& 1 1 76
+) 1 1 76
+, 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+GROUP BY 1 1 76
+HAVING 1 1 76
+IS 1 1 76
+JOIN 1 1 76
+LEFT 1 1 76
+OR 1 1 76
+ORDER BY 1 1 76
+RIGHT 1 1 76
+WHERE 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 757
+AVG 1 0 39
+FALSE 1 0 758
+FLOAT 1 0 759
+IDN 1 0 760
+INT 1 0 761
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 762
+SUM 1 0 43
+TRUE 1 0 763
+aggregateWindowedFunction 0 1 764
+booleanLiteral 0 1 765
+constant 0 1 766
+decimalLiteral 0 1 767
+expression 0 1 880
+expressionAtom 0 1 769
+fullColumnName 0 1 770
+function 0 1 771
+functionCall 0 1 772
+opposite 0 1 773
+predicate 0 1 774
+stringLiteral 0 1 775
+uid 0 1 776
+17
+&& 1 0 215
+) 1 1 60
+, 1 1 60
+AND 1 0 216
+GROUP BY 1 1 60
+HAVING 1 1 60
+IS 1 0 881
+JOIN 1 1 60
+LEFT 1 1 60
+OR 1 0 218
+ORDER BY 1 1 60
+RIGHT 1 1 60
+WHERE 1 1 60
+XOR 1 0 219
+expressionRight 0 1 882
+logicalOperator 0 1 883
+|| 1 0 222
+22
+!= 1 1 78
+&& 1 1 78
+) 1 1 78
+, 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+GROUP BY 1 1 78
+HAVING 1 1 78
+IS 1 1 78
+JOIN 1 1 78
+LEFT 1 1 78
+OR 1 1 78
+ORDER BY 1 1 78
+RIGHT 1 1 78
+WHERE 1 1 78
+XOR 1 1 78
+|| 1 1 78
+24
+!= 1 1 50
+&& 1 1 50
+) 1 1 50
+, 1 1 50
+. 1 0 884
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+GROUP BY 1 1 50
+HAVING 1 1 50
+IS 1 1 50
+JOIN 1 1 50
+LEFT 1 1 50
+OR 1 1 50
+ORDER BY 1 1 50
+RIGHT 1 1 50
+WHERE 1 1 50
+XOR 1 1 50
+dottedId 0 1 885
+|| 1 1 50
+26
+! 1 0 116
+- 1 0 757
+AVG 1 0 39
+FALSE 1 0 758
+FLOAT 1 0 759
+IDN 1 0 760
+INT 1 0 761
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 762
+SUM 1 0 43
+TRUE 1 0 763
+aggregateWindowedFunction 0 1 764
+booleanLiteral 0 1 765
+constant 0 1 766
+decimalLiteral 0 1 767
+expression 0 1 886
+expressionAtom 0 1 769
+fullColumnName 0 1 770
+function 0 1 771
+functionCall 0 1 772
+opposite 0 1 773
+predicate 0 1 774
+stringLiteral 0 1 775
+uid 0 1 776
+10
+&& 1 1 72
+) 1 1 72
+AND 1 1 72
+GROUP BY 1 1 72
+HAVING 1 1 72
+IS 1 1 72
+OR 1 1 72
+ORDER BY 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 887
+uid 0 1 227
+7
+FALSE 1 0 888
+NULL 1 0 889
+TRUE 1 0 890
+UNKNOWN 1 0 891
+nullOrTrueValue 0 1 892
+nullValue 0 1 893
+trueValue 0 1 894
+4
+) 1 1 58
+GROUP BY 1 1 58
+HAVING 1 1 58
+ORDER BY 1 1 58
+17
+!= 1 1 52
+&& 1 1 52
+) 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+GROUP BY 1 1 52
+HAVING 1 1 52
+IS 1 1 52
+OR 1 1 52
+ORDER BY 1 1 52
+XOR 1 1 52
+|| 1 1 52
+17
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+XOR 1 1 47
+|| 1 1 47
+17
+!= 1 1 49
+&& 1 1 49
+) 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+GROUP BY 1 1 49
+HAVING 1 1 49
+IS 1 1 49
+OR 1 1 49
+ORDER BY 1 1 49
+XOR 1 1 49
+|| 1 1 49
+17
+!= 1 1 51
+&& 1 1 51
+) 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+GROUP BY 1 1 51
+HAVING 1 1 51
+IS 1 1 51
+OR 1 1 51
+ORDER BY 1 1 51
+XOR 1 1 51
+|| 1 1 51
+3
+) 1 1 54
+HAVING 1 1 54
+ORDER BY 1 1 54
+1
+) 1 0 895
+4
+) 1 1 69
+, 1 1 69
+HAVING 1 1 69
+ORDER BY 1 1 69
+4
+) 1 1 67
+, 1 1 67
+HAVING 1 1 67
+ORDER BY 1 1 67
+4
+) 1 1 68
+, 1 1 68
+HAVING 1 1 68
+ORDER BY 1 1 68
+4
+) 1 1 70
+, 1 1 70
+HAVING 1 1 70
+ORDER BY 1 1 70
+4
+) 1 1 59
+, 1 1 59
+HAVING 1 1 59
+ORDER BY 1 1 59
+4
+) 1 1 65
+, 1 1 65
+HAVING 1 1 65
+ORDER BY 1 1 65
+4
+) 1 1 66
+, 1 1 66
+HAVING 1 1 66
+ORDER BY 1 1 66
+8
+&& 1 1 72
+) 1 1 72
+AND 1 1 72
+IS 1 1 72
+OR 1 1 72
+ORDER BY 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 896
+uid 0 1 227
+7
+FALSE 1 0 897
+NULL 1 0 898
+TRUE 1 0 899
+UNKNOWN 1 0 900
+nullOrTrueValue 0 1 901
+nullValue 0 1 902
+trueValue 0 1 903
+2
+) 1 1 58
+ORDER BY 1 1 58
+15
+!= 1 1 52
+&& 1 1 52
+) 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+IS 1 1 52
+OR 1 1 52
+ORDER BY 1 1 52
+XOR 1 1 52
+|| 1 1 52
+15
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+XOR 1 1 47
+|| 1 1 47
+15
+!= 1 1 49
+&& 1 1 49
+) 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+IS 1 1 49
+OR 1 1 49
+ORDER BY 1 1 49
+XOR 1 1 49
+|| 1 1 49
+15
+!= 1 1 51
+&& 1 1 51
+) 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+IS 1 1 51
+OR 1 1 51
+ORDER BY 1 1 51
+XOR 1 1 51
+|| 1 1 51
+26
+! 1 0 116
+- 1 0 163
+AVG 1 0 39
+FALSE 1 0 165
+FLOAT 1 0 166
+IDN 1 0 167
+INT 1 0 168
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 169
+SUM 1 0 43
+TRUE 1 0 170
+aggregateWindowedFunction 0 1 171
+booleanLiteral 0 1 172
+constant 0 1 173
+decimalLiteral 0 1 174
+expression 0 1 904
+expressionAtom 0 1 176
+fullColumnName 0 1 179
+function 0 1 180
+functionCall 0 1 181
+opposite 0 1 182
+predicate 0 1 183
+stringLiteral 0 1 184
+uid 0 1 185
+1
+) 1 1 53
+6
+) 1 1 42
+, 1 1 42
+JOIN 1 1 42
+LEFT 1 1 42
+ON 1 1 42
+RIGHT 1 1 42
+6
+) 1 1 33
+, 1 1 33
+JOIN 1 1 33
+LEFT 1 1 33
+ON 1 1 33
+RIGHT 1 1 33
+3
+FLOAT 1 0 809
+INT 1 0 811
+decimalLiteral 0 1 905
+18
+!= 1 1 98
+&& 1 1 98
+) 1 1 98
+, 1 1 98
+< 1 1 98
+<= 1 1 98
+<=> 1 1 98
+= 1 1 98
+> 1 1 98
+>= 1 1 98
+AND 1 1 98
+IS 1 1 98
+JOIN 1 1 98
+LEFT 1 1 98
+OR 1 1 98
+RIGHT 1 1 98
+XOR 1 1 98
+|| 1 1 98
+18
+!= 1 1 82
+&& 1 1 82
+) 1 1 82
+, 1 1 82
+< 1 1 82
+<= 1 1 82
+<=> 1 1 82
+= 1 1 82
+> 1 1 82
+>= 1 1 82
+AND 1 1 82
+IS 1 1 82
+JOIN 1 1 82
+LEFT 1 1 82
+OR 1 1 82
+RIGHT 1 1 82
+XOR 1 1 82
+|| 1 1 82
+19
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+, 1 1 47
+. 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+OR 1 1 47
+RIGHT 1 1 47
+XOR 1 1 47
+|| 1 1 47
+18
+!= 1 1 83
+&& 1 1 83
+) 1 1 83
+, 1 1 83
+< 1 1 83
+<= 1 1 83
+<=> 1 1 83
+= 1 1 83
+> 1 1 83
+>= 1 1 83
+AND 1 1 83
+IS 1 1 83
+JOIN 1 1 83
+LEFT 1 1 83
+OR 1 1 83
+RIGHT 1 1 83
+XOR 1 1 83
+|| 1 1 83
+18
+!= 1 1 96
+&& 1 1 96
+) 1 1 96
+, 1 1 96
+< 1 1 96
+<= 1 1 96
+<=> 1 1 96
+= 1 1 96
+> 1 1 96
+>= 1 1 96
+AND 1 1 96
+IS 1 1 96
+JOIN 1 1 96
+LEFT 1 1 96
+OR 1 1 96
+RIGHT 1 1 96
+XOR 1 1 96
+|| 1 1 96
+18
+!= 1 1 97
+&& 1 1 97
+) 1 1 97
+, 1 1 97
+< 1 1 97
+<= 1 1 97
+<=> 1 1 97
+= 1 1 97
+> 1 1 97
+>= 1 1 97
+AND 1 1 97
+IS 1 1 97
+JOIN 1 1 97
+LEFT 1 1 97
+OR 1 1 97
+RIGHT 1 1 97
+XOR 1 1 97
+|| 1 1 97
+18
+!= 1 1 99
+&& 1 1 99
+) 1 1 99
+, 1 1 99
+< 1 1 99
+<= 1 1 99
+<=> 1 1 99
+= 1 1 99
+> 1 1 99
+>= 1 1 99
+AND 1 1 99
+IS 1 1 99
+JOIN 1 1 99
+LEFT 1 1 99
+OR 1 1 99
+RIGHT 1 1 99
+XOR 1 1 99
+|| 1 1 99
+18
+!= 1 1 81
+&& 1 1 81
+) 1 1 81
+, 1 1 81
+< 1 1 81
+<= 1 1 81
+<=> 1 1 81
+= 1 1 81
+> 1 1 81
+>= 1 1 81
+AND 1 1 81
+IS 1 1 81
+JOIN 1 1 81
+LEFT 1 1 81
+OR 1 1 81
+RIGHT 1 1 81
+XOR 1 1 81
+|| 1 1 81
+18
+!= 1 1 74
+&& 1 1 74
+) 1 1 74
+, 1 1 74
+< 1 1 74
+<= 1 1 74
+<=> 1 1 74
+= 1 1 74
+> 1 1 74
+>= 1 1 74
+AND 1 1 74
+IS 1 1 74
+JOIN 1 1 74
+LEFT 1 1 74
+OR 1 1 74
+RIGHT 1 1 74
+XOR 1 1 74
+|| 1 1 74
+18
+!= 1 1 79
+&& 1 1 79
+) 1 1 79
+, 1 1 79
+< 1 1 79
+<= 1 1 79
+<=> 1 1 79
+= 1 1 79
+> 1 1 79
+>= 1 1 79
+AND 1 1 79
+IS 1 1 79
+JOIN 1 1 79
+LEFT 1 1 79
+OR 1 1 79
+RIGHT 1 1 79
+XOR 1 1 79
+|| 1 1 79
+5
+) 1 1 107
+, 1 1 107
+JOIN 1 1 107
+LEFT 1 1 107
+RIGHT 1 1 107
+20
+!= 1 0 204
+&& 1 1 73
+) 1 1 73
+, 1 1 73
+< 1 0 205
+<= 1 0 206
+<=> 1 0 207
+= 1 0 208
+> 1 0 209
+>= 1 0 210
+AND 1 1 73
+IS 1 1 73
+JOIN 1 1 73
+LEFT 1 1 73
+OR 1 1 73
+RIGHT 1 1 73
+XOR 1 1 73
+comparisonOperator 0 1 906
+predicateRight 0 1 907
+|| 1 1 73
+18
+!= 1 1 75
+&& 1 1 75
+) 1 1 75
+, 1 1 75
+< 1 1 75
+<= 1 1 75
+<=> 1 1 75
+= 1 1 75
+> 1 1 75
+>= 1 1 75
+AND 1 1 75
+IS 1 1 75
+JOIN 1 1 75
+LEFT 1 1 75
+OR 1 1 75
+RIGHT 1 1 75
+XOR 1 1 75
+|| 1 1 75
+1
+( 1 0 908
+18
+!= 1 1 76
+&& 1 1 76
+) 1 1 76
+, 1 1 76
+< 1 1 76
+<= 1 1 76
+<=> 1 1 76
+= 1 1 76
+> 1 1 76
+>= 1 1 76
+AND 1 1 76
+IS 1 1 76
+JOIN 1 1 76
+LEFT 1 1 76
+OR 1 1 76
+RIGHT 1 1 76
+XOR 1 1 76
+|| 1 1 76
+26
+! 1 0 116
+- 1 0 807
+AVG 1 0 39
+FALSE 1 0 808
+FLOAT 1 0 809
+IDN 1 0 810
+INT 1 0 811
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 812
+SUM 1 0 43
+TRUE 1 0 813
+aggregateWindowedFunction 0 1 814
+booleanLiteral 0 1 815
+constant 0 1 816
+decimalLiteral 0 1 817
+expression 0 1 909
+expressionAtom 0 1 819
+fullColumnName 0 1 820
+function 0 1 821
+functionCall 0 1 822
+opposite 0 1 823
+predicate 0 1 824
+stringLiteral 0 1 825
+uid 0 1 826
+13
+&& 1 0 215
+) 1 1 60
+, 1 1 60
+AND 1 0 216
+IS 1 0 910
+JOIN 1 1 60
+LEFT 1 1 60
+OR 1 0 218
+RIGHT 1 1 60
+XOR 1 0 219
+expressionRight 0 1 911
+logicalOperator 0 1 912
+|| 1 0 222
+18
+!= 1 1 78
+&& 1 1 78
+) 1 1 78
+, 1 1 78
+< 1 1 78
+<= 1 1 78
+<=> 1 1 78
+= 1 1 78
+> 1 1 78
+>= 1 1 78
+AND 1 1 78
+IS 1 1 78
+JOIN 1 1 78
+LEFT 1 1 78
+OR 1 1 78
+RIGHT 1 1 78
+XOR 1 1 78
+|| 1 1 78
+20
+!= 1 1 50
+&& 1 1 50
+) 1 1 50
+, 1 1 50
+. 1 0 913
+< 1 1 50
+<= 1 1 50
+<=> 1 1 50
+= 1 1 50
+> 1 1 50
+>= 1 1 50
+AND 1 1 50
+IS 1 1 50
+JOIN 1 1 50
+LEFT 1 1 50
+OR 1 1 50
+RIGHT 1 1 50
+XOR 1 1 50
+dottedId 0 1 914
+|| 1 1 50
+26
+! 1 0 116
+- 1 0 807
+AVG 1 0 39
+FALSE 1 0 808
+FLOAT 1 0 809
+IDN 1 0 810
+INT 1 0 811
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 812
+SUM 1 0 43
+TRUE 1 0 813
+aggregateWindowedFunction 0 1 814
+booleanLiteral 0 1 815
+constant 0 1 816
+decimalLiteral 0 1 817
+expression 0 1 915
+expressionAtom 0 1 819
+fullColumnName 0 1 820
+function 0 1 821
+functionCall 0 1 822
+opposite 0 1 823
+predicate 0 1 824
+stringLiteral 0 1 825
+uid 0 1 826
+23
+!= 1 1 80
+# 1 1 80
+&& 1 1 80
+, 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+GROUP BY 1 1 80
+HAVING 1 1 80
+IS 1 1 80
+JOIN 1 1 80
+LEFT 1 1 80
+OR 1 1 80
+ORDER BY 1 1 80
+RIGHT 1 1 80
+UNION 1 1 80
+WHERE 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 682
+AVG 1 0 39
+FALSE 1 0 683
+FLOAT 1 0 684
+IDN 1 0 685
+INT 1 0 686
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 687
+SUM 1 0 43
+TRUE 1 0 688
+aggregateWindowedFunction 0 1 689
+booleanLiteral 0 1 690
+constant 0 1 691
+decimalLiteral 0 1 692
+expressionAtom 0 1 694
+fullColumnName 0 1 695
+function 0 1 696
+functionCall 0 1 697
+predicate 0 1 916
+stringLiteral 0 1 700
+uid 0 1 701
+16
+# 1 1 71
+&& 1 1 71
+, 1 1 71
+AND 1 1 71
+GROUP BY 1 1 71
+HAVING 1 1 71
+IS 1 1 71
+JOIN 1 1 71
+LEFT 1 1 71
+OR 1 1 71
+ORDER BY 1 1 71
+RIGHT 1 1 71
+UNION 1 1 71
+WHERE 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 917
+10
+# 1 1 56
+, 1 1 56
+GROUP BY 1 1 56
+HAVING 1 1 56
+JOIN 1 1 56
+LEFT 1 1 56
+ORDER BY 1 1 56
+RIGHT 1 1 56
+UNION 1 1 56
+WHERE 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 918
+10
+# 1 1 57
+, 1 1 57
+GROUP BY 1 1 57
+HAVING 1 1 57
+JOIN 1 1 57
+LEFT 1 1 57
+ORDER BY 1 1 57
+RIGHT 1 1 57
+UNION 1 1 57
+WHERE 1 1 57
+26
+! 1 0 116
+- 1 0 682
+AVG 1 0 39
+FALSE 1 0 683
+FLOAT 1 0 684
+IDN 1 0 685
+INT 1 0 686
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 687
+SUM 1 0 43
+TRUE 1 0 688
+aggregateWindowedFunction 0 1 689
+booleanLiteral 0 1 690
+constant 0 1 691
+decimalLiteral 0 1 692
+expression 0 1 919
+expressionAtom 0 1 694
+fullColumnName 0 1 695
+function 0 1 696
+functionCall 0 1 697
+opposite 0 1 698
+predicate 0 1 699
+stringLiteral 0 1 700
+uid 0 1 701
+4
+* 1 0 920
+IDN 1 0 921
+dottedIdOrStar 0 1 922
+uid 0 1 923
+23
+!= 1 1 48
+# 1 1 48
+&& 1 1 48
+, 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+GROUP BY 1 1 48
+HAVING 1 1 48
+IS 1 1 48
+JOIN 1 1 48
+LEFT 1 1 48
+OR 1 1 48
+ORDER BY 1 1 48
+RIGHT 1 1 48
+UNION 1 1 48
+WHERE 1 1 48
+XOR 1 1 48
+|| 1 1 48
+1
+ON 1 1 42
+1
+ON 1 1 33
+10
+# 1 1 106
+, 1 1 106
+GROUP BY 1 1 106
+HAVING 1 1 106
+JOIN 1 1 106
+LEFT 1 1 106
+ORDER BY 1 1 106
+RIGHT 1 1 106
+UNION 1 1 106
+WHERE 1 1 106
+1
+) 1 0 924
+5
+# 1 1 69
+GROUP BY 1 1 69
+HAVING 1 1 69
+ORDER BY 1 1 69
+UNION 1 1 69
+5
+# 1 1 67
+GROUP BY 1 1 67
+HAVING 1 1 67
+ORDER BY 1 1 67
+UNION 1 1 67
+5
+# 1 1 68
+GROUP BY 1 1 68
+HAVING 1 1 68
+ORDER BY 1 1 68
+UNION 1 1 68
+5
+# 1 1 70
+GROUP BY 1 1 70
+HAVING 1 1 70
+ORDER BY 1 1 70
+UNION 1 1 70
+5
+# 1 1 59
+GROUP BY 1 1 59
+HAVING 1 1 59
+ORDER BY 1 1 59
+UNION 1 1 59
+5
+# 1 1 65
+GROUP BY 1 1 65
+HAVING 1 1 65
+ORDER BY 1 1 65
+UNION 1 1 65
+5
+# 1 1 66
+GROUP BY 1 1 66
+HAVING 1 1 66
+ORDER BY 1 1 66
+UNION 1 1 66
+18
+!= 1 1 100
+# 1 1 100
+&& 1 1 100
+, 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+HAVING 1 1 100
+IS 1 1 100
+OR 1 1 100
+ORDER BY 1 1 100
+UNION 1 1 100
+XOR 1 1 100
+|| 1 1 100
+1
+) 1 0 925
+3
+# 1 1 69
+ORDER BY 1 1 69
+UNION 1 1 69
+3
+# 1 1 67
+ORDER BY 1 1 67
+UNION 1 1 67
+3
+# 1 1 68
+ORDER BY 1 1 68
+UNION 1 1 68
+3
+# 1 1 70
+ORDER BY 1 1 70
+UNION 1 1 70
+3
+# 1 1 59
+ORDER BY 1 1 59
+UNION 1 1 59
+3
+# 1 1 65
+ORDER BY 1 1 65
+UNION 1 1 65
+3
+# 1 1 66
+ORDER BY 1 1 66
+UNION 1 1 66
+4
+# 1 1 55
+, 1 0 734
+UNION 1 1 55
+expressionRec 0 1 926
+9
+# 1 1 72
+&& 1 1 72
+, 1 1 72
+AND 1 1 72
+IS 1 1 72
+OR 1 1 72
+UNION 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 927
+uid 0 1 227
+7
+FALSE 1 0 928
+NULL 1 0 929
+TRUE 1 0 930
+UNKNOWN 1 0 931
+nullOrTrueValue 0 1 932
+nullValue 0 1 933
+trueValue 0 1 934
+3
+# 1 1 58
+, 1 1 58
+UNION 1 1 58
+16
+!= 1 1 52
+# 1 1 52
+&& 1 1 52
+, 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+IS 1 1 52
+OR 1 1 52
+UNION 1 1 52
+XOR 1 1 52
+|| 1 1 52
+16
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+, 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+OR 1 1 47
+UNION 1 1 47
+XOR 1 1 47
+|| 1 1 47
+16
+!= 1 1 49
+# 1 1 49
+&& 1 1 49
+, 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+IS 1 1 49
+OR 1 1 49
+UNION 1 1 49
+XOR 1 1 49
+|| 1 1 49
+16
+!= 1 1 51
+# 1 1 51
+&& 1 1 51
+, 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+IS 1 1 51
+OR 1 1 51
+UNION 1 1 51
+XOR 1 1 51
+|| 1 1 51
+1
+) 1 0 935
+3
+# 1 1 69
+, 1 1 69
+WHERE 1 1 69
+3
+# 1 1 67
+, 1 1 67
+WHERE 1 1 67
+3
+# 1 1 68
+, 1 1 68
+WHERE 1 1 68
+3
+# 1 1 70
+, 1 1 70
+WHERE 1 1 70
+3
+# 1 1 59
+, 1 1 59
+WHERE 1 1 59
+3
+# 1 1 65
+, 1 1 65
+WHERE 1 1 65
+3
+# 1 1 66
+, 1 1 66
+WHERE 1 1 66
+3
+# 1 1 121
+, 1 0 450
+expressionsWithDefaultsListRec 0 1 936
+22
+!= 1 1 80
+&& 1 1 80
+) 1 1 80
+, 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+GROUP BY 1 1 80
+HAVING 1 1 80
+IS 1 1 80
+JOIN 1 1 80
+LEFT 1 1 80
+OR 1 1 80
+ORDER BY 1 1 80
+RIGHT 1 1 80
+WHERE 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 757
+AVG 1 0 39
+FALSE 1 0 758
+FLOAT 1 0 759
+IDN 1 0 760
+INT 1 0 761
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 762
+SUM 1 0 43
+TRUE 1 0 763
+aggregateWindowedFunction 0 1 764
+booleanLiteral 0 1 765
+constant 0 1 766
+decimalLiteral 0 1 767
+expressionAtom 0 1 769
+fullColumnName 0 1 770
+function 0 1 771
+functionCall 0 1 772
+predicate 0 1 937
+stringLiteral 0 1 775
+uid 0 1 776
+15
+&& 1 1 71
+) 1 1 71
+, 1 1 71
+AND 1 1 71
+GROUP BY 1 1 71
+HAVING 1 1 71
+IS 1 1 71
+JOIN 1 1 71
+LEFT 1 1 71
+OR 1 1 71
+ORDER BY 1 1 71
+RIGHT 1 1 71
+WHERE 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 938
+9
+) 1 1 56
+, 1 1 56
+GROUP BY 1 1 56
+HAVING 1 1 56
+JOIN 1 1 56
+LEFT 1 1 56
+ORDER BY 1 1 56
+RIGHT 1 1 56
+WHERE 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 939
+9
+) 1 1 57
+, 1 1 57
+GROUP BY 1 1 57
+HAVING 1 1 57
+JOIN 1 1 57
+LEFT 1 1 57
+ORDER BY 1 1 57
+RIGHT 1 1 57
+WHERE 1 1 57
+26
+! 1 0 116
+- 1 0 757
+AVG 1 0 39
+FALSE 1 0 758
+FLOAT 1 0 759
+IDN 1 0 760
+INT 1 0 761
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 762
+SUM 1 0 43
+TRUE 1 0 763
+aggregateWindowedFunction 0 1 764
+booleanLiteral 0 1 765
+constant 0 1 766
+decimalLiteral 0 1 767
+expression 0 1 940
+expressionAtom 0 1 769
+fullColumnName 0 1 770
+function 0 1 771
+functionCall 0 1 772
+opposite 0 1 773
+predicate 0 1 774
+stringLiteral 0 1 775
+uid 0 1 776
+4
+* 1 0 941
+IDN 1 0 942
+dottedIdOrStar 0 1 943
+uid 0 1 944
+22
+!= 1 1 48
+&& 1 1 48
+) 1 1 48
+, 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+GROUP BY 1 1 48
+HAVING 1 1 48
+IS 1 1 48
+JOIN 1 1 48
+LEFT 1 1 48
+OR 1 1 48
+ORDER BY 1 1 48
+RIGHT 1 1 48
+WHERE 1 1 48
+XOR 1 1 48
+|| 1 1 48
+9
+) 1 1 106
+, 1 1 106
+GROUP BY 1 1 106
+HAVING 1 1 106
+JOIN 1 1 106
+LEFT 1 1 106
+ORDER BY 1 1 106
+RIGHT 1 1 106
+WHERE 1 1 106
+1
+) 1 0 945
+4
+) 1 1 69
+GROUP BY 1 1 69
+HAVING 1 1 69
+ORDER BY 1 1 69
+4
+) 1 1 67
+GROUP BY 1 1 67
+HAVING 1 1 67
+ORDER BY 1 1 67
+4
+) 1 1 68
+GROUP BY 1 1 68
+HAVING 1 1 68
+ORDER BY 1 1 68
+4
+) 1 1 70
+GROUP BY 1 1 70
+HAVING 1 1 70
+ORDER BY 1 1 70
+4
+) 1 1 59
+GROUP BY 1 1 59
+HAVING 1 1 59
+ORDER BY 1 1 59
+4
+) 1 1 65
+GROUP BY 1 1 65
+HAVING 1 1 65
+ORDER BY 1 1 65
+4
+) 1 1 66
+GROUP BY 1 1 66
+HAVING 1 1 66
+ORDER BY 1 1 66
+17
+!= 1 1 100
+&& 1 1 100
+) 1 1 100
+, 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+HAVING 1 1 100
+IS 1 1 100
+OR 1 1 100
+ORDER BY 1 1 100
+XOR 1 1 100
+|| 1 1 100
+1
+) 1 0 946
+2
+) 1 1 69
+ORDER BY 1 1 69
+2
+) 1 1 67
+ORDER BY 1 1 67
+2
+) 1 1 68
+ORDER BY 1 1 68
+2
+) 1 1 70
+ORDER BY 1 1 70
+2
+) 1 1 59
+ORDER BY 1 1 59
+2
+) 1 1 65
+ORDER BY 1 1 65
+2
+) 1 1 66
+ORDER BY 1 1 66
+3
+) 1 1 55
+, 1 0 803
+expressionRec 0 1 947
+18
+!= 1 1 80
+&& 1 1 80
+) 1 1 80
+, 1 1 80
+< 1 1 80
+<= 1 1 80
+<=> 1 1 80
+= 1 1 80
+> 1 1 80
+>= 1 1 80
+AND 1 1 80
+IS 1 1 80
+JOIN 1 1 80
+LEFT 1 1 80
+OR 1 1 80
+RIGHT 1 1 80
+XOR 1 1 80
+|| 1 1 80
+22
+- 1 0 807
+AVG 1 0 39
+FALSE 1 0 808
+FLOAT 1 0 809
+IDN 1 0 810
+INT 1 0 811
+MAX 1 0 41
+MIN 1 0 42
+STRING 1 0 812
+SUM 1 0 43
+TRUE 1 0 813
+aggregateWindowedFunction 0 1 814
+booleanLiteral 0 1 815
+constant 0 1 816
+decimalLiteral 0 1 817
+expressionAtom 0 1 819
+fullColumnName 0 1 820
+function 0 1 821
+functionCall 0 1 822
+predicate 0 1 948
+stringLiteral 0 1 825
+uid 0 1 826
+11
+&& 1 1 71
+) 1 1 71
+, 1 1 71
+AND 1 1 71
+IS 1 1 71
+JOIN 1 1 71
+LEFT 1 1 71
+OR 1 1 71
+RIGHT 1 1 71
+XOR 1 1 71
+|| 1 1 71
+4
+ALL 1 0 139
+DISTINCT 1 0 140
+IDN 1 1 13
+unionType 0 1 949
+5
+) 1 1 56
+, 1 1 56
+JOIN 1 1 56
+LEFT 1 1 56
+RIGHT 1 1 56
+6
+FALSE 1 1 64
+NOT 1 0 334
+NULL 1 1 64
+TRUE 1 1 64
+UNKNOWN 1 1 64
+oppositeOrNot 0 1 950
+5
+) 1 1 57
+, 1 1 57
+JOIN 1 1 57
+LEFT 1 1 57
+RIGHT 1 1 57
+26
+! 1 0 116
+- 1 0 807
+AVG 1 0 39
+FALSE 1 0 808
+FLOAT 1 0 809
+IDN 1 0 810
+INT 1 0 811
+MAX 1 0 41
+MIN 1 0 42
+NOT 1 0 122
+STRING 1 0 812
+SUM 1 0 43
+TRUE 1 0 813
+aggregateWindowedFunction 0 1 814
+booleanLiteral 0 1 815
+constant 0 1 816
+decimalLiteral 0 1 817
+expression 0 1 951
+expressionAtom 0 1 819
+fullColumnName 0 1 820
+function 0 1 821
+functionCall 0 1 822
+opposite 0 1 823
+predicate 0 1 824
+stringLiteral 0 1 825
+uid 0 1 826
+4
+* 1 0 952
+IDN 1 0 953
+dottedIdOrStar 0 1 954
+uid 0 1 955
+18
+!= 1 1 48
+&& 1 1 48
+) 1 1 48
+, 1 1 48
+< 1 1 48
+<= 1 1 48
+<=> 1 1 48
+= 1 1 48
+> 1 1 48
+>= 1 1 48
+AND 1 1 48
+IS 1 1 48
+JOIN 1 1 48
+LEFT 1 1 48
+OR 1 1 48
+RIGHT 1 1 48
+XOR 1 1 48
+|| 1 1 48
+5
+) 1 1 106
+, 1 1 106
+JOIN 1 1 106
+LEFT 1 1 106
+RIGHT 1 1 106
+16
+# 1 1 72
+&& 1 1 72
+, 1 1 72
+AND 1 1 72
+GROUP BY 1 1 72
+HAVING 1 1 72
+IS 1 1 72
+JOIN 1 1 72
+LEFT 1 1 72
+OR 1 1 72
+ORDER BY 1 1 72
+RIGHT 1 1 72
+UNION 1 1 72
+WHERE 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 956
+uid 0 1 227
+7
+FALSE 1 0 957
+NULL 1 0 958
+TRUE 1 0 959
+UNKNOWN 1 0 960
+nullOrTrueValue 0 1 961
+nullValue 0 1 962
+trueValue 0 1 963
+10
+# 1 1 58
+, 1 1 58
+GROUP BY 1 1 58
+HAVING 1 1 58
+JOIN 1 1 58
+LEFT 1 1 58
+ORDER BY 1 1 58
+RIGHT 1 1 58
+UNION 1 1 58
+WHERE 1 1 58
+23
+!= 1 1 52
+# 1 1 52
+&& 1 1 52
+, 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+GROUP BY 1 1 52
+HAVING 1 1 52
+IS 1 1 52
+JOIN 1 1 52
+LEFT 1 1 52
+OR 1 1 52
+ORDER BY 1 1 52
+RIGHT 1 1 52
+UNION 1 1 52
+WHERE 1 1 52
+XOR 1 1 52
+|| 1 1 52
+23
+!= 1 1 47
+# 1 1 47
+&& 1 1 47
+, 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+UNION 1 1 47
+WHERE 1 1 47
+XOR 1 1 47
+|| 1 1 47
+23
+!= 1 1 49
+# 1 1 49
+&& 1 1 49
+, 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+GROUP BY 1 1 49
+HAVING 1 1 49
+IS 1 1 49
+JOIN 1 1 49
+LEFT 1 1 49
+OR 1 1 49
+ORDER BY 1 1 49
+RIGHT 1 1 49
+UNION 1 1 49
+WHERE 1 1 49
+XOR 1 1 49
+|| 1 1 49
+23
+!= 1 1 51
+# 1 1 51
+&& 1 1 51
+, 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+GROUP BY 1 1 51
+HAVING 1 1 51
+IS 1 1 51
+JOIN 1 1 51
+LEFT 1 1 51
+OR 1 1 51
+ORDER BY 1 1 51
+RIGHT 1 1 51
+UNION 1 1 51
+WHERE 1 1 51
+XOR 1 1 51
+|| 1 1 51
+18
+!= 1 1 100
+# 1 1 100
+&& 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+GROUP BY 1 1 100
+HAVING 1 1 100
+IS 1 1 100
+OR 1 1 100
+ORDER BY 1 1 100
+UNION 1 1 100
+XOR 1 1 100
+|| 1 1 100
+16
+!= 1 1 100
+# 1 1 100
+&& 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+IS 1 1 100
+OR 1 1 100
+ORDER BY 1 1 100
+UNION 1 1 100
+XOR 1 1 100
+|| 1 1 100
+2
+# 1 1 54
+UNION 1 1 54
+1
+) 1 0 964
+3
+# 1 1 69
+, 1 1 69
+UNION 1 1 69
+3
+# 1 1 67
+, 1 1 67
+UNION 1 1 67
+3
+# 1 1 68
+, 1 1 68
+UNION 1 1 68
+3
+# 1 1 70
+, 1 1 70
+UNION 1 1 70
+3
+# 1 1 59
+, 1 1 59
+UNION 1 1 59
+3
+# 1 1 65
+, 1 1 65
+UNION 1 1 65
+3
+# 1 1 66
+, 1 1 66
+UNION 1 1 66
+16
+!= 1 1 100
+# 1 1 100
+&& 1 1 100
+, 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+IS 1 1 100
+OR 1 1 100
+WHERE 1 1 100
+XOR 1 1 100
+|| 1 1 100
+1
+# 1 1 120
+15
+&& 1 1 72
+) 1 1 72
+, 1 1 72
+AND 1 1 72
+GROUP BY 1 1 72
+HAVING 1 1 72
+IS 1 1 72
+JOIN 1 1 72
+LEFT 1 1 72
+OR 1 1 72
+ORDER BY 1 1 72
+RIGHT 1 1 72
+WHERE 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 965
+uid 0 1 227
+7
+FALSE 1 0 966
+NULL 1 0 967
+TRUE 1 0 968
+UNKNOWN 1 0 969
+nullOrTrueValue 0 1 970
+nullValue 0 1 971
+trueValue 0 1 972
+9
+) 1 1 58
+, 1 1 58
+GROUP BY 1 1 58
+HAVING 1 1 58
+JOIN 1 1 58
+LEFT 1 1 58
+ORDER BY 1 1 58
+RIGHT 1 1 58
+WHERE 1 1 58
+22
+!= 1 1 52
+&& 1 1 52
+) 1 1 52
+, 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+GROUP BY 1 1 52
+HAVING 1 1 52
+IS 1 1 52
+JOIN 1 1 52
+LEFT 1 1 52
+OR 1 1 52
+ORDER BY 1 1 52
+RIGHT 1 1 52
+WHERE 1 1 52
+XOR 1 1 52
+|| 1 1 52
+22
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+, 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+GROUP BY 1 1 47
+HAVING 1 1 47
+IS 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+OR 1 1 47
+ORDER BY 1 1 47
+RIGHT 1 1 47
+WHERE 1 1 47
+XOR 1 1 47
+|| 1 1 47
+22
+!= 1 1 49
+&& 1 1 49
+) 1 1 49
+, 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+GROUP BY 1 1 49
+HAVING 1 1 49
+IS 1 1 49
+JOIN 1 1 49
+LEFT 1 1 49
+OR 1 1 49
+ORDER BY 1 1 49
+RIGHT 1 1 49
+WHERE 1 1 49
+XOR 1 1 49
+|| 1 1 49
+22
+!= 1 1 51
+&& 1 1 51
+) 1 1 51
+, 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+GROUP BY 1 1 51
+HAVING 1 1 51
+IS 1 1 51
+JOIN 1 1 51
+LEFT 1 1 51
+OR 1 1 51
+ORDER BY 1 1 51
+RIGHT 1 1 51
+WHERE 1 1 51
+XOR 1 1 51
+|| 1 1 51
+17
+!= 1 1 100
+&& 1 1 100
+) 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+GROUP BY 1 1 100
+HAVING 1 1 100
+IS 1 1 100
+OR 1 1 100
+ORDER BY 1 1 100
+XOR 1 1 100
+|| 1 1 100
+15
+!= 1 1 100
+&& 1 1 100
+) 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+IS 1 1 100
+OR 1 1 100
+ORDER BY 1 1 100
+XOR 1 1 100
+|| 1 1 100
+1
+) 1 1 54
+11
+&& 1 1 72
+) 1 1 72
+, 1 1 72
+AND 1 1 72
+IS 1 1 72
+JOIN 1 1 72
+LEFT 1 1 72
+OR 1 1 72
+RIGHT 1 1 72
+XOR 1 1 72
+|| 1 1 72
+3
+IDN 1 0 225
+fullColumnName 0 1 973
+uid 0 1 227
+7
+FALSE 1 0 974
+NULL 1 0 975
+TRUE 1 0 976
+UNKNOWN 1 0 977
+nullOrTrueValue 0 1 978
+nullValue 0 1 979
+trueValue 0 1 980
+5
+) 1 1 58
+, 1 1 58
+JOIN 1 1 58
+LEFT 1 1 58
+RIGHT 1 1 58
+18
+!= 1 1 52
+&& 1 1 52
+) 1 1 52
+, 1 1 52
+< 1 1 52
+<= 1 1 52
+<=> 1 1 52
+= 1 1 52
+> 1 1 52
+>= 1 1 52
+AND 1 1 52
+IS 1 1 52
+JOIN 1 1 52
+LEFT 1 1 52
+OR 1 1 52
+RIGHT 1 1 52
+XOR 1 1 52
+|| 1 1 52
+18
+!= 1 1 47
+&& 1 1 47
+) 1 1 47
+, 1 1 47
+< 1 1 47
+<= 1 1 47
+<=> 1 1 47
+= 1 1 47
+> 1 1 47
+>= 1 1 47
+AND 1 1 47
+IS 1 1 47
+JOIN 1 1 47
+LEFT 1 1 47
+OR 1 1 47
+RIGHT 1 1 47
+XOR 1 1 47
+|| 1 1 47
+18
+!= 1 1 49
+&& 1 1 49
+) 1 1 49
+, 1 1 49
+< 1 1 49
+<= 1 1 49
+<=> 1 1 49
+= 1 1 49
+> 1 1 49
+>= 1 1 49
+AND 1 1 49
+IS 1 1 49
+JOIN 1 1 49
+LEFT 1 1 49
+OR 1 1 49
+RIGHT 1 1 49
+XOR 1 1 49
+|| 1 1 49
+18
+!= 1 1 51
+&& 1 1 51
+) 1 1 51
+, 1 1 51
+< 1 1 51
+<= 1 1 51
+<=> 1 1 51
+= 1 1 51
+> 1 1 51
+>= 1 1 51
+AND 1 1 51
+IS 1 1 51
+JOIN 1 1 51
+LEFT 1 1 51
+OR 1 1 51
+RIGHT 1 1 51
+XOR 1 1 51
+|| 1 1 51
+1
+) 1 0 981
+10
+# 1 1 69
+, 1 1 69
+GROUP BY 1 1 69
+HAVING 1 1 69
+JOIN 1 1 69
+LEFT 1 1 69
+ORDER BY 1 1 69
+RIGHT 1 1 69
+UNION 1 1 69
+WHERE 1 1 69
+10
+# 1 1 67
+, 1 1 67
+GROUP BY 1 1 67
+HAVING 1 1 67
+JOIN 1 1 67
+LEFT 1 1 67
+ORDER BY 1 1 67
+RIGHT 1 1 67
+UNION 1 1 67
+WHERE 1 1 67
+10
+# 1 1 68
+, 1 1 68
+GROUP BY 1 1 68
+HAVING 1 1 68
+JOIN 1 1 68
+LEFT 1 1 68
+ORDER BY 1 1 68
+RIGHT 1 1 68
+UNION 1 1 68
+WHERE 1 1 68
+10
+# 1 1 70
+, 1 1 70
+GROUP BY 1 1 70
+HAVING 1 1 70
+JOIN 1 1 70
+LEFT 1 1 70
+ORDER BY 1 1 70
+RIGHT 1 1 70
+UNION 1 1 70
+WHERE 1 1 70
+10
+# 1 1 59
+, 1 1 59
+GROUP BY 1 1 59
+HAVING 1 1 59
+JOIN 1 1 59
+LEFT 1 1 59
+ORDER BY 1 1 59
+RIGHT 1 1 59
+UNION 1 1 59
+WHERE 1 1 59
+10
+# 1 1 65
+, 1 1 65
+GROUP BY 1 1 65
+HAVING 1 1 65
+JOIN 1 1 65
+LEFT 1 1 65
+ORDER BY 1 1 65
+RIGHT 1 1 65
+UNION 1 1 65
+WHERE 1 1 65
+10
+# 1 1 66
+, 1 1 66
+GROUP BY 1 1 66
+HAVING 1 1 66
+JOIN 1 1 66
+LEFT 1 1 66
+ORDER BY 1 1 66
+RIGHT 1 1 66
+UNION 1 1 66
+WHERE 1 1 66
+16
+!= 1 1 100
+# 1 1 100
+&& 1 1 100
+, 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+IS 1 1 100
+OR 1 1 100
+UNION 1 1 100
+XOR 1 1 100
+|| 1 1 100
+1
+) 1 0 982
+9
+) 1 1 69
+, 1 1 69
+GROUP BY 1 1 69
+HAVING 1 1 69
+JOIN 1 1 69
+LEFT 1 1 69
+ORDER BY 1 1 69
+RIGHT 1 1 69
+WHERE 1 1 69
+9
+) 1 1 67
+, 1 1 67
+GROUP BY 1 1 67
+HAVING 1 1 67
+JOIN 1 1 67
+LEFT 1 1 67
+ORDER BY 1 1 67
+RIGHT 1 1 67
+WHERE 1 1 67
+9
+) 1 1 68
+, 1 1 68
+GROUP BY 1 1 68
+HAVING 1 1 68
+JOIN 1 1 68
+LEFT 1 1 68
+ORDER BY 1 1 68
+RIGHT 1 1 68
+WHERE 1 1 68
+9
+) 1 1 70
+, 1 1 70
+GROUP BY 1 1 70
+HAVING 1 1 70
+JOIN 1 1 70
+LEFT 1 1 70
+ORDER BY 1 1 70
+RIGHT 1 1 70
+WHERE 1 1 70
+9
+) 1 1 59
+, 1 1 59
+GROUP BY 1 1 59
+HAVING 1 1 59
+JOIN 1 1 59
+LEFT 1 1 59
+ORDER BY 1 1 59
+RIGHT 1 1 59
+WHERE 1 1 59
+9
+) 1 1 65
+, 1 1 65
+GROUP BY 1 1 65
+HAVING 1 1 65
+JOIN 1 1 65
+LEFT 1 1 65
+ORDER BY 1 1 65
+RIGHT 1 1 65
+WHERE 1 1 65
+9
+) 1 1 66
+, 1 1 66
+GROUP BY 1 1 66
+HAVING 1 1 66
+JOIN 1 1 66
+LEFT 1 1 66
+ORDER BY 1 1 66
+RIGHT 1 1 66
+WHERE 1 1 66
+1
+) 1 0 983
+5
+) 1 1 69
+, 1 1 69
+JOIN 1 1 69
+LEFT 1 1 69
+RIGHT 1 1 69
+5
+) 1 1 67
+, 1 1 67
+JOIN 1 1 67
+LEFT 1 1 67
+RIGHT 1 1 67
+5
+) 1 1 68
+, 1 1 68
+JOIN 1 1 68
+LEFT 1 1 68
+RIGHT 1 1 68
+5
+) 1 1 70
+, 1 1 70
+JOIN 1 1 70
+LEFT 1 1 70
+RIGHT 1 1 70
+5
+) 1 1 59
+, 1 1 59
+JOIN 1 1 59
+LEFT 1 1 59
+RIGHT 1 1 59
+5
+) 1 1 65
+, 1 1 65
+JOIN 1 1 65
+LEFT 1 1 65
+RIGHT 1 1 65
+5
+) 1 1 66
+, 1 1 66
+JOIN 1 1 66
+LEFT 1 1 66
+RIGHT 1 1 66
+23
+!= 1 1 100
+# 1 1 100
+&& 1 1 100
+, 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+GROUP BY 1 1 100
+HAVING 1 1 100
+IS 1 1 100
+JOIN 1 1 100
+LEFT 1 1 100
+OR 1 1 100
+ORDER BY 1 1 100
+RIGHT 1 1 100
+UNION 1 1 100
+WHERE 1 1 100
+XOR 1 1 100
+|| 1 1 100
+22
+!= 1 1 100
+&& 1 1 100
+) 1 1 100
+, 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+GROUP BY 1 1 100
+HAVING 1 1 100
+IS 1 1 100
+JOIN 1 1 100
+LEFT 1 1 100
+OR 1 1 100
+ORDER BY 1 1 100
+RIGHT 1 1 100
+WHERE 1 1 100
+XOR 1 1 100
+|| 1 1 100
+18
+!= 1 1 100
+&& 1 1 100
+) 1 1 100
+, 1 1 100
+< 1 1 100
+<= 1 1 100
+<=> 1 1 100
+= 1 1 100
+> 1 1 100
+>= 1 1 100
+AND 1 1 100
+IS 1 1 100
+JOIN 1 1 100
+LEFT 1 1 100
+OR 1 1 100
+RIGHT 1 1 100
+XOR 1 1 100
+|| 1 1 100

@@ -1,0 +1,137 @@
+root -> dmlStatement
+dmlStatement -> selectStatement
+dmlStatement -> insertStatement
+dmlStatement -> updateStatement
+dmlStatement -> deleteStatement
+selectStatement -> querySpecification unionStatements
+unionStatements -> unionStatement unionStatements
+unionStatements -> $
+unionStatement -> unionStatementKey unionStatementQuery
+unionStatementKey -> UNION unionType
+unionStatementQuery -> querySpecification
+unionType -> ALL
+unionType -> DISTINCT
+unionType -> $
+querySpecification -> SELECT unionType selectElements selectClause
+querySpecification -> ( querySpecification )
+selectClause -> fromClause groupByClause havingClause orderByClause
+fromClause -> FROM tableSources whereExpression
+fromClause -> $
+groupByClause -> GROUP BY expressions
+groupByClause -> $
+havingClause -> HAVING expression
+havingClause -> $
+orderByClause -> ORDER BY expressions
+orderByClause -> $
+selectElements -> selectElementHead selectElementListRec
+selectElementHead -> *
+selectElementHead -> selectElement
+selectElementListRec -> , selectElement selectElementListRec
+selectElementListRec -> $
+selectElement -> fullColumnName elementNameAlias
+selectElement -> functionCall elementNameAlias
+elementNameAlias -> uid
+elementNameAlias -> AS uid
+elementNameAlias -> $
+tableSources -> tableSource tableSourceListRec
+tableSourceListRec -> , tableSource tableSourceListRec
+tableSourceListRec -> $
+tableSource -> tableSourceItem joinParts
+joinParts -> joinPart joinParts
+joinParts -> $
+tableSourceItem -> tableName elementNameAlias
+tableSourceItem -> ( tableSources )
+tableName -> uid
+uidList -> uid uidListRec
+uidListRec -> , uid uidListRec
+uidListRec -> $
+uid -> IDN
+fullColumnName -> uid dottedId
+dottedId -> . dottedIdOrStar
+dottedId -> $
+dottedIdOrStar -> uid
+dottedIdOrStar -> *
+expressions -> expression expressionRec
+expressionRec -> , expression expressionRec
+expressionRec -> $
+expression -> opposite expression
+expression -> predicate expressionRight
+expressionRight -> logicalOperator expression
+expressionRight -> IS oppositeOrNot nullOrTrueValue
+expressionRight -> $
+opposite -> NOT
+opposite -> !
+oppositeOrNot -> NOT
+oppositeOrNot -> $
+nullOrTrueValue -> nullValue
+nullOrTrueValue -> trueValue
+nullValue -> NULL
+trueValue -> TRUE
+trueValue -> FALSE
+trueValue -> UNKNOWN
+predicate -> expressionAtom predicateRight
+predicateRight -> comparisonOperator predicate
+predicateRight -> $
+expressionAtom -> constant
+expressionAtom -> fullColumnName
+expressionAtom -> functionCall
+nullNotnull -> oppositeOrNot NULL
+constant -> stringLiteral
+constant -> decimalLiteral
+constant -> - decimalLiteral
+constant -> booleanLiteral
+decimalLiteral -> FLOAT
+decimalLiteral -> INT
+comparisonOperator -> =
+comparisonOperator -> >
+comparisonOperator -> <
+comparisonOperator -> <=
+comparisonOperator -> >=
+comparisonOperator -> !=
+comparisonOperator -> <=>
+logicalOperator -> AND
+logicalOperator -> &&
+logicalOperator -> XOR
+logicalOperator -> OR
+logicalOperator -> ||
+stringLiteral -> STRING
+booleanLiteral -> TRUE
+booleanLiteral -> FALSE
+functionCall -> aggregateWindowedFunction
+aggregateWindowedFunction -> function ( unionType fullColumnName )
+function -> AVG
+function -> MAX
+function -> MIN
+function -> SUM
+joinPart -> JOIN tableSourceItem joinRightPart
+joinPart -> joinDirection JOIN tableSourceItem ON expression
+joinRightPart -> ON expression
+joinRightPart -> $
+joinDirection -> LEFT
+joinDirection -> RIGHT
+insertStatement -> insertKeyword tableName insertStatementRight
+insertStatementRight -> insertStatementValue
+insertStatementRight -> ( uidList ) insertStatementValue
+insertKeyword -> INSERT into
+into -> INTO
+into -> $
+insertStatementValue -> insertFormat ( expressionsWithDefaults ) expressionsWithDefaultsListRec
+insertFormat -> VALUES
+insertFormat -> VALUE
+expressionsWithDefaultsListRec -> , ( expressionsWithDefaults ) expressionsWithDefaultsListRec
+expressionsWithDefaultsListRec -> $
+expressionsWithDefaults -> expressionOrDefault expressionOrDefaultListRec
+expressionsWithDefaults -> $
+expressionOrDefaultListRec -> , expressionOrDefault expressionOrDefaultListRec
+expressionOrDefaultListRec -> $
+expressionOrDefault -> expression
+expressionOrDefault -> DEFAULT
+updateStatement -> UPDATE tableName elementNameAlias SET updatedElement updatedElementListRec whereExpression
+updatedElementListRec -> , updatedElement updatedElementListRec
+updatedElementListRec -> $
+whereExpression -> WHERE expression
+whereExpression -> $
+updatedElement -> fullColumnName = expressionOrDefault
+deleteStatement -> DELETE FROM tableName deleteStatementRight
+deleteStatementRight -> whereExpression
+deleteStatementRight -> ( uidList ) whereExpression

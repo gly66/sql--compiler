@@ -1,0 +1,81 @@
+SELECT *
+FROM s , c
+WHERE s.cno = c.cno AND ( c.cno = "08181192" OR c.cno = "08181170" )
+GROUP BY abc
+
+SELECT HOST AS a_1 , USER AS _abc , Password AS a1_
+FROM USER
+ORDER BY HOST
+
+INSERT INTO Websites ( name , url , alexa , country )
+VALUES ( "baidu" , "https://www.baidu.com/" , "4" , "CN" )
+
+SELECT VALUE(ID, " ") FROM T1
+
+????DEFAULT????
+
+UPDATE Person SET FirstName = "Fred" WHERE LastName = "Wilson"
+
+DELETE FROM Websites WHERE name = "Facebook" AND country = "USA"
+
+SELECT list
+FROM Table_A A
+JOIN Table_B B
+ON A.Key = B.Key
+
+SELECT list
+FROM Table_A A
+LEFT JOIN Table_B B
+ON A.Key = B.Key
+WHERE B.Key IS NULL
+
+SELECT list
+FROM Table_A A
+RIGHT JOIN Table_B B
+ON A.Key = B.Key
+
+SELECT MIN(alexa) AS min_alexa , MAX(beta) AS max_beta , AVG(gama) , SUM(delta)
+FROM Websites
+
+SELECT country FROM Websites
+UNION
+SELECT country FROM apps
+ORDER BY country
+
+SELECT country FROM Websites
+UNION ALL
+SELECT country FROM apps
+ORDER BY country
+
+SELECT Websites.name , SUM(access_log.count) AS nums FROM Websites
+JOIN access_log
+ON Websites.id = access_log.site_id
+WHERE Websites.alexa < 200 
+GROUP BY Websites.name
+HAVING SUM(access_log.count) > 200.5
+
+SELECT DISTINCT country FROM Websites
+
+SELECT *
+FROM Class_A
+WHERE ( age > -1 ) AND ( age > 2 ) AND UNKNOWN
+
+SELECT *
+FROM Class_A
+WHERE ( price < 150.21 ) AND ( price > 0 ) AND TRUE
+
+SELECT *
+FROM Class_A
+WHERE ( ( price = 150.21 ) XOR ( price > 0.0 ) AND FALSE ) AND （ ( a - b ) != 5）
+
+SELECT *
+FROM Class_A
+WHERE ( ( price <= 150.21 ) XOR ( price >= 0.0 ) AND FALSE ) AND ( num <=>5 )
+
+????&&????
+????!????
+
+SELECT "select_*_from" || tname || "12" FROM tab t WHERE t.tname = -5.1
+
+SELECT * FROM Customers WHERE NOT Country= "Germany"
+ 
